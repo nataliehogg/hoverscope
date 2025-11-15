@@ -1,4 +1,4 @@
-# 🔭 Hoverscope
+# 🔭 hoverscope
 
 **Hover over telescope and satellite names on arXiv to see key specifications instantly.**
 
@@ -121,18 +121,6 @@ To add new telescopes or update information:
 
 Users' extensions will automatically fetch the updated database within 24 hours.
 
-## Publishing to Chrome Web Store
-
-To make installation even easier for users:
-
-1. Create a [Chrome Web Store Developer account](https://chrome.google.com/webstore/devconsole/) ($5 one-time fee)
-2. Zip the extension folder
-3. Upload to Chrome Web Store
-4. Fill in description, screenshots, and other details
-5. Submit for review
-
-Once published, users can install with one click!
-
 ## Contributing
 
 Want to add more telescopes or improve the extension? Contributions welcome!
@@ -164,33 +152,8 @@ MIT License - feel free to use, modify, and distribute!
 
 ## Credits
 
-Created for astronomers who want to quickly look up telescope specifications while reading papers.
-
 Telescope data compiled from NASA, ESA, and observatory official sources.
-
-## Troubleshooting
-
-**Tooltips not appearing?**
-- Refresh the page after installing
-- Check that the extension is enabled
-- Open browser console and look for Hoverscope messages
-
-**Missing telescopes?**
-- The database is actively maintained - submit an issue or PR!
-
-**Firefox temporary add-on expires?**
-- Use Firefox Developer Edition for persistent unsigned extensions
-- Or wait for official Mozilla add-on store release
-
-## Roadmap
-
-- [ ] Publish to Chrome Web Store
-- [ ] Publish to Firefox Add-ons
-- [ ] Add option to customize displayed fields
-- [ ] Support for more astronomy websites
-- [ ] Add images/diagrams for telescopes
-- [ ] Community voting on which telescopes to add next
 
 ---
 
-**Made with ❤️ for the astronomy community**
+**Made with ❤️  (and claude) for the astronomy community**
