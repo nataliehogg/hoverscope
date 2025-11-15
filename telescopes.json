@@ -92,6 +92,17 @@
     "status": "In development",
     "description": "Wide-field survey telescope for dark energy, exoplanets, and infrared astrophysics"
   },
+  "csst": {
+    "name": "CSST",
+    "aliases": ["China Space Station Telescope", "Xuntian", "Chinese Survey Space Telescope"],
+    "type": "Space Telescope",
+    "launch_date": "2025-2026 (planned)",
+    "wavelengths": "UV to near-infrared (255 nm - 1000 nm)",
+    "survey_area": "17,500 sq deg",
+    "location": "Co-orbit with Chinese Space Station",
+    "status": "In development",
+    "description": "2-meter Chinese space telescope with Hubble-class resolution surveying 40% of sky for cosmology and galaxy evolution"
+  },
   "alma": {
     "name": "ALMA",
     "aliases": ["Atacama Large Millimeter Array"],
@@ -1676,5 +1687,45 @@
     "location": "James Webb Space Telescope",
     "status": "Operational",
     "description": "JWST early release science program studying galaxy evolution from z~10 to present"
+  },
+  "pantheon": {
+    "name": "Pantheon",
+    "aliases": ["Pantheon Sample"],
+    "type": "Supernova Sample",
+    "launch_date": "2018 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "Completed",
+    "description": "Compilation of 1048 Type Ia supernovae (0.01 < z < 2.3) providing cosmological constraints on dark energy"
+  },
+  "pantheonplus": {
+    "name": "Pantheon+",
+    "aliases": ["Pantheon Plus", "PantheonPlus"],
+    "type": "Supernova Sample",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "Completed",
+    "description": "Expanded sample of 1701 Type Ia supernovae combining Pantheon with Pan-STARRS1 data for precision cosmology"
+  },
+  "union3": {
+    "name": "Union3",
+    "aliases": ["Union 3", "SCPUnion3"],
+    "type": "Supernova Sample",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "Completed",
+    "description": "Compilation of 2087 Type Ia supernovae from multiple surveys for cosmological analysis"
+  },
+  "jla": {
+    "name": "JLA",
+    "aliases": ["Joint Light-curve Analysis"],
+    "type": "Supernova Sample",
+    "launch_date": "2014 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "SNLS and SDSS surveys",
+    "status": "Completed",
+    "description": "Joint analysis of 740 Type Ia supernovae from SNLS and SDSS for dark energy measurements"
   }
 }
