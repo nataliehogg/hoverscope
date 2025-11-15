@@ -12,7 +12,7 @@ Hoverscope is a browser extension that detects mentions of telescopes, satellite
 - 🔄 **Auto-updating**: Database updates automatically from GitHub
 - 🌓 **Dark Mode**: Adapts to your system preferences
 - 📚 **Comprehensive**: Covers major space/ground telescopes and instruments
-- 🎯 **arXiv Optimised**: Works seamlessly on paper titles, abstracts, and content
+- 🎯 **arXiv Optimised**: Works seamlessly on paper titles and abstracts
 
 ## Information Displayed
 
