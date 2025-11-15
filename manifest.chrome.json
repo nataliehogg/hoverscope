@@ -13,7 +13,8 @@
     {
       "matches": [
         "https://arxiv.org/*",
-        "https://www.arxiv.org/*"
+        "https://www.arxiv.org/*",
+        "https://astrochristian.github.io/*"
       ],
       "js": ["content.js"],
       "css": ["styles.css"]
