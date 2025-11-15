@@ -27,18 +27,56 @@ For each telescope/satellite, Hoverscope shows:
 
 ## Installation
 
-### Chrome/Edge/Brave
+### From Browser Stores (Coming Soon)
 
-1. Download this repository as a ZIP file and extract it
+- **Chrome Web Store**: [Link coming soon]
+- **Firefox Add-ons**: [Link coming soon]
+
+### Manual Installation (For Development)
+
+Since Chrome and Firefox require different manifest configurations, you'll need to build the appropriate version first.
+
+#### Prerequisites
+
+1. Download this repository as a ZIP file and extract it, or clone it:
+   ```bash
+   git clone https://github.com/nataliehogg/hoverscope.git
+   cd hoverscope
+   ```
+
+#### Building the Extension
+
+The extension uses different manifests for Chrome and Firefox. To generate the correct `manifest.json`:
+
+**For Chrome/Edge/Brave:**
+```bash
+cp manifest.chrome.json manifest.json
+```
+
+**For Firefox:**
+```bash
+cp manifest.firefox.json manifest.json
+```
+
+Or use the automated build script:
+```bash
+./build.sh
+```
+
+This creates both `hoverscope-chrome-v1.4.0.zip` and `hoverscope-firefox-v1.4.0.zip`.
+
+#### Installing in Chrome/Edge/Brave
+
+1. Make sure you've copied the Chrome manifest: `cp manifest.chrome.json manifest.json`
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top-right)
 4. Click "Load unpacked"
 5. Select the `hoverscope` folder
 6. Done! Visit arXiv and hover over telescope names
 
-### Firefox
+#### Installing in Firefox
 
-1. Download this repository as a ZIP file and extract it
+1. Make sure you've copied the Firefox manifest: `cp manifest.firefox.json manifest.json`
 2. Open Firefox and go to `about:debugging#/runtime/this-firefox`
 3. Click "Load Temporary Add-on"
 4. Navigate to the `hoverscope` folder and select `manifest.json`
