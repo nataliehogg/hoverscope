@@ -4,7 +4,7 @@
 
 Hoverscope is a browser extension that detects mentions of telescopes, satellites, and astronomical instruments in arXiv papers and displays detailed information when you hover over them.
 
-![Hoverscope Demo](demo.gif)
+![demo](https://github.com/user-attachments/assets/b29f4be1-001d-4eab-8127-37eb573be266)
 
 ## Features
 
