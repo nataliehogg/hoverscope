@@ -216,43 +216,87 @@ function handleMouseEnter(event) {
   const term = event.target;
   const key = term.getAttribute('data-telescope-key');
   const data = telescopeData[key];
-  
+
   if (!data) return;
-  
-  // Build tooltip content
-  let html = `<div class="hoverscope-name">${data.name}</div>`;
-  
+
+  // Clear previous content
+  tooltip.textContent = '';
+
+  // Build tooltip content safely using DOM methods
+  const nameDiv = document.createElement('div');
+  nameDiv.className = 'hoverscope-name';
+  nameDiv.textContent = data.name;
+  tooltip.appendChild(nameDiv);
+
   if (data.type) {
-    html += `<div class="hoverscope-field"><strong>Type:</strong> ${data.type}</div>`;
+    const typeDiv = document.createElement('div');
+    typeDiv.className = 'hoverscope-field';
+    const typeLabel = document.createElement('strong');
+    typeLabel.textContent = 'Type: ';
+    typeDiv.appendChild(typeLabel);
+    typeDiv.appendChild(document.createTextNode(data.type));
+    tooltip.appendChild(typeDiv);
   }
-  
+
   if (data.launch_date) {
-    html += `<div class="hoverscope-field"><strong>Launch:</strong> ${data.launch_date}</div>`;
+    const launchDiv = document.createElement('div');
+    launchDiv.className = 'hoverscope-field';
+    const launchLabel = document.createElement('strong');
+    launchLabel.textContent = 'Launch: ';
+    launchDiv.appendChild(launchLabel);
+    launchDiv.appendChild(document.createTextNode(data.launch_date));
+    tooltip.appendChild(launchDiv);
   }
-  
+
   if (data.wavelengths) {
-    html += `<div class="hoverscope-field"><strong>Wavelengths:</strong> ${data.wavelengths}</div>`;
+    const wavelengthsDiv = document.createElement('div');
+    wavelengthsDiv.className = 'hoverscope-field';
+    const wavelengthsLabel = document.createElement('strong');
+    wavelengthsLabel.textContent = 'Wavelengths: ';
+    wavelengthsDiv.appendChild(wavelengthsLabel);
+    wavelengthsDiv.appendChild(document.createTextNode(data.wavelengths));
+    tooltip.appendChild(wavelengthsDiv);
   }
-  
+
   if (data.survey_area) {
-    html += `<div class="hoverscope-field"><strong>Survey Area:</strong> ${data.survey_area}</div>`;
+    const surveyDiv = document.createElement('div');
+    surveyDiv.className = 'hoverscope-field';
+    const surveyLabel = document.createElement('strong');
+    surveyLabel.textContent = 'Survey Area: ';
+    surveyDiv.appendChild(surveyLabel);
+    surveyDiv.appendChild(document.createTextNode(data.survey_area));
+    tooltip.appendChild(surveyDiv);
   }
-  
+
   if (data.location) {
-    html += `<div class="hoverscope-field"><strong>Location:</strong> ${data.location}</div>`;
+    const locationDiv = document.createElement('div');
+    locationDiv.className = 'hoverscope-field';
+    const locationLabel = document.createElement('strong');
+    locationLabel.textContent = 'Location: ';
+    locationDiv.appendChild(locationLabel);
+    locationDiv.appendChild(document.createTextNode(data.location));
+    tooltip.appendChild(locationDiv);
   }
-  
+
   if (data.status) {
-    html += `<div class="hoverscope-field"><strong>Status:</strong> ${data.status}</div>`;
+    const statusDiv = document.createElement('div');
+    statusDiv.className = 'hoverscope-field';
+    const statusLabel = document.createElement('strong');
+    statusLabel.textContent = 'Status: ';
+    statusDiv.appendChild(statusLabel);
+    statusDiv.appendChild(document.createTextNode(data.status));
+    tooltip.appendChild(statusDiv);
   }
-  
+
   if (data.description) {
-    html += `<div class="hoverscope-description">${data.description}</div>`;
+    const descDiv = document.createElement('div');
+    descDiv.className = 'hoverscope-description';
+    descDiv.textContent = data.description;
+    tooltip.appendChild(descDiv);
   }
-  
-  tooltip.innerHTML = html;
+
   tooltip.style.display = 'block';
-  
+
   // Position tooltip
   positionTooltip(event);
 }
