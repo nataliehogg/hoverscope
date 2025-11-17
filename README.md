@@ -27,9 +27,9 @@ For each telescope/satellite, Hoverscope shows:
 
 ## Installation
 
-### From Browser Stores (Coming Soon)
+### From Browser Stores
 
-- **Chrome Web Store**: [Link coming soon]
+- [**Chrome Web Store**](https://chromewebstore.google.com/detail/hoverscope/lhhdkflffdlgbmcmlmhklkghbgbegghn?utm_source=item-share-cb&pli=1)
 - **Firefox Add-ons**: [Link coming soon]
 
 ### Manual Installation (For Development)
