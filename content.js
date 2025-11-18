@@ -82,10 +82,17 @@ function processPage() {
     'main',
     '.paper',
     '.paper-title',
+    '.paper-abstract',
     '.paper-authors',
+    '.paper-entry',
+    '.paper-item',
+    '.paper-list',
+    '.paper-details',
     '.content',
     '#content',
-    '.main-content'
+    '.main-content',
+    '[class*="paper"]',  // Match any class containing "paper"
+    '[class*="abstract"]' // Match any class containing "abstract"
   ];
 
   // If no specific selectors match, fall back to body
@@ -507,19 +514,38 @@ if (document.readyState === 'loading') {
   init();
 }
 
-// Also process dynamically loaded content (for single-page apps)
+// Also process dynamically loaded content (for single-page apps and revealed content)
 const observer = new MutationObserver((mutations) => {
+  let shouldProcess = false;
+
   mutations.forEach((mutation) => {
+    // Process when new nodes are added
     if (mutation.addedNodes.length) {
-      processPage();
+      shouldProcess = true;
+    }
+
+    // Also process when attributes change (e.g., class changes that reveal hidden content)
+    if (mutation.type === 'attributes') {
+      // Check if the element or its children might contain text we need to process
+      const target = mutation.target;
+      if (target.nodeType === Node.ELEMENT_NODE &&
+          (target.textContent.trim().length > 0 || target.querySelector('*[class*="abstract"], *[class*="paper"]'))) {
+        shouldProcess = true;
+      }
     }
   });
+
+  if (shouldProcess) {
+    processPage();
+  }
 });
 
 // Start observing after initial load
 setTimeout(() => {
   observer.observe(document.body, {
     childList: true,
-    subtree: true
+    subtree: true,
+    attributes: true,
+    attributeFilter: ['class', 'style', 'hidden'] // Watch for class/style/hidden changes
   });
 }, 1000);

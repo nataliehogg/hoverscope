@@ -24,7 +24,9 @@
         "https://arxiv.org/*",
         "https://www.arxiv.org/*",
         "https://astrochristian.github.io/*",
-        "https://astrochristian.github.io/astro_ph_co/*"
+        "https://astrochristian.github.io/astro_ph_co/*",
+        "https://benty-fields.com/*",
+        "http://benty-fields.com/*"
       ],
       "js": ["content.js"],
       "css": ["styles.css"]
