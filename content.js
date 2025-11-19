@@ -154,7 +154,7 @@ function processElement(element, elementIndex) {
       const telescope = telescopeData[key];
       const names = [telescope.name, ...(telescope.aliases || [])];
 
-      names.forEach(name => {
+      names.filter(name => name).forEach(name => {
         // For certain telescopes, use case-sensitive matching to avoid false positives
         // ET: avoid "et al."
         // FIRST/FAST: avoid common words "first" and "fast"
@@ -204,7 +204,7 @@ function processElement(element, elementIndex) {
       const person = namesData[key];
       const names = [person.name, ...(person.aliases || [])];
 
-      names.forEach(name => {
+      names.filter(name => name).forEach(name => {
 
         // Try regular format: "FirstName LastName" or "Initials LastName"
         const regex = new RegExp(`\\b${escapeRegex(name).replace(/\s+/g, '\\s+')}\\b`, 'gi');
@@ -370,65 +370,43 @@ function handleMouseEnter(event) {
   nameDiv.textContent = data.name;
   tooltip.appendChild(nameDiv);
 
-  if (data.type) {
-    const typeDiv = document.createElement('div');
-    typeDiv.className = 'hoverscope-field';
-    const typeLabel = document.createElement('strong');
-    typeLabel.textContent = 'Type: ';
-    typeDiv.appendChild(typeLabel);
-    typeDiv.appendChild(document.createTextNode(data.type));
-    tooltip.appendChild(typeDiv);
-  }
+  // Use a Set to track fields that have been processed
+  const processedFields = new Set(['name', 'aliases', 'description', 'order_key']);
 
-  if (data.launch_date) {
-    const launchDiv = document.createElement('div');
-    launchDiv.className = 'hoverscope-field';
-    const launchLabel = document.createElement('strong');
-    launchLabel.textContent = 'Launch: ';
-    launchDiv.appendChild(launchLabel);
-    launchDiv.appendChild(document.createTextNode(data.launch_date));
-    tooltip.appendChild(launchDiv);
-  }
+  // Get the specific display order, or an empty array if none
+  const orderKey = data.order_key;
+  const specificDisplayOrder = (telescopeData._display_orders && orderKey && telescopeData._display_orders[orderKey]) 
+    ? telescopeData._display_orders[orderKey] 
+    : [];
 
-  if (data.wavelengths) {
-    const wavelengthsDiv = document.createElement('div');
-    wavelengthsDiv.className = 'hoverscope-field';
-    const wavelengthsLabel = document.createElement('strong');
-    wavelengthsLabel.textContent = 'Wavelengths: ';
-    wavelengthsDiv.appendChild(wavelengthsLabel);
-    wavelengthsDiv.appendChild(document.createTextNode(data.wavelengths));
-    tooltip.appendChild(wavelengthsDiv);
-  }
+  // Helper function to create and append a field
+  const appendField = (field, value) => {
+    const fieldDiv = document.createElement('div');
+    fieldDiv.className = 'hoverscope-field';
+    
+    const fieldLabel = document.createElement('strong');
+    const labelText = field.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+    fieldLabel.textContent = `${labelText}: `;
+    
+    fieldDiv.appendChild(fieldLabel);
+    fieldDiv.appendChild(document.createTextNode(value.trim()));
+    tooltip.appendChild(fieldDiv);
+    processedFields.add(field);
+  };
 
-  if (data.survey_area) {
-    const surveyDiv = document.createElement('div');
-    surveyDiv.className = 'hoverscope-field';
-    const surveyLabel = document.createElement('strong');
-    surveyLabel.textContent = 'Survey Area: ';
-    surveyDiv.appendChild(surveyLabel);
-    surveyDiv.appendChild(document.createTextNode(data.survey_area));
-    tooltip.appendChild(surveyDiv);
-  }
+  // 1. Add fields in the specified order
+  specificDisplayOrder.forEach(field => {
+    if (data[field]) {
+      appendField(field, data[field]);
+    }
+  });
 
-  if (data.location) {
-    const locationDiv = document.createElement('div');
-    locationDiv.className = 'hoverscope-field';
-    const locationLabel = document.createElement('strong');
-    locationLabel.textContent = 'Location: ';
-    locationDiv.appendChild(locationLabel);
-    locationDiv.appendChild(document.createTextNode(data.location));
-    tooltip.appendChild(locationDiv);
-  }
-
-  if (data.status) {
-    const statusDiv = document.createElement('div');
-    statusDiv.className = 'hoverscope-field';
-    const statusLabel = document.createElement('strong');
-    statusLabel.textContent = 'Status: ';
-    statusDiv.appendChild(statusLabel);
-    statusDiv.appendChild(document.createTextNode(data.status));
-    tooltip.appendChild(statusDiv);
-  }
+  // 2. Add any remaining fields not in the specific order
+  Object.keys(data).forEach(field => {
+    if (!processedFields.has(field) && data[field]) {
+      appendField(field, data[field]);
+    }
+  });
 
   if (data.description) {
     const descDiv = document.createElement('div');
