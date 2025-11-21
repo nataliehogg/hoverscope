@@ -1,27 +1,44 @@
 {
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
   "jwst": {
     "name": "JWST",
-    "aliases": ["James Webb Space Telescope", "Webb"],
+    "aliases": [
+      "James Webb Space Telescope",
+      "Webb"
+    ],
     "type": "Space Telescope",
     "launch_date": "December 25, 2021",
-    "wavelengths": "0.6 - 28.5 μm (Near/Mid-infrared)",
+    "wavelengths": "0.6 - 28.5 \u03bcm (Near/Mid-infrared)",
     "location": "L2 Lagrange Point",
     "status": "Operational",
     "description": "Most powerful infrared space telescope, studying early universe, galaxy formation, and exoplanet atmospheres"
   },
   "hubble": {
     "name": "Hubble Space Telescope",
-    "aliases": ["HST", "Hubble"],
+    "aliases": [
+      "HST",
+      "Hubble"
+    ],
     "type": "Space Telescope",
     "launch_date": "April 24, 1990",
-    "wavelengths": "UV, Visible, Near-infrared (0.1 - 2.5 μm)",
+    "wavelengths": "UV, Visible, Near-infrared (0.1 - 2.5 \u03bcm)",
     "location": "Low Earth Orbit",
     "status": "Operational",
     "description": "Revolutionary space telescope providing deep field images and transforming our understanding of the universe"
   },
   "chandra": {
     "name": "Chandra X-ray Observatory",
-    "aliases": ["Chandra", "CXO"],
+    "aliases": [
+      "Chandra",
+      "CXO"
+    ],
     "type": "Space Telescope",
     "launch_date": "July 23, 1999",
     "wavelengths": "X-ray (0.1 - 10 keV)",
@@ -31,17 +48,22 @@
   },
   "spitzer": {
     "name": "Spitzer Space Telescope",
-    "aliases": ["Spitzer", "SST"],
+    "aliases": [
+      "Spitzer",
+      "SST"
+    ],
     "type": "Space Telescope",
     "launch_date": "August 25, 2003",
-    "wavelengths": "Infrared (3 - 180 μm)",
+    "wavelengths": "Infrared (3 - 180 \u03bcm)",
     "location": "Earth-trailing solar orbit",
     "status": "Decommissioned (January 30, 2020)",
     "description": "Infrared telescope that studied star formation, exoplanets, and distant galaxies"
   },
   "kepler": {
     "name": "Kepler Space Telescope",
-    "aliases": ["Kepler"],
+    "aliases": [
+      "Kepler"
+    ],
     "type": "Space Telescope",
     "launch_date": "March 7, 2009",
     "wavelengths": "Visible light (430 - 890 nm)",
@@ -51,7 +73,9 @@
   },
   "tess": {
     "name": "TESS",
-    "aliases": ["Transiting Exoplanet Survey Satellite"],
+    "aliases": [
+      "Transiting Exoplanet Survey Satellite"
+    ],
     "type": "Space Telescope",
     "launch_date": "April 18, 2018",
     "wavelengths": "Visible to near-infrared (600 - 1000 nm)",
@@ -61,7 +85,9 @@
   },
   "gaia": {
     "name": "Gaia",
-    "aliases": ["Gaia satellite"],
+    "aliases": [
+      "Gaia satellite"
+    ],
     "type": "Astrometry Satellite",
     "launch_date": "December 19, 2013",
     "wavelengths": "Visible light",
@@ -72,7 +98,9 @@
   },
   "euclid": {
     "name": "Euclid",
-    "aliases": ["Euclid telescope"],
+    "aliases": [
+      "Euclid telescope"
+    ],
     "type": "Space Telescope",
     "launch_date": "July 1, 2023",
     "wavelengths": "Visible to near-infrared (550 - 2000 nm)",
@@ -83,10 +111,14 @@
   },
   "roman": {
     "name": "Nancy Grace Roman Space Telescope",
-    "aliases": ["Roman", "Roman Space Telescope", "WFIRST"],
+    "aliases": [
+      "Roman",
+      "Roman Space Telescope",
+      "WFIRST"
+    ],
     "type": "Space Telescope",
     "launch_date": "May 2027 (planned)",
-    "wavelengths": "Visible to near-infrared (0.5 - 2.3 μm)",
+    "wavelengths": "Visible to near-infrared (0.5 - 2.3 \u03bcm)",
     "survey_area": "~2000 sq deg",
     "location": "L2 Lagrange Point",
     "status": "In development",
@@ -94,7 +126,11 @@
   },
   "csst": {
     "name": "CSST",
-    "aliases": ["China Space Station Telescope", "Xuntian", "Chinese Survey Space Telescope"],
+    "aliases": [
+      "China Space Station Telescope",
+      "Xuntian",
+      "Chinese Survey Space Telescope"
+    ],
     "type": "Space Telescope",
     "launch_date": "2025-2026 (planned)",
     "wavelengths": "UV to near-infrared (255 nm - 1000 nm)",
@@ -105,7 +141,9 @@
   },
   "alma": {
     "name": "ALMA",
-    "aliases": ["Atacama Large Millimeter Array"],
+    "aliases": [
+      "Atacama Large Millimeter Array"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "March 13, 2013 (inauguration)",
     "wavelengths": "Millimeter/submillimeter (0.3 - 9.6 mm)",
@@ -115,7 +153,10 @@
   },
   "vla": {
     "name": "VLA",
-    "aliases": ["Very Large Array", "Karl G. Jansky Very Large Array"],
+    "aliases": [
+      "Very Large Array",
+      "Karl G. Jansky Very Large Array"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "1980",
     "wavelengths": "Radio (0.7 cm - 4 m)",
@@ -125,7 +166,9 @@
   },
   "ska": {
     "name": "SKA",
-    "aliases": ["Square Kilometre Array"],
+    "aliases": [
+      "Square Kilometre Array"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "2027 (planned first light)",
     "wavelengths": "Radio (50 MHz - 14 GHz)",
@@ -133,65 +176,53 @@
     "status": "Under construction",
     "description": "Next-generation radio telescope array with unprecedented sensitivity and survey speed"
   },
-  "sdss": {
-    "name": "SDSS",
-    "aliases": ["Sloan Digital Sky Survey"],
-    "type": "Ground-based Survey",
-    "launch_date": "2000 (began operations)",
-    "wavelengths": "Visible to near-infrared",
-    "survey_area": ">1/3 of sky",
-    "location": "Apache Point Observatory, New Mexico",
-    "status": "Operational",
-    "description": "Major spectroscopic survey creating detailed 3D maps of the universe"
-  },
-  "lsst": {
-    "name": "LSST",
-    "aliases": ["Vera C. Rubin Observatory", "Rubin Observatory", "Legacy Survey of Space and Time"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2025 (planned first light)",
-    "wavelengths": "Visible to near-infrared (320 - 1050 nm)",
-    "survey_area": "18,000 sq deg",
-    "location": "Cerro Pachón, Chile",
-    "status": "Under commissioning",
-    "description": "Wide-field survey telescope that will image the entire visible sky every few nights"
-  },
   "jwstmiri": {
     "name": "MIRI",
-    "aliases": ["Mid-Infrared Instrument"],
+    "aliases": [
+      "Mid-Infrared Instrument"
+    ],
     "type": "JWST Instrument",
     "launch_date": "December 25, 2021",
-    "wavelengths": "Mid-infrared (5 - 28 μm)",
+    "wavelengths": "Mid-infrared (5 - 28 \u03bcm)",
     "description": "JWST's mid-infrared camera and spectrograph for studying cool objects and dust"
   },
   "jwstnirspec": {
     "name": "NIRSpec",
-    "aliases": ["Near Infrared Spectrograph"],
+    "aliases": [
+      "Near Infrared Spectrograph"
+    ],
     "type": "JWST Instrument",
     "launch_date": "December 25, 2021",
-    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
+    "wavelengths": "Near-infrared (0.6 - 5.3 \u03bcm)",
     "description": "JWST's multi-object spectrograph for studying distant galaxies and exoplanet atmospheres"
   },
   "jwstnircam": {
     "name": "NIRCam",
-    "aliases": ["Near Infrared Camera"],
+    "aliases": [
+      "Near Infrared Camera"
+    ],
     "type": "JWST Instrument",
     "launch_date": "December 25, 2021",
-    "wavelengths": "Near-infrared (0.6 - 5 μm)",
+    "wavelengths": "Near-infrared (0.6 - 5 \u03bcm)",
     "description": "JWST's primary infrared imager and wavefront sensor"
   },
   "herschel": {
     "name": "Herschel Space Observatory",
-    "aliases": ["Herschel"],
+    "aliases": [
+      "Herschel"
+    ],
     "type": "Space Telescope",
     "launch_date": "May 14, 2009",
-    "wavelengths": "Far-infrared to submillimeter (55 - 672 μm)",
+    "wavelengths": "Far-infrared to submillimeter (55 - 672 \u03bcm)",
     "location": "L2 Lagrange Point",
     "status": "Decommissioned (April 29, 2013)",
     "description": "Largest infrared telescope in space, studied star/galaxy formation and molecular clouds"
   },
   "planck": {
     "name": "Planck",
-    "aliases": ["Planck satellite"],
+    "aliases": [
+      "Planck satellite"
+    ],
     "type": "Space Observatory",
     "launch_date": "May 14, 2009",
     "wavelengths": "Microwave to far-infrared (0.3 - 11 mm)",
@@ -202,7 +233,9 @@
   },
   "act": {
     "name": "ACT",
-    "aliases": ["Atacama Cosmology Telescope"],
+    "aliases": [
+      "Atacama Cosmology Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2007 (first observations)",
     "wavelengths": "Millimeter/submillimeter (1-3 mm)",
@@ -213,7 +246,9 @@
   },
   "spt": {
     "name": "SPT",
-    "aliases": ["South Pole Telescope"],
+    "aliases": [
+      "South Pole Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2007 (first light)",
     "wavelengths": "Millimeter/submillimeter (1-3 mm)",
@@ -224,7 +259,9 @@
   },
   "wmap": {
     "name": "WMAP",
-    "aliases": ["Wilkinson Microwave Anisotropy Probe"],
+    "aliases": [
+      "Wilkinson Microwave Anisotropy Probe"
+    ],
     "type": "Space Observatory",
     "launch_date": "June 30, 2001",
     "wavelengths": "Microwave (3.2 - 14 mm)",
@@ -235,7 +272,10 @@
   },
   "fermi": {
     "name": "Fermi Gamma-ray Space Telescope",
-    "aliases": ["Fermi", "GLAST"],
+    "aliases": [
+      "Fermi",
+      "GLAST"
+    ],
     "type": "Space Telescope",
     "launch_date": "June 11, 2008",
     "wavelengths": "Gamma-ray (20 MeV - 300 GeV)",
@@ -245,7 +285,10 @@
   },
   "xmm": {
     "name": "XMM-Newton",
-    "aliases": ["XMM", "X-ray Multi-Mirror Mission"],
+    "aliases": [
+      "XMM",
+      "X-ray Multi-Mirror Mission"
+    ],
     "type": "Space Telescope",
     "launch_date": "December 10, 1999",
     "wavelengths": "X-ray (0.15 - 12 keV)",
@@ -255,7 +298,9 @@
   },
   "nustar": {
     "name": "NuSTAR",
-    "aliases": ["Nuclear Spectroscopic Telescope Array"],
+    "aliases": [
+      "Nuclear Spectroscopic Telescope Array"
+    ],
     "type": "Space Telescope",
     "launch_date": "June 13, 2012",
     "wavelengths": "Hard X-ray (3 - 79 keV)",
@@ -265,7 +310,10 @@
   },
   "swift": {
     "name": "Swift",
-    "aliases": ["Swift Gamma-Ray Burst Mission", "Neil Gehrels Swift Observatory"],
+    "aliases": [
+      "Swift Gamma-Ray Burst Mission",
+      "Neil Gehrels Swift Observatory"
+    ],
     "type": "Space Telescope",
     "launch_date": "November 20, 2004",
     "wavelengths": "Gamma-ray, X-ray, UV, Visible",
@@ -275,7 +323,9 @@
   },
   "integral": {
     "name": "INTEGRAL",
-    "aliases": ["International Gamma-Ray Astrophysics Laboratory"],
+    "aliases": [
+      "International Gamma-Ray Astrophysics Laboratory"
+    ],
     "type": "Space Telescope",
     "launch_date": "October 17, 2002",
     "wavelengths": "Gamma-ray (15 keV - 10 MeV)",
@@ -285,7 +335,9 @@
   },
   "ixpe": {
     "name": "IXPE",
-    "aliases": ["Imaging X-ray Polarimetry Explorer"],
+    "aliases": [
+      "Imaging X-ray Polarimetry Explorer"
+    ],
     "type": "Space Telescope",
     "launch_date": "December 9, 2021",
     "wavelengths": "X-ray (2 - 8 keV)",
@@ -295,7 +347,9 @@
   },
   "xrism": {
     "name": "XRISM",
-    "aliases": ["X-ray Imaging and Spectroscopy Mission"],
+    "aliases": [
+      "X-ray Imaging and Spectroscopy Mission"
+    ],
     "type": "Space Telescope",
     "launch_date": "September 7, 2023",
     "wavelengths": "X-ray (0.3 - 12 keV)",
@@ -305,7 +359,9 @@
   },
   "athena": {
     "name": "Athena",
-    "aliases": ["Advanced Telescope for High-Energy Astrophysics"],
+    "aliases": [
+      "Advanced Telescope for High-Energy Astrophysics"
+    ],
     "type": "Space Telescope",
     "launch_date": "2037 (planned)",
     "wavelengths": "X-ray (0.2 - 12 keV)",
@@ -315,7 +371,9 @@
   },
   "nicer": {
     "name": "NICER",
-    "aliases": ["Neutron star Interior Composition Explorer"],
+    "aliases": [
+      "Neutron star Interior Composition Explorer"
+    ],
     "type": "Space Telescope",
     "launch_date": "June 3, 2017",
     "wavelengths": "X-ray (0.2 - 12 keV)",
@@ -325,7 +383,9 @@
   },
   "galex": {
     "name": "GALEX",
-    "aliases": ["Galaxy Evolution Explorer"],
+    "aliases": [
+      "Galaxy Evolution Explorer"
+    ],
     "type": "Space Telescope",
     "launch_date": "April 28, 2003",
     "wavelengths": "Ultraviolet (135 - 280 nm)",
@@ -335,7 +395,9 @@
   },
   "fuse": {
     "name": "FUSE",
-    "aliases": ["Far Ultraviolet Spectroscopic Explorer"],
+    "aliases": [
+      "Far Ultraviolet Spectroscopic Explorer"
+    ],
     "type": "Space Telescope",
     "launch_date": "June 24, 1999",
     "wavelengths": "Far-ultraviolet (90.5 - 119.5 nm)",
@@ -345,20 +407,25 @@
   },
   "iras": {
     "name": "IRAS",
-    "aliases": ["Infrared Astronomical Satellite"],
+    "aliases": [
+      "Infrared Astronomical Satellite"
+    ],
     "type": "Space Telescope",
     "launch_date": "January 25, 1983",
-    "wavelengths": "Infrared (12 - 100 μm)",
+    "wavelengths": "Infrared (12 - 100 \u03bcm)",
     "location": "Low Earth Orbit",
     "status": "Decommissioned (November 21, 1983)",
     "description": "First space telescope to perform all-sky infrared survey, discovered infrared galaxies"
   },
   "wise": {
     "name": "WISE",
-    "aliases": ["Wide-field Infrared Survey Explorer", "NEOWISE"],
+    "aliases": [
+      "Wide-field Infrared Survey Explorer",
+      "NEOWISE"
+    ],
     "type": "Space Telescope",
     "launch_date": "December 14, 2009",
-    "wavelengths": "Infrared (3.4 - 22 μm)",
+    "wavelengths": "Infrared (3.4 - 22 \u03bcm)",
     "survey_area": "Full sky",
     "location": "Low Earth Orbit",
     "status": "Operational (NEOWISE mission)",
@@ -366,7 +433,9 @@
   },
   "corot": {
     "name": "CoRoT",
-    "aliases": ["Convection, Rotation and planetary Transits"],
+    "aliases": [
+      "Convection, Rotation and planetary Transits"
+    ],
     "type": "Space Telescope",
     "launch_date": "December 27, 2006",
     "wavelengths": "Visible light",
@@ -376,7 +445,9 @@
   },
   "cheops": {
     "name": "CHEOPS",
-    "aliases": ["Characterising Exoplanet Satellite"],
+    "aliases": [
+      "Characterising Exoplanet Satellite"
+    ],
     "type": "Space Telescope",
     "launch_date": "December 18, 2019",
     "wavelengths": "Visible light (330 - 1100 nm)",
@@ -386,7 +457,9 @@
   },
   "plato": {
     "name": "PLATO",
-    "aliases": ["PLAnetary Transits and Oscillations of stars"],
+    "aliases": [
+      "PLAnetary Transits and Oscillations of stars"
+    ],
     "type": "Space Telescope",
     "launch_date": "2026 (planned)",
     "wavelengths": "Visible light",
@@ -396,17 +469,21 @@
   },
   "ariel": {
     "name": "Ariel",
-    "aliases": ["Atmospheric Remote-sensing Infrared Exoplanet Large-survey"],
+    "aliases": [
+      "Atmospheric Remote-sensing Infrared Exoplanet Large-survey"
+    ],
     "type": "Space Telescope",
     "launch_date": "2029 (planned)",
-    "wavelengths": "Visible to infrared (0.5 - 7.8 μm)",
+    "wavelengths": "Visible to infrared (0.5 - 7.8 \u03bcm)",
     "location": "L2 Lagrange Point",
     "status": "In development",
     "description": "ESA mission studying atmospheres of hundreds of exoplanets"
   },
   "hipparcos": {
     "name": "Hipparcos",
-    "aliases": ["High Precision Parallax Collecting Satellite"],
+    "aliases": [
+      "High Precision Parallax Collecting Satellite"
+    ],
     "type": "Astrometry Satellite",
     "launch_date": "August 8, 1989",
     "wavelengths": "Visible light",
@@ -416,7 +493,9 @@
   },
   "soho": {
     "name": "SOHO",
-    "aliases": ["Solar and Heliospheric Observatory"],
+    "aliases": [
+      "Solar and Heliospheric Observatory"
+    ],
     "type": "Solar Observatory",
     "launch_date": "December 2, 1995",
     "wavelengths": "UV, Visible, EUV",
@@ -426,7 +505,9 @@
   },
   "sdo": {
     "name": "SDO",
-    "aliases": ["Solar Dynamics Observatory"],
+    "aliases": [
+      "Solar Dynamics Observatory"
+    ],
     "type": "Solar Observatory",
     "launch_date": "February 11, 2010",
     "wavelengths": "UV, EUV, Visible",
@@ -436,7 +517,9 @@
   },
   "stereo": {
     "name": "STEREO",
-    "aliases": ["Solar Terrestrial Relations Observatory"],
+    "aliases": [
+      "Solar Terrestrial Relations Observatory"
+    ],
     "type": "Solar Observatory",
     "launch_date": "October 25, 2006",
     "wavelengths": "UV, EUV, Visible, Radio",
@@ -446,7 +529,10 @@
   },
   "parkersolar": {
     "name": "Parker Solar Probe",
-    "aliases": ["Parker", "PSP"],
+    "aliases": [
+      "Parker",
+      "PSP"
+    ],
     "type": "Solar Probe",
     "launch_date": "August 12, 2018",
     "wavelengths": "Visible, Radio, In-situ particles",
@@ -456,7 +542,9 @@
   },
   "solarorbiter": {
     "name": "Solar Orbiter",
-    "aliases": ["SolO"],
+    "aliases": [
+      "SolO"
+    ],
     "type": "Solar Observatory",
     "launch_date": "February 9, 2020",
     "wavelengths": "UV, EUV, Visible, X-ray",
@@ -466,47 +554,61 @@
   },
   "keck": {
     "name": "Keck Observatory",
-    "aliases": ["Keck", "Keck I and II"],
+    "aliases": [
+      "Keck",
+      "Keck I and II"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1993 (Keck I), 1996 (Keck II)",
-    "wavelengths": "Visible to mid-infrared (0.3 - 25 μm)",
+    "wavelengths": "Visible to mid-infrared (0.3 - 25 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
     "description": "Twin 10-meter telescopes with adaptive optics and powerful spectroscopic capabilities"
   },
   "vlt": {
     "name": "VLT",
-    "aliases": ["Very Large Telescope"],
+    "aliases": [
+      "Very Large Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1998-2001",
-    "wavelengths": "Visible to mid-infrared (0.3 - 20 μm)",
+    "wavelengths": "Visible to mid-infrared (0.3 - 20 \u03bcm)",
     "location": "Cerro Paranal, Chile",
     "status": "Operational",
     "description": "ESO's flagship facility with four 8.2-meter telescopes that can work together"
   },
   "gemini": {
     "name": "Gemini Observatory",
-    "aliases": ["Gemini North", "Gemini South"],
+    "aliases": [
+      "Gemini North",
+      "Gemini South"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1999 (North), 2001 (South)",
-    "wavelengths": "Visible to mid-infrared (0.32 - 25 μm)",
+    "wavelengths": "Visible to mid-infrared (0.32 - 25 \u03bcm)",
     "location": "Hawaii (North), Chile (South)",
     "status": "Operational",
     "description": "Twin 8.1-meter telescopes providing full-sky coverage with adaptive optics"
   },
   "subaru": {
     "name": "Subaru Telescope",
-    "aliases": ["Subaru"],
+    "aliases": [
+      "Subaru"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1999",
-    "wavelengths": "Visible to infrared (0.3 - 30 μm)",
+    "wavelengths": "Visible to infrared (0.3 - 30 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
     "description": "Japanese 8.2-meter telescope with wide-field imaging capabilities"
   },
   "magellan": {
     "name": "Magellan Telescopes",
-    "aliases": ["Magellan", "Clay", "Baade"],
+    "aliases": [
+      "Magellan",
+      "Clay",
+      "Baade"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2000 (Baade), 2002 (Clay)",
     "wavelengths": "Visible to infrared",
@@ -516,17 +618,21 @@
   },
   "lbt": {
     "name": "LBT",
-    "aliases": ["Large Binocular Telescope"],
+    "aliases": [
+      "Large Binocular Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2004-2008",
-    "wavelengths": "Visible to mid-infrared (0.3 - 25 μm)",
+    "wavelengths": "Visible to mid-infrared (0.3 - 25 \u03bcm)",
     "location": "Mount Graham, Arizona",
     "status": "Operational",
     "description": "Two 8.4-meter mirrors on single mount with advanced adaptive optics"
   },
   "gbt": {
     "name": "GBT",
-    "aliases": ["Green Bank Telescope"],
+    "aliases": [
+      "Green Bank Telescope"
+    ],
     "type": "Radio Telescope",
     "launch_date": "2000",
     "wavelengths": "Radio (3 mm - 3 m)",
@@ -536,7 +642,9 @@
   },
   "arecibo": {
     "name": "Arecibo Observatory",
-    "aliases": ["Arecibo"],
+    "aliases": [
+      "Arecibo"
+    ],
     "type": "Radio Telescope",
     "launch_date": "1963",
     "wavelengths": "Radio (3 cm - 1 m)",
@@ -546,7 +654,10 @@
   },
   "fast": {
     "name": "FAST",
-    "aliases": ["Five-hundred-meter Aperture Spherical Telescope", "Tianyan"],
+    "aliases": [
+      "Five-hundred-meter Aperture Spherical Telescope",
+      "Tianyan"
+    ],
     "type": "Radio Telescope",
     "launch_date": "September 25, 2016",
     "wavelengths": "Radio (10 cm - 4.3 m)",
@@ -556,7 +667,9 @@
   },
   "lofar": {
     "name": "LOFAR",
-    "aliases": ["Low Frequency Array"],
+    "aliases": [
+      "Low Frequency Array"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "2010",
     "wavelengths": "Radio (10 - 240 MHz)",
@@ -566,7 +679,9 @@
   },
   "meerkat": {
     "name": "MeerKAT",
-    "aliases": ["Karoo Array Telescope"],
+    "aliases": [
+      "Karoo Array Telescope"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "July 13, 2018",
     "wavelengths": "Radio (580 MHz - 14.5 GHz)",
@@ -576,7 +691,9 @@
   },
   "noema": {
     "name": "NOEMA",
-    "aliases": ["Northern Extended Millimeter Array"],
+    "aliases": [
+      "Northern Extended Millimeter Array"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "2014 (expansion completed)",
     "wavelengths": "Millimeter (0.8 - 4 mm)",
@@ -586,7 +703,9 @@
   },
   "carma": {
     "name": "CARMA",
-    "aliases": ["Combined Array for Research in Millimeter-wave Astronomy"],
+    "aliases": [
+      "Combined Array for Research in Millimeter-wave Astronomy"
+    ],
     "type": "Radio Interferometer",
     "launch_date": "2006",
     "wavelengths": "Millimeter (1 - 3 mm)",
@@ -596,37 +715,46 @@
   },
   "elt": {
     "name": "ELT",
-    "aliases": ["Extremely Large Telescope", "European Extremely Large Telescope"],
+    "aliases": [
+      "Extremely Large Telescope",
+      "European Extremely Large Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2028 (planned first light)",
-    "wavelengths": "Visible to mid-infrared (0.4 - 24 μm)",
+    "wavelengths": "Visible to mid-infrared (0.4 - 24 \u03bcm)",
     "location": "Cerro Armazones, Chile",
     "status": "Under construction",
     "description": "ESO's 39-meter telescope, will be world's largest optical/near-IR telescope"
   },
   "tmt": {
     "name": "TMT",
-    "aliases": ["Thirty Meter Telescope"],
+    "aliases": [
+      "Thirty Meter Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "TBD (construction paused)",
-    "wavelengths": "Visible to mid-infrared (0.31 - 28 μm)",
+    "wavelengths": "Visible to mid-infrared (0.31 - 28 \u03bcm)",
     "location": "Mauna Kea, Hawaii (proposed)",
     "status": "Planning/construction paused",
     "description": "Planned 30-meter telescope with adaptive optics for deep space observation"
   },
   "gmt": {
     "name": "GMT",
-    "aliases": ["Giant Magellan Telescope"],
+    "aliases": [
+      "Giant Magellan Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2029 (planned first light)",
-    "wavelengths": "Visible to mid-infrared (0.32 - 25 μm)",
+    "wavelengths": "Visible to mid-infrared (0.32 - 25 \u03bcm)",
     "location": "Las Campanas Observatory, Chile",
     "status": "Under construction",
     "description": "Seven 8.4-meter mirrors combining for 24.5-meter effective aperture"
   },
   "cfht": {
     "name": "CFHT",
-    "aliases": ["Canada-France-Hawaii Telescope"],
+    "aliases": [
+      "Canada-France-Hawaii Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1979",
     "wavelengths": "Visible to infrared",
@@ -634,41 +762,12 @@
     "status": "Operational",
     "description": "3.6-meter telescope known for wide-field imaging surveys"
   },
-  "lamost": {
-    "name": "LAMOST",
-    "aliases": ["Large Sky Area Multi-Object Fiber Spectroscopic Telescope", "Guo Shoujing Telescope"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2008",
-    "wavelengths": "Visible (370 - 900 nm)",
-    "location": "Xinglong Station, China",
-    "status": "Operational",
-    "description": "4-meter telescope with 4000-fiber spectrograph for massive spectroscopic surveys"
-  },
-  "panstarrs": {
-    "name": "Pan-STARRS",
-    "aliases": ["Panoramic Survey Telescope and Rapid Response System"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2008",
-    "wavelengths": "Visible to near-infrared (400 - 1000 nm)",
-    "survey_area": "30,000 sq deg",
-    "location": "Haleakalā, Hawaii",
-    "status": "Operational",
-    "description": "Wide-field survey telescopes discovering asteroids, supernovae, and variable stars"
-  },
-  "ztf": {
-    "name": "ZTF",
-    "aliases": ["Zwicky Transient Facility"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2018",
-    "wavelengths": "Visible (400 - 1000 nm)",
-    "survey_area": "3750 sq deg per hour",
-    "location": "Palomar Observatory, California",
-    "status": "Operational",
-    "description": "High-cadence all-sky survey finding supernovae, asteroids, and transient events"
-  },
   "palomar": {
     "name": "Palomar Observatory",
-    "aliases": ["Hale Telescope", "Palomar 200-inch"],
+    "aliases": [
+      "Hale Telescope",
+      "Palomar 200-inch"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1948",
     "wavelengths": "Visible to infrared",
@@ -678,7 +777,10 @@
   },
   "mmt": {
     "name": "MMT Observatory",
-    "aliases": ["MMT", "Multiple Mirror Telescope"],
+    "aliases": [
+      "MMT",
+      "Multiple Mirror Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1979 (converted to single mirror 1999)",
     "wavelengths": "Visible to infrared",
@@ -688,7 +790,9 @@
   },
   "salt": {
     "name": "SALT",
-    "aliases": ["Southern African Large Telescope"],
+    "aliases": [
+      "Southern African Large Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "2005",
     "wavelengths": "Visible to near-infrared (320 - 1700 nm)",
@@ -698,7 +802,9 @@
   },
   "het": {
     "name": "HET",
-    "aliases": ["Hobby-Eberly Telescope"],
+    "aliases": [
+      "Hobby-Eberly Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1997",
     "wavelengths": "Visible to near-infrared (400 - 1100 nm)",
@@ -708,15 +814,20 @@
   },
   "jwstfgs": {
     "name": "FGS/NIRISS",
-    "aliases": ["Fine Guidance Sensor", "Near Infrared Imager and Slitless Spectrograph"],
+    "aliases": [
+      "Fine Guidance Sensor",
+      "Near Infrared Imager and Slitless Spectrograph"
+    ],
     "type": "JWST Instrument",
     "launch_date": "December 25, 2021",
-    "wavelengths": "Near-infrared (0.8 - 5 μm)",
+    "wavelengths": "Near-infrared (0.8 - 5 \u03bcm)",
     "description": "JWST's pointing control sensor and Canadian science instrument for exoplanet studies"
   },
   "ixo": {
     "name": "Lynx",
-    "aliases": ["Lynx X-ray Observatory"],
+    "aliases": [
+      "Lynx X-ray Observatory"
+    ],
     "type": "Space Telescope",
     "launch_date": "2030s (proposed)",
     "wavelengths": "X-ray (0.2 - 10 keV)",
@@ -726,37 +837,45 @@
   },
   "habex": {
     "name": "HabEx",
-    "aliases": ["Habitable Exoplanet Observatory"],
+    "aliases": [
+      "Habitable Exoplanet Observatory"
+    ],
     "type": "Space Telescope",
     "launch_date": "2030s (proposed)",
-    "wavelengths": "UV to near-infrared (0.1 - 1.8 μm)",
+    "wavelengths": "UV to near-infrared (0.1 - 1.8 \u03bcm)",
     "location": "L2 Lagrange Point",
     "status": "Concept study",
     "description": "Proposed 4-meter space telescope with starshade for direct exoplanet imaging"
   },
   "luvoir": {
     "name": "LUVOIR",
-    "aliases": ["Large UV/Optical/IR Surveyor"],
+    "aliases": [
+      "Large UV/Optical/IR Surveyor"
+    ],
     "type": "Space Telescope",
     "launch_date": "2030s (proposed)",
-    "wavelengths": "UV to near-infrared (0.1 - 2.5 μm)",
+    "wavelengths": "UV to near-infrared (0.1 - 2.5 \u03bcm)",
     "location": "L2 Lagrange Point",
     "status": "Concept study",
     "description": "Proposed 8-15 meter flagship mission for exoplanet characterization and astrophysics"
   },
   "sofia": {
     "name": "SOFIA",
-    "aliases": ["Stratospheric Observatory for Infrared Astronomy"],
+    "aliases": [
+      "Stratospheric Observatory for Infrared Astronomy"
+    ],
     "type": "Airborne Observatory",
     "launch_date": "2010",
-    "wavelengths": "Infrared (0.3 - 1600 μm)",
+    "wavelengths": "Infrared (0.3 - 1600 \u03bcm)",
     "location": "Boeing 747SP aircraft",
     "status": "Decommissioned (September 30, 2022)",
     "description": "Airborne 2.7-meter infrared telescope flying above atmospheric water vapor"
   },
   "eso36": {
     "name": "ESO 3.6m",
-    "aliases": ["ESO 3.6-metre telescope"],
+    "aliases": [
+      "ESO 3.6-metre telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1976",
     "wavelengths": "Visible to infrared",
@@ -766,7 +885,9 @@
   },
   "tng": {
     "name": "TNG",
-    "aliases": ["Telescopio Nazionale Galileo"],
+    "aliases": [
+      "Telescopio Nazionale Galileo"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1998",
     "wavelengths": "Visible to near-infrared",
@@ -774,89 +895,35 @@
     "status": "Operational",
     "description": "Italian 3.6-meter telescope with HARPS-N for exoplanet studies"
   },
-  "ngts": {
-    "name": "NGTS",
-    "aliases": ["Next-Generation Transit Survey"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2015",
-    "wavelengths": "Visible (520 - 890 nm)",
-    "location": "Paranal Observatory, Chile",
-    "status": "Operational",
-    "description": "Array of 12 small telescopes hunting for transiting exoplanets"
-  },
-  "speculoos": {
-    "name": "SPECULOOS",
-    "aliases": ["Search for habitable Planets EClipsing ULtra-cOOl Stars"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2019",
-    "wavelengths": "Near-infrared",
-    "location": "Paranal, Chile and Tenerife, Spain",
-    "status": "Operational",
-    "description": "Network of robotic telescopes searching for exoplanets around ultracool dwarfs"
-  },
-  "hat": {
-    "name": "HATNet",
-    "aliases": ["Hungarian Automated Telescope Network"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2003",
-    "wavelengths": "Visible",
-    "location": "Arizona and Hawaii",
-    "status": "Operational",
-    "description": "Network of small automated telescopes discovering transiting exoplanets"
-  },
-  "wasp": {
-    "name": "SuperWASP",
-    "aliases": ["Wide Angle Search for Planets"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2004",
-    "wavelengths": "Visible (400 - 700 nm)",
-    "location": "La Palma and South Africa",
-    "status": "Operational",
-    "description": "Two robotic observatories discovering transiting exoplanets"
-  },
-  "vista": {
-    "name": "VISTA",
-    "aliases": ["Visible and Infrared Survey Telescope for Astronomy"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2009",
-    "wavelengths": "Near-infrared (0.85 - 2.4 μm)",
-    "location": "Paranal Observatory, Chile",
-    "status": "Operational",
-    "description": "ESO's 4.1-meter infrared survey telescope with wide field of view"
-  },
-  "vst": {
-    "name": "VST",
-    "aliases": ["VLT Survey Telescope"],
-    "type": "Ground-based Survey Telescope",
-    "launch_date": "2011",
-    "wavelengths": "Visible (330 - 1000 nm)",
-    "location": "Paranal Observatory, Chile",
-    "status": "Operational",
-    "description": "2.6-meter telescope designed for wide-field optical surveys"
-  },
   "ukirt": {
     "name": "UKIRT",
-    "aliases": ["United Kingdom Infrared Telescope"],
+    "aliases": [
+      "United Kingdom Infrared Telescope"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1979",
-    "wavelengths": "Infrared (1 - 5 μm)",
+    "wavelengths": "Infrared (1 - 5 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
     "description": "3.8-meter dedicated infrared telescope performing wide-field surveys"
   },
   "irtf": {
     "name": "IRTF",
-    "aliases": ["NASA Infrared Telescope Facility"],
+    "aliases": [
+      "NASA Infrared Telescope Facility"
+    ],
     "type": "Ground-based Telescope",
     "launch_date": "1979",
-    "wavelengths": "Infrared (1 - 30 μm)",
+    "wavelengths": "Infrared (1 - 30 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
     "description": "3-meter NASA facility optimized for infrared planetary and solar system studies"
   },
   "ligo": {
     "name": "LIGO",
-    "aliases": ["Laser Interferometer Gravitational-Wave Observatory"],
+    "aliases": [
+      "Laser Interferometer Gravitational-Wave Observatory"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2002 (initial), 2015 (Advanced LIGO)",
     "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
@@ -866,7 +933,9 @@
   },
   "virgo": {
     "name": "Virgo",
-    "aliases": ["Virgo interferometer"],
+    "aliases": [
+      "Virgo interferometer"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2007 (initial), 2017 (Advanced Virgo)",
     "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
@@ -876,7 +945,9 @@
   },
   "kagra": {
     "name": "KAGRA",
-    "aliases": ["Kamioka Gravitational Wave Detector"],
+    "aliases": [
+      "Kamioka Gravitational Wave Detector"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2020",
     "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
@@ -886,7 +957,9 @@
   },
   "geo600": {
     "name": "GEO600",
-    "aliases": ["GEO 600"],
+    "aliases": [
+      "GEO 600"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2002",
     "wavelengths": "Gravitational waves (50 Hz - 1.5 kHz)",
@@ -896,7 +969,9 @@
   },
   "lisa": {
     "name": "LISA",
-    "aliases": ["Laser Interferometer Space Antenna"],
+    "aliases": [
+      "Laser Interferometer Space Antenna"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2037 (planned)",
     "wavelengths": "Gravitational waves (0.1 mHz - 1 Hz)",
@@ -906,7 +981,9 @@
   },
   "einsteintelescope": {
     "name": "Einstein Telescope",
-    "aliases": ["ET"],
+    "aliases": [
+      "ET"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2030s (planned)",
     "wavelengths": "Gravitational waves (1 Hz - 10 kHz)",
@@ -916,7 +993,9 @@
   },
   "cosmicexplorer": {
     "name": "Cosmic Explorer",
-    "aliases": ["CE"],
+    "aliases": [
+      "CE"
+    ],
     "type": "Gravitational Wave Observatory",
     "launch_date": "2030s (planned)",
     "wavelengths": "Gravitational waves (5 Hz - 10 kHz)",
@@ -926,7 +1005,9 @@
   },
   "icecube": {
     "name": "IceCube",
-    "aliases": ["IceCube Neutrino Observatory"],
+    "aliases": [
+      "IceCube Neutrino Observatory"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2010 (completed)",
     "wavelengths": "Neutrinos (GeV - PeV energies)",
@@ -936,7 +1017,9 @@
   },
   "antares": {
     "name": "ANTARES",
-    "aliases": ["Astronomy with a Neutrino Telescope and Abyss environmental RESearch"],
+    "aliases": [
+      "Astronomy with a Neutrino Telescope and Abyss environmental RESearch"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2008",
     "wavelengths": "Neutrinos (GeV - PeV energies)",
@@ -946,7 +1029,9 @@
   },
   "kmnet": {
     "name": "KM3NeT",
-    "aliases": ["Cubic Kilometre Neutrino Telescope"],
+    "aliases": [
+      "Cubic Kilometre Neutrino Telescope"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2016 (first units), ongoing construction",
     "wavelengths": "Neutrinos (GeV - PeV energies)",
@@ -956,7 +1041,10 @@
   },
   "superkamiokande": {
     "name": "Super-Kamiokande",
-    "aliases": ["Super-K", "SK"],
+    "aliases": [
+      "Super-K",
+      "SK"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "1996",
     "wavelengths": "Neutrinos (MeV - GeV energies)",
@@ -966,7 +1054,10 @@
   },
   "hyperkamiokande": {
     "name": "Hyper-Kamiokande",
-    "aliases": ["Hyper-K", "HK"],
+    "aliases": [
+      "Hyper-K",
+      "HK"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2027 (planned)",
     "wavelengths": "Neutrinos (MeV - GeV energies)",
@@ -976,7 +1067,9 @@
   },
   "dune": {
     "name": "DUNE",
-    "aliases": ["Deep Underground Neutrino Experiment"],
+    "aliases": [
+      "Deep Underground Neutrino Experiment"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2028 (planned)",
     "wavelengths": "Neutrinos (GeV energies)",
@@ -986,7 +1079,9 @@
   },
   "nova": {
     "name": "NOvA",
-    "aliases": ["NuMI Off-Axis νe Appearance"],
+    "aliases": [
+      "NuMI Off-Axis \u03bde Appearance"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2014",
     "wavelengths": "Neutrinos (GeV energies)",
@@ -1006,7 +1101,9 @@
   },
   "sno": {
     "name": "SNO",
-    "aliases": ["Sudbury Neutrino Observatory"],
+    "aliases": [
+      "Sudbury Neutrino Observatory"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "1999",
     "wavelengths": "Neutrinos (MeV energies)",
@@ -1016,7 +1113,9 @@
   },
   "snoplus": {
     "name": "SNO+",
-    "aliases": ["SNO Plus"],
+    "aliases": [
+      "SNO Plus"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2017",
     "wavelengths": "Neutrinos (MeV energies)",
@@ -1026,7 +1125,9 @@
   },
   "t2k": {
     "name": "T2K",
-    "aliases": ["Tokai to Kamioka"],
+    "aliases": [
+      "Tokai to Kamioka"
+    ],
     "type": "Neutrino Experiment",
     "launch_date": "2010",
     "wavelengths": "Neutrinos (GeV energies)",
@@ -1036,7 +1137,9 @@
   },
   "miniboone": {
     "name": "MiniBooNE",
-    "aliases": ["Mini Booster Neutrino Experiment"],
+    "aliases": [
+      "Mini Booster Neutrino Experiment"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2002",
     "wavelengths": "Neutrinos (GeV energies)",
@@ -1046,7 +1149,9 @@
   },
   "microboone": {
     "name": "MicroBooNE",
-    "aliases": ["Micro Booster Neutrino Experiment"],
+    "aliases": [
+      "Micro Booster Neutrino Experiment"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2015",
     "wavelengths": "Neutrinos (GeV energies)",
@@ -1056,7 +1161,9 @@
   },
   "baikal": {
     "name": "Baikal-GVD",
-    "aliases": ["Gigaton Volume Detector"],
+    "aliases": [
+      "Gigaton Volume Detector"
+    ],
     "type": "Neutrino Detector",
     "launch_date": "2016 (first cluster), ongoing construction",
     "wavelengths": "Neutrinos (TeV - PeV energies)",
@@ -1066,7 +1173,9 @@
   },
   "xenon1t": {
     "name": "XENON1T",
-    "aliases": ["XENON1T"],
+    "aliases": [
+      "XENON1T"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2016",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1076,7 +1185,9 @@
   },
   "xenonnt": {
     "name": "XENONnT",
-    "aliases": ["XENON nT"],
+    "aliases": [
+      "XENON nT"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2020",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1086,7 +1197,9 @@
   },
   "lux": {
     "name": "LUX",
-    "aliases": ["Large Underground Xenon"],
+    "aliases": [
+      "Large Underground Xenon"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2013",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1096,7 +1209,9 @@
   },
   "luxzeplin": {
     "name": "LUX-ZEPLIN",
-    "aliases": ["LZ"],
+    "aliases": [
+      "LZ"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2022",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1106,7 +1221,9 @@
   },
   "pandax": {
     "name": "PandaX",
-    "aliases": ["Particle and Astrophysical Xenon"],
+    "aliases": [
+      "Particle and Astrophysical Xenon"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2014 (PandaX-II), 2020 (PandaX-4T)",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1116,7 +1233,9 @@
   },
   "cdms": {
     "name": "CDMS",
-    "aliases": ["Cryogenic Dark Matter Search"],
+    "aliases": [
+      "Cryogenic Dark Matter Search"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2003 (CDMS II)",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1126,7 +1245,9 @@
   },
   "supercdms": {
     "name": "SuperCDMS",
-    "aliases": ["Super Cryogenic Dark Matter Search"],
+    "aliases": [
+      "Super Cryogenic Dark Matter Search"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2022 (SNOLAB)",
     "wavelengths": "Dark matter particles (WIMPs, low-mass)",
@@ -1136,7 +1257,9 @@
   },
   "darkside": {
     "name": "DarkSide",
-    "aliases": ["DarkSide-50"],
+    "aliases": [
+      "DarkSide-50"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2015",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1146,7 +1269,9 @@
   },
   "darkside20k": {
     "name": "DarkSide-20k",
-    "aliases": ["DS-20k"],
+    "aliases": [
+      "DS-20k"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2027 (planned)",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1156,7 +1281,9 @@
   },
   "deap": {
     "name": "DEAP-3600",
-    "aliases": ["Dark matter Experiment using Argon Pulse-shape discrimination"],
+    "aliases": [
+      "Dark matter Experiment using Argon Pulse-shape discrimination"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2016",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1166,7 +1293,9 @@
   },
   "cresst": {
     "name": "CRESST",
-    "aliases": ["Cryogenic Rare Event Search with Superconducting Thermometers"],
+    "aliases": [
+      "Cryogenic Rare Event Search with Superconducting Thermometers"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2016 (CRESST-III)",
     "wavelengths": "Dark matter particles (WIMPs, low-mass)",
@@ -1176,7 +1305,9 @@
   },
   "edelweiss": {
     "name": "EDELWEISS",
-    "aliases": ["Expérience pour DEtecter Les Wimps En Site Souterrain"],
+    "aliases": [
+      "Exp\u00e9rience pour DEtecter Les Wimps En Site Souterrain"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2000 (initial), ongoing upgrades",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1186,7 +1317,9 @@
   },
   "admx": {
     "name": "ADMX",
-    "aliases": ["Axion Dark Matter Experiment"],
+    "aliases": [
+      "Axion Dark Matter Experiment"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2018 (Gen 2)",
     "wavelengths": "Dark matter particles (Axions)",
@@ -1196,7 +1329,9 @@
   },
   "dama": {
     "name": "DAMA/LIBRA",
-    "aliases": ["DArk MAtter/Large sodium Iodide Bulk for RAre processes"],
+    "aliases": [
+      "DArk MAtter/Large sodium Iodide Bulk for RAre processes"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2003 (DAMA/LIBRA), 1996 (original DAMA)",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1206,7 +1341,9 @@
   },
   "coupp": {
     "name": "COUPP",
-    "aliases": ["Chicagoland Observatory for Underground Particle Physics"],
+    "aliases": [
+      "Chicagoland Observatory for Underground Particle Physics"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2005",
     "wavelengths": "Dark matter particles (WIMPs, spin-dependent)",
@@ -1216,7 +1353,10 @@
   },
   "pico": {
     "name": "PICO",
-    "aliases": ["PICO-60", "PICASSO + COUPP"],
+    "aliases": [
+      "PICO-60",
+      "PICASSO + COUPP"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2013 (PICO-60)",
     "wavelengths": "Dark matter particles (WIMPs, spin-dependent)",
@@ -1226,7 +1366,9 @@
   },
   "darwin": {
     "name": "DARWIN",
-    "aliases": ["DARk matter WImp search with liquid xenoN"],
+    "aliases": [
+      "DARk matter WImp search with liquid xenoN"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "Late 2020s (planned)",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1236,7 +1378,9 @@
   },
   "cosine": {
     "name": "COSINE-100",
-    "aliases": ["COSINE"],
+    "aliases": [
+      "COSINE"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2016",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1246,7 +1390,9 @@
   },
   "anais": {
     "name": "ANAIS",
-    "aliases": ["Annual modulation with NaI Scintillators"],
+    "aliases": [
+      "Annual modulation with NaI Scintillators"
+    ],
     "type": "Dark Matter Detector",
     "launch_date": "2017",
     "wavelengths": "Dark matter particles (WIMPs)",
@@ -1254,465 +1400,11 @@
     "status": "Operational",
     "description": "Sodium iodide detector independently testing DAMA annual modulation signal"
   },
-  "desi": {
-    "name": "DESI",
-    "aliases": ["Dark Energy Spectroscopic Instrument"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2021 (began operations)",
-    "wavelengths": "Visible to near-infrared (360 - 980 nm)",
-    "survey_area": "14,000 sq deg",
-    "location": "Kitt Peak National Observatory, Arizona",
-    "status": "Operational",
-    "description": "5000-fiber spectrograph creating largest 3D map of universe, measuring 40 million galaxies"
-  },
-  "des": {
-    "name": "DES",
-    "aliases": ["Dark Energy Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2013",
-    "wavelengths": "Visible to near-infrared (400 - 1080 nm)",
-    "survey_area": "5000 sq deg",
-    "location": "Cerro Tololo Inter-American Observatory, Chile",
-    "status": "Completed (2019)",
-    "description": "Deep multi-band survey of southern sky studying dark energy through multiple probes"
-  },
-  "kids": {
-    "name": "KiDS",
-    "aliases": ["Kilo-Degree Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2011",
-    "wavelengths": "Visible to near-infrared (330 - 1000 nm)",
-    "survey_area": "1350 sq deg",
-    "location": "VLT Survey Telescope, Chile",
-    "status": "Operational",
-    "description": "Deep multi-band imaging survey for weak gravitational lensing and galaxy evolution"
-  },
-  "2mass": {
-    "name": "2MASS",
-    "aliases": ["Two Micron All-Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "1997",
-    "wavelengths": "Near-infrared (1.25, 1.65, 2.17 μm)",
-    "survey_area": "Full sky",
-    "location": "Mount Hopkins, Arizona and Cerro Tololo, Chile",
-    "status": "Completed (2001)",
-    "description": "All-sky near-infrared survey cataloging 300+ million stars and 1+ million galaxies"
-  },
-  "allwise": {
-    "name": "AllWISE",
-    "aliases": ["All-Sky WISE"],
-    "type": "Sky Survey",
-    "launch_date": "2013 (data release)",
-    "wavelengths": "Infrared (3.4, 4.6, 12, 22 μm)",
-    "survey_area": "Full sky",
-    "location": "Space-based (WISE satellite)",
-    "status": "Completed",
-    "description": "Combined WISE survey data covering entire sky in mid-infrared with enhanced depth"
-  },
-  "boss": {
-    "name": "BOSS",
-    "aliases": ["Baryon Oscillation Spectroscopic Survey"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2009",
-    "wavelengths": "Visible to near-infrared",
-    "survey_area": "10,000 sq deg",
-    "location": "Apache Point Observatory, New Mexico",
-    "status": "Completed (2014)",
-    "description": "SDSS-III program measuring spectra of 1.5 million galaxies for baryon acoustic oscillations"
-  },
-  "eboss": {
-    "name": "eBOSS",
-    "aliases": ["Extended Baryon Oscillation Spectroscopic Survey"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2014",
-    "wavelengths": "Visible to near-infrared",
-    "survey_area": "7500 sq deg",
-    "location": "Apache Point Observatory, New Mexico",
-    "status": "Completed (2019)",
-    "description": "SDSS-IV program extending BOSS to map cosmic structure from 0.6 < z < 2.2"
-  },
-  "apogee": {
-    "name": "APOGEE",
-    "aliases": ["Apache Point Observatory Galactic Evolution Experiment"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2011",
-    "wavelengths": "Near-infrared (1.51 - 1.70 μm)",
-    "location": "Apache Point Observatory and Las Campanas Observatory",
-    "status": "Operational",
-    "description": "High-resolution infrared spectroscopy of 100,000+ stars across the Milky Way"
-  },
-  "galah": {
-    "name": "GALAH",
-    "aliases": ["GALactic Archaeology with HERMES"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2014",
-    "wavelengths": "Visible (471 - 789 nm)",
-    "location": "Anglo-Australian Telescope, Australia",
-    "status": "Operational",
-    "description": "High-resolution spectroscopic survey measuring chemical abundances of 1 million stars"
-  },
-  "rave": {
-    "name": "RAVE",
-    "aliases": ["RAdial Velocity Experiment"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2003",
-    "wavelengths": "Near-infrared (8410 - 8795 Å)",
-    "location": "UK Schmidt Telescope, Australia",
-    "status": "Completed (2013)",
-    "description": "Medium-resolution spectroscopic survey of 500,000 stars for Galactic structure"
-  },
-  "cfhtls": {
-    "name": "CFHTLS",
-    "aliases": ["Canada-France-Hawaii Telescope Legacy Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2003",
-    "wavelengths": "Visible to near-infrared",
-    "survey_area": "170 sq deg (multiple fields)",
-    "location": "Canada-France-Hawaii Telescope, Hawaii",
-    "status": "Completed (2009)",
-    "description": "Deep multi-band imaging survey for weak lensing and high-redshift galaxies"
-  },
-  "hsc": {
-    "name": "HSC",
-    "aliases": ["Hyper Suprime-Cam", "HSC-SSP"],
-    "type": "Sky Survey",
-    "launch_date": "2014",
-    "wavelengths": "Visible to near-infrared (320 - 1100 nm)",
-    "survey_area": "1400 sq deg",
-    "location": "Subaru Telescope, Hawaii",
-    "status": "Operational",
-    "description": "Deep wide-field survey with Subaru for weak lensing, galaxy evolution, and transients"
-  },
-  "cosmos": {
-    "name": "COSMOS",
-    "aliases": ["Cosmic Evolution Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2003",
-    "wavelengths": "X-ray to radio (multi-wavelength)",
-    "survey_area": "2 sq deg",
-    "location": "Multiple telescopes worldwide",
-    "status": "Ongoing",
-    "description": "Deep multi-wavelength survey of single field studying galaxy evolution to z~6"
-  },
-  "candels": {
-    "name": "CANDELS",
-    "aliases": ["Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2010",
-    "wavelengths": "Near-infrared (0.8 - 1.6 μm)",
-    "survey_area": "~0.25 sq deg (multiple fields)",
-    "location": "Hubble Space Telescope",
-    "status": "Completed (2013)",
-    "description": "Largest HST survey studying galaxy evolution and reionization at z > 1.5"
-  },
-  "goods": {
-    "name": "GOODS",
-    "aliases": ["Great Observatories Origins Deep Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2003",
-    "wavelengths": "Multi-wavelength (X-ray to radio)",
-    "survey_area": "~0.1 sq deg (two fields)",
-    "location": "Multiple space and ground telescopes",
-    "status": "Completed",
-    "description": "Ultra-deep multi-wavelength survey combining Hubble, Spitzer, Chandra, and others"
-  },
-  "hudf": {
-    "name": "HUDF",
-    "aliases": ["Hubble Ultra Deep Field"],
-    "type": "Sky Survey",
-    "launch_date": "2004 (initial), 2012 (XDF)",
-    "wavelengths": "UV to near-infrared (0.2 - 1.7 μm)",
-    "survey_area": "11 arcmin² (XDF: 4.7 arcmin²)",
-    "location": "Hubble Space Telescope",
-    "status": "Completed",
-    "description": "Deepest optical/NIR image ever taken, revealing ~10,000 galaxies to z~10"
-  },
-  "ukidss": {
-    "name": "UKIDSS",
-    "aliases": ["UKIRT Infrared Deep Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2005",
-    "wavelengths": "Near-infrared (0.83 - 2.37 μm)",
-    "survey_area": "7500 sq deg (multiple surveys)",
-    "location": "United Kingdom Infrared Telescope, Hawaii",
-    "status": "Completed (2012)",
-    "description": "Deepest and largest near-infrared survey of its time with multiple components"
-  },
-  "viking": {
-    "name": "VIKING",
-    "aliases": ["VISTA Kilo-degree INfrared Galaxy survey"],
-    "type": "Sky Survey",
-    "launch_date": "2009",
-    "wavelengths": "Near-infrared (0.85 - 2.15 μm)",
-    "survey_area": "1500 sq deg",
-    "location": "VISTA telescope, Chile",
-    "status": "Completed (2013)",
-    "description": "Near-infrared complement to KiDS optical survey for photometric redshifts"
-  },
-  "video": {
-    "name": "VIDEO",
-    "aliases": ["VISTA Deep Extragalactic Observations"],
-    "type": "Sky Survey",
-    "launch_date": "2009",
-    "wavelengths": "Near-infrared (0.88 - 2.15 μm)",
-    "survey_area": "12 sq deg",
-    "location": "VISTA telescope, Chile",
-    "status": "Completed",
-    "description": "Deep infrared survey reaching z~4 for galaxy evolution studies"
-  },
-  "vhs": {
-    "name": "VHS",
-    "aliases": ["VISTA Hemisphere Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2009",
-    "wavelengths": "Near-infrared (1.02, 1.25, 2.15 μm)",
-    "survey_area": "18,000 sq deg (southern hemisphere)",
-    "location": "VISTA telescope, Chile",
-    "status": "Operational",
-    "description": "Largest near-infrared survey covering entire southern sky to complement 2MASS"
-  },
-  "first": {
-    "name": "FIRST",
-    "aliases": ["Faint Images of the Radio Sky at Twenty-Centimeters"],
-    "type": "Sky Survey",
-    "launch_date": "1993",
-    "wavelengths": "Radio (21 cm / 1.4 GHz)",
-    "survey_area": "10,575 sq deg",
-    "location": "Very Large Array, New Mexico",
-    "status": "Completed (2004)",
-    "description": "Radio survey cataloging ~1 million sources, studying AGN and radio galaxies"
-  },
-  "nvss": {
-    "name": "NVSS",
-    "aliases": ["NRAO VLA Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "1993",
-    "wavelengths": "Radio (21 cm / 1.4 GHz)",
-    "survey_area": "~34,000 sq deg (northern sky)",
-    "location": "Very Large Array, New Mexico",
-    "status": "Completed (1996)",
-    "description": "Large-area radio survey cataloging ~2 million sources above -40° declination"
-  },
-  "vlass": {
-    "name": "VLASS",
-    "aliases": ["VLA Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2017",
-    "wavelengths": "Radio (2-4 GHz)",
-    "survey_area": "33,000 sq deg",
-    "location": "Very Large Array, New Mexico",
-    "status": "Operational",
-    "description": "Modern all-sky radio survey with better resolution and sensitivity than NVSS/FIRST"
-  },
-  "racs": {
-    "name": "RACS",
-    "aliases": ["Rapid ASKAP Continuum Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2019",
-    "wavelengths": "Radio (887.5 MHz)",
-    "survey_area": "34,000 sq deg (full southern sky)",
-    "location": "ASKAP, Australia",
-    "status": "Completed (2020)",
-    "description": "Fast all-southern-sky radio survey cataloging ~3 million sources"
-  },
-  "emu": {
-    "name": "EMU",
-    "aliases": ["Evolutionary Map of the Universe"],
-    "type": "Sky Survey",
-    "launch_date": "2021 (early science)",
-    "wavelengths": "Radio (800-1088 MHz)",
-    "survey_area": "Full southern sky + part of north",
-    "location": "ASKAP, Australia",
-    "status": "Operational",
-    "description": "Deep radio continuum survey expected to detect ~70 million galaxies"
-  },
-  "lofartier1": {
-    "name": "LoTSS",
-    "aliases": ["LOFAR Two-metre Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2014",
-    "wavelengths": "Radio (120-168 MHz)",
-    "survey_area": "Full northern sky",
-    "location": "LOFAR, Netherlands and Europe",
-    "status": "Operational",
-    "description": "Low-frequency radio survey mapping entire northern sky at unprecedented sensitivity"
-  },
-  "tgss": {
-    "name": "TGSS",
-    "aliases": ["TIFR GMRT Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2010",
-    "wavelengths": "Radio (150 MHz)",
-    "survey_area": "36,900 sq deg",
-    "location": "Giant Metrewave Radio Telescope, India",
-    "status": "Completed (2012)",
-    "description": "Low-frequency radio survey covering sky north of -53° declination"
-  },
-  "wenss": {
-    "name": "WENSS",
-    "aliases": ["Westerbork Northern Sky Survey"],
-    "type": "Sky Survey",
-    "launch_date": "1991",
-    "wavelengths": "Radio (92 cm / 325 MHz)",
-    "survey_area": "~18,000 sq deg",
-    "location": "Westerbork Synthesis Radio Telescope, Netherlands",
-    "status": "Completed (1997)",
-    "description": "Low-frequency radio survey of northern sky at 325 MHz"
-  },
-  "gleam": {
-    "name": "GLEAM",
-    "aliases": ["GaLactic and Extragalactic All-sky MWA survey"],
-    "type": "Sky Survey",
-    "launch_date": "2013",
-    "wavelengths": "Radio (72-231 MHz)",
-    "survey_area": "Full sky (declination < +30°)",
-    "location": "Murchison Widefield Array, Australia",
-    "status": "Completed (2016)",
-    "description": "Wide-band low-frequency survey with best spectral coverage at low frequencies"
-  },
-  "atlassurvey": {
-    "name": "ATLAS",
-    "aliases": ["Asteroid Terrestrial-impact Last Alert System"],
-    "type": "Sky Survey",
-    "launch_date": "2015 (first unit), 2017 (second unit)",
-    "wavelengths": "Visible (cyan and orange filters)",
-    "survey_area": "Entire visible sky every 24 hours",
-    "location": "Hawaii (two sites)",
-    "status": "Operational",
-    "description": "All-sky survey searching for near-Earth asteroids and discovering supernovae"
-  },
-  "asassn": {
-    "name": "ASAS-SN",
-    "aliases": ["All-Sky Automated Survey for Supernovae"],
-    "type": "Sky Survey",
-    "launch_date": "2014",
-    "wavelengths": "Visible (V and g bands)",
-    "survey_area": "Full sky every ~2 days",
-    "location": "Multiple sites worldwide (5 locations)",
-    "status": "Operational",
-    "description": "Global network of robotic telescopes discovering supernovae and transients"
-  },
-  "gaia_dr3": {
-    "name": "Gaia DR3",
-    "aliases": ["Gaia Data Release 3"],
-    "type": "Astrometric Survey",
-    "launch_date": "2022 (data release)",
-    "wavelengths": "Visible light",
-    "survey_area": "Full sky",
-    "location": "Gaia satellite at L2",
-    "status": "Active mission",
-    "description": "Third data release with 1.8 billion stars, including spectra and stellar parameters"
-  },
-  "hipparcos_catalog": {
-    "name": "Hipparcos Catalogue",
-    "aliases": ["Hipparcos and Tycho Catalogues"],
-    "type": "Astrometric Survey",
-    "launch_date": "1997 (catalog release)",
-    "wavelengths": "Visible light",
-    "survey_area": "Full sky",
-    "location": "Hipparcos satellite",
-    "status": "Completed",
-    "description": "First high-precision astrometric catalog with 118,000 stars and milliarcsecond accuracy"
-  },
-  "skymapper": {
-    "name": "SkyMapper",
-    "aliases": ["SkyMapper Southern Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2014",
-    "wavelengths": "Visible (320 - 1000 nm, 6 filters)",
-    "survey_area": "Full southern sky",
-    "location": "Siding Spring Observatory, Australia",
-    "status": "Operational",
-    "description": "Digital all-sky survey of southern hemisphere for stellar populations and transients"
-  },
-  "4most": {
-    "name": "4MOST",
-    "aliases": ["4-metre Multi-Object Spectroscopic Telescope"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2024 (planned)",
-    "wavelengths": "Visible to near-infrared (370 - 950 nm)",
-    "location": "VISTA telescope, Chile",
-    "status": "Under construction",
-    "description": "Multi-fiber spectrograph for VISTA obtaining millions of spectra for multiple surveys"
-  },
-  "weave": {
-    "name": "WEAVE",
-    "aliases": ["WHT Enhanced Area Velocity Explorer"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2023",
-    "wavelengths": "Visible to near-infrared (366 - 959 nm)",
-    "location": "William Herschel Telescope, La Palma",
-    "status": "Operational",
-    "description": "Multi-fiber spectrograph performing large spectroscopic surveys of Milky Way and beyond"
-  },
-  "moons": {
-    "name": "MOONS",
-    "aliases": ["Multi Object Optical and Near-infrared Spectrograph"],
-    "type": "Spectroscopic Survey",
-    "launch_date": "2024 (planned)",
-    "wavelengths": "Visible to near-infrared (0.64 - 1.8 μm)",
-    "location": "Very Large Telescope, Chile",
-    "status": "Commissioning",
-    "description": "1000-fiber spectrograph for VLT studying galaxy evolution and Galactic archaeology"
-  },
-  "unions": {
-    "name": "UNIONS",
-    "aliases": ["Ultraviolet Near-Infrared Optical Northern Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2019",
-    "wavelengths": "UV to near-infrared (0.2 - 1 μm)",
-    "survey_area": "4800 sq deg",
-    "location": "CFHT and multiple space telescopes",
-    "status": "Operational",
-    "description": "Deep multi-band survey of northern sky combining ground and space observations"
-  },
-  "delve": {
-    "name": "DELVE",
-    "aliases": ["DECam Local Volume Exploration"],
-    "type": "Sky Survey",
-    "launch_date": "2019",
-    "wavelengths": "Visible (400 - 1000 nm)",
-    "survey_area": "~4000 sq deg (southern sky)",
-    "location": "Blanco Telescope, Chile",
-    "status": "Operational",
-    "description": "Wide-area survey targeting Milky Way satellites, stellar streams, and local volume"
-  },
-  "jwstcosmos": {
-    "name": "COSMOS-Web",
-    "aliases": ["COSMOS-Webb"],
-    "type": "Sky Survey",
-    "launch_date": "2023",
-    "wavelengths": "Near-infrared (0.9 - 5 μm)",
-    "survey_area": "0.54 sq deg",
-    "location": "James Webb Space Telescope",
-    "status": "Operational",
-    "description": "Largest JWST survey program mapping COSMOS field for high-z galaxies and AGN"
-  },
-  "jades": {
-    "name": "JADES",
-    "aliases": ["JWST Advanced Deep Extragalactic Survey"],
-    "type": "Sky Survey",
-    "launch_date": "2022",
-    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
-    "survey_area": "~0.05 sq deg (GOODS fields)",
-    "location": "James Webb Space Telescope",
-    "status": "Operational",
-    "description": "Deep JWST spectroscopic survey studying first galaxies and galaxy assembly"
-  },
-  "ceers": {
-    "name": "CEERS",
-    "aliases": ["Cosmic Evolution Early Release Science"],
-    "type": "Sky Survey",
-    "launch_date": "2022",
-    "wavelengths": "Near to mid-infrared (0.6 - 28 μm)",
-    "survey_area": "~0.1 sq deg (EGS field)",
-    "location": "James Webb Space Telescope",
-    "status": "Operational",
-    "description": "JWST early release science program studying galaxy evolution from z~10 to present"
-  },
   "pantheon": {
     "name": "Pantheon",
-    "aliases": ["Pantheon Sample"],
+    "aliases": [
+      "Pantheon Sample"
+    ],
     "type": "Supernova Sample",
     "launch_date": "2018 (data release)",
     "wavelengths": "Visible (optical photometry)",
@@ -1722,7 +1414,10 @@
   },
   "pantheonplus": {
     "name": "Pantheon+",
-    "aliases": ["Pantheon Plus", "PantheonPlus"],
+    "aliases": [
+      "Pantheon Plus",
+      "PantheonPlus"
+    ],
     "type": "Supernova Sample",
     "launch_date": "2022 (data release)",
     "wavelengths": "Visible (optical photometry)",
@@ -1732,7 +1427,10 @@
   },
   "union3": {
     "name": "Union3",
-    "aliases": ["Union 3", "SCPUnion3"],
+    "aliases": [
+      "Union 3",
+      "SCPUnion3"
+    ],
     "type": "Supernova Sample",
     "launch_date": "2022 (data release)",
     "wavelengths": "Visible (optical photometry)",
@@ -1742,12 +1440,55 @@
   },
   "jla": {
     "name": "JLA",
-    "aliases": ["Joint Light-curve Analysis"],
+    "aliases": [
+      "Joint Light-curve Analysis"
+    ],
     "type": "Supernova Sample",
     "launch_date": "2014 (data release)",
     "wavelengths": "Visible (optical photometry)",
     "location": "SNLS and SDSS surveys",
     "status": "Completed",
     "description": "Joint analysis of 740 Type Ia supernovae from SNLS and SDSS for dark energy measurements"
+  },
+  "vista": {
+    "name": "VISTA",
+    "aliases": [
+      "Visible and Infrared Survey Telescope for Astronomy"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.4 \u03bcm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Operational",
+    "description": "ESO's 4.1-meter infrared survey telescope with wide field of view"
+  },
+  "vera_rubin": {
+    "name": "Vera C. Rubin Observatory",
+    "aliases": [
+      "Vera Rubin",
+      "Vera C. Rubin Observatory",
+      "Rubin Observatory",
+      "LSST",
+      "Large Synoptic Survey Telescope"
+    ],
+    "type": "Ground-based Optical Survey Telescope",
+    "launch_date": "N/A (Ground-based Observatory)",
+    "wavelengths": "Optical, Near-infrared (u, g, r, i, z, y filters; 0.32 - 1.08 \u03bcm)",
+    "location": "Cerro Pachón, Coquimbo Region, Northern Chile",
+    "status": "Commissioning",
+    "description": "Next-generation wide-field survey telescope conducting the Legacy Survey of Space and Time, mapping the southern sky to study dark matter, dark energy, and the dynamic universe"
+  },
+  "hsc": {
+    "name": "Hyper Suprime-Cam",
+    "aliases": [
+      "HSC",
+      "Subaru HSC"
+    ],
+    "type": "Wide-Field Optical Imager",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "location": "Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "Operational",
+    "description": "Wide-field prime-focus camera on the Subaru Telescope enabling deep, high-resolution optical imaging for cosmology and galaxy evolution studies"
   }
 }

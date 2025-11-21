@@ -40,7 +40,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["telescopes.json", "names.json"],
+      "resources": ["telescopes.json", "surveys.json", "simulations.json", "sams.json", "names.json"],
       "matches": ["<all_urls>"]
     }
   ]

@@ -2,27 +2,46 @@
 
 **Hover over telescope and satellite names on arXiv to see key specifications instantly.**
 
-Hoverscope is a browser extension that detects mentions of telescopes, satellites, and astronomical instruments in arXiv papers and displays detailed information when you hover over them.
+Hoverscope is a browser extension that detects mentions of telescopes, satellites, astronomical instruments, simulations, and semi-analytic models in arXiv papers and displays detailed information when you hover over them.
 
 ![demo](https://github.com/user-attachments/assets/b29f4be1-001d-4eab-8127-37eb573be266)
 
 ## Features
 
-- ✨ **Instant Information**: Hover over instrument names to see specifications
+- ✨ **Instant Information**: Hover over names to see specifications instantly
 - 🔄 **Auto-updating**: Database updates automatically from GitHub
 - 🌓 **Dark Mode**: Adapts to your system preferences
-- 📚 **Comprehensive**: Covers major space/ground telescopes and instruments
-- 🎯 **arXiv Optimised**: Works seamlessly on paper titles and abstracts
+- 📚 **Comprehensive**: Covers major space/ground telescopes and instruments, as well as contempary and historical simulations and Semi-Analytic Models (SAMs)
+- 🎯 **arXiv Optimised**: Works seamlessly on paper titles, abstracts and arXiv's html view
 
 ## Information Displayed
 
 For each telescope/satellite, Hoverscope shows:
+
 - **Type** (Space telescope, radio interferometer, etc.)
 - **Launch Date** (or operational dates)
 - **Wavelength Coverage** (UV, visible, infrared, radio, etc.)
 - **Survey Area** (for survey instruments)
 - **Location** (orbit, ground location)
 - **Status** (Operational, decommissioned, in development)
+- **Brief Description**
+
+For each simulation Hoverscope shows:
+
+- **Type** (Cosmological simulation, Suite, Zoom re-simulation, etc.)
+- **Volume** (box size)
+- **Mass Resolution**
+- **Included Physics** (e.g. dark matter only, hydrodynamics, feedback models)
+- **Sub-grid Model** (the name of the sub-grid model used, if applicable)
+- **Code Used** (e.g. SWIFT, GADGET, AREPO, RAMSES
+- **Brief Description**
+
+For each Semi-Analytic Model (SAM) Hoverscope shows:
+
+- **Included Physics** (e.g. cooling, star formation, feedback models)
+- **Dark Matter Simulation Used** (e.g. Millennium, Bolshoi)
+- **Mass Resolution** (of the underlying dark matter simulation)
+- **Merger Tree Code** (e.g. Consistent Trees, DTrees)
 - **Brief Description**
 
 ## Installation
@@ -39,6 +58,7 @@ Since Chrome and Firefox require different manifest configurations, you'll need 
 #### Prerequisites
 
 Clone or download this repository:
+
 ```bash
 git clone https://github.com/nataliehogg/hoverscope.git
 cd hoverscope
@@ -75,7 +95,7 @@ When a new release of the code is published on Github, that release will also be
 
 ## Usage
 
-Just browse arXiv normally! Hoverscope automatically detects telescope and satellite names in paper titles and abstracts.
+Just browse arXiv normally! Hoverscope automatically detects telescope and satellite names in paper titles, abstracts and HTML view.
 
 When you hover over a recognised name (like "JWST", "Hubble", "ALMA"), a tooltip appears with detailed information.
 
@@ -84,6 +104,7 @@ When you hover over a recognised name (like "JWST", "Hubble", "ALMA"), a tooltip
 Hoverscope currently recognises **30+ telescopes and instruments**, including:
 
 **Space Telescopes:**
+
 - James Webb Space Telescope (JWST)
 - Hubble Space Telescope (HST)
 - Chandra X-ray Observatory
@@ -96,6 +117,7 @@ Hoverscope currently recognises **30+ telescopes and instruments**, including:
 - And more...
 
 **Ground-Based:**
+
 - ALMA
 - VLA (Very Large Array)
 - SKA (Square Kilometre Array)
@@ -103,7 +125,25 @@ Hoverscope currently recognises **30+ telescopes and instruments**, including:
 - Vera Rubin Observatory (LSST)
 
 **Instruments:**
+
 - JWST instruments (MIRI, NIRSpec, NIRCam)
+- And more...
+
+**Simulations:**
+
+- EAGLE
+- IllustrisTNG
+- COLIBRE
+- FLAMINGO
+- Simba
+- Thesan
+- And more...
+
+**Semi-Analytic Models (SAMs):**
+
+- L-GALAXIES
+- GALFORM
+- SCSAM
 - And more...
 
 The extension automatically checks for database updates daily. The database is stored as a JSON file that can be easily updated.
@@ -113,7 +153,7 @@ The extension automatically checks for database updates daily. The database is s
 Want to add more telescopes or improve the extension? Contributions welcome!
 
 1. Fork the repository
-2. Add telescope data to `telescopes.json` following this format:
+2. (For a telescope) Add telescope data to `telescope.json` following this format:
 
 ```json
 {
@@ -130,6 +170,7 @@ Want to add more telescopes or improve the extension? Contributions welcome!
   }
 }
 ```
+
 4. Test locally
 5. Submit a pull request
 
@@ -143,6 +184,7 @@ Want to add more telescopes or improve the extension? Contributions welcome!
 ## Privacy
 
 Hoverscope:
+
 - ✅ Only runs on arXiv.org
 - ✅ Does not collect any user data
 - ✅ Does not track browsing history
@@ -161,4 +203,4 @@ Telescope data compiled from NASA, ESA, and observatory official sources.
 
 ---
 
-**Made with ❤️  (and claude) for the astronomy community**
+**Made with ❤️ (and claude) for the astronomy community**
