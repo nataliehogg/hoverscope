@@ -133,7 +133,7 @@ function processPage() {
     elementIndex++;
   });
 
-  console.log(`Hoverscope: Found and marked ${totalTelescopeMatches} telescope mentions and ${totalNameMatches} name mentions`);
+  console.log(`Hoverscope: Found and marked ${totalTelescopeMatches} telescope/survey/simulation/SAM mentions and ${totalNameMatches} name mentions`);
 }
 
 function processElement(element, elementIndex) {
