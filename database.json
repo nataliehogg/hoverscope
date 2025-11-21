@@ -15,8 +15,7 @@
       "code",
       "included_physics",
       "hydrodynamics",
-      "subgrid_model",
-      "end_redshift"
+      "subgrid_model"
     ],
     "SAM": [
       "type",
@@ -289,6 +288,7 @@
     "subgrid_model": "IllustrisTNG galaxy formation model",
     "volume": "TNG50: (50 Mpc)^3; TNG100: (100 Mpc)^3; TNG300: (300 Mpc)^3",
     "mass_resolution": "TNG50-1: Gas ~8.5e4 M⊙, DM ~4.5e5 M⊙; TNG100-1: Gas 1.4e6 M⊙, DM 7.5e6 M⊙; TNG300-1: Gas ~1.1e7 M⊙, DM ~5.9e7 M⊙",
+    "cost": ">100M CPU hours across all runs",
     "description": "A suite of large-scale magneto-hydrodynamical simulations of galaxy formation at three volumes (50–300 Mpc on a side)."
   },
   "illustris_original": {
@@ -305,6 +305,7 @@
     "subgrid_model": "Illustris galaxy formation model",
     "volume": "(106.5 Mpc)^3",
     "mass_resolution": "Gas 1.26e6 M⊙, DM 6.26e6 M⊙",
+    "cost": "~19M CPU hours",
     "description": "Predecessor to IllustrisTNG, a landmark hydrodynamical simulation of galaxy formation in a ~100 Mpc box."
   },
   "eagle": {
@@ -320,6 +321,7 @@
     "subgrid_model": "EAGLE galaxy formation model",
     "volume": "Boxes from (25 Mpc)^3 up to (100 Mpc)^3",
     "mass_resolution": "100 Mpc run: Gas 1.81e6 M⊙, DM 9.70e6 M⊙; higher resolution 25 Mpc run: Gas ~2.3e5 M⊙, DM ~1.2e6 M⊙",
+    "cost": "~4.5M CPU hours for flagship run",
     "description": "A suite of hydrodynamical simulations calibrated to match the local galaxy population, spanning volumes 25–100 Mpc on a side."
   },
   "millennium": {
@@ -383,6 +385,7 @@
     "mass_resolution": "Gas 1.8e6 M⊙, DM 9.7e6 M⊙ (comparable to EAGLE high-resolution runs in zoom regions)",
     "num_zoom_regions": 40,
     "end_redshift": "z=5",
+    "cost": "~4M CPU hours",
     "description": "A suite of 40 zoom-in simulations targeting regions of varying overdensity during the Epoch of Reionization, enabling composite statistics representative of a (3.2 Gpc)^3 volume."
   },
   "flamingo": {
@@ -398,6 +401,7 @@
     "subgrid_model": "FLAMINGO galaxy formation model",
     "volume": "Up to (2.8 Gpc)^3 (multiple runs at different resolutions)",
     "mass_resolution": "High-res: baryon ~1×10^8 M⊙ (DM ~5×10^8 M⊙); Mid-res: baryon ~1×10^9 M⊙ (DM ~5×10^9 M⊙)",
+    "cost": "~28M CPU hours across all runs",
     "description": "A suite of large-volume (up to 2.8 Gpc)^3 hydrodynamical simulations designed for next-generation large-scale structure surveys, including the effects of baryons and neutrinos."
   },
   "colibre": {
@@ -526,6 +530,7 @@
     "volume": "(95.5 cMpc)^3",
     "mass_resolution": "DM 3.12×10^6 M⊙; gas 5.82×10^5 M⊙ (flagship THESAN-1 run)",
     "end_redshift": "z≈5.5",
+    "cost": "~30M CPU hours for flagship run",
     "description": "A large-volume (95.5 cMpc)^3 radiation-MHD simulation suite of the Epoch of Reionization, extending the IllustrisTNG physics model with on-the-fly radiative transfer to produce a realistic reionization history and high-redshift galaxy population."
   },
   "thesan_zoom": {
@@ -632,6 +637,7 @@
     "volume": "(250 h^-1 Mpc)^3",
     "mass_resolution": "DM ~2.5e7 M⊙; gas ~4.5e6 M⊙",
     "end_redshift": "z=3",
+    "cost": "896M CPU hours",
     "description": "A large cosmological SPH simulation focused on early galaxy formation, including physics for inhomogeneous reionization, baryon-dark matter streaming, and massive neutrinos."
   },
   "lgalaxies": {
