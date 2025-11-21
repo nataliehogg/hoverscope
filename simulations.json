@@ -115,7 +115,7 @@
     "num_zoom_regions": 40,
     "end_redshift": "z=5",
     "cost": "~4M CPU hours",
-    "description": "A suite of 40 zoom-in simulations targeting regions of varying overdensity during the Epoch of Reionization, enabling composite statistics representative of a (3.2 Gpc)^3 volume."
+    "description": "A suite of 40 zoom-in simulations targeting regions of varying overdensity during the Epoch of reionisation, enabling composite statistics representative of a (3.2 Gpc)^3 volume."
   },
   "flamingo": {
     "name": "FLAMINGO",
@@ -174,7 +174,7 @@
     "name": "BlueTides",
     "aliases": [],
     "type": "Cosmological Simulation",
-    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment, UV background reionization",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment, UV background reionisation",
     "code": "MP-Gadget",
     "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH, pressure-entropy formulation)",
     "subgrid_model": "BlueTides galaxy formation model",
@@ -202,10 +202,10 @@
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, radiative transfer, non-equilibrium cooling",
     "code": "RAMSES-RT",
     "hydrodynamics": "Adaptive mesh refinement (AMR) radiation-hydrodynamics",
-    "subgrid_model": "SPHINX galaxy formation and reionization model",
+    "subgrid_model": "SPHINX galaxy formation and reionisation model",
     "volume": "Boxes of 5–10 cMpc on a side",
     "mass_resolution": "DM 2.5×10^5 M⊙ per particle; minimum cell size ~10 pc",
-    "end_redshift": "z~6 (end of reionization)",
+    "end_redshift": "z~6 (end of reionisation)",
     "description": "A suite of small-volume (5–10 cMpc) radiation-hydrodynamical simulations of the first billion years, resolving the multi-phase ISM and tracking ionizing radiation escape from thousands of early galaxies."
   },
   "megatron": {
@@ -243,12 +243,12 @@
     "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback, radiative transfer, dust, chemical enrichment",
     "code": "AREPO-RT",
     "hydrodynamics": "Moving-mesh radiation-MHD",
-    "subgrid_model": "THESAN galaxy formation and reionization model (IllustrisTNG-based)",
+    "subgrid_model": "THESAN galaxy formation and reionisation model (IllustrisTNG-based)",
     "volume": "(95.5 cMpc)^3",
     "mass_resolution": "DM 3.12×10^6 M⊙; gas 5.82×10^5 M⊙ (flagship THESAN-1 run)",
     "end_redshift": "z≈5.5",
     "cost": "~30M CPU hours for flagship run",
-    "description": "A large-volume (95.5 cMpc)^3 radiation-MHD simulation suite of the Epoch of Reionization, extending the IllustrisTNG physics model with on-the-fly radiative transfer to produce a realistic reionization history and high-redshift galaxy population."
+    "description": "A large-volume (95.5 cMpc)^3 radiation-MHD simulation suite of the Epoch of reionisation, extending the IllustrisTNG physics model with on-the-fly radiative transfer to produce a realistic reionisation history and high-redshift galaxy population."
   },
   "thesan_zoom": {
     "name": "THESAN-ZOOM",
@@ -262,7 +262,7 @@
     "mass_resolution": "DM ~7×10^2 M⊙; gas ~1.4×10^2 M⊙ (17 comoving pc softening in fiducial runs)",
     "num_zoom_regions": 14,
     "end_redshift": "z=3",
-    "description": "A suite of ultra-high-resolution radiation-hydrodynamic zoom simulations of 14 high-redshift galaxies drawn from THESAN, resolving the ISM on parsec scales while preserving the large-scale reionization environment."
+    "description": "A suite of ultra-high-resolution radiation-hydrodynamic zoom simulations of 14 high-redshift galaxies drawn from THESAN, resolving the ISM on parsec scales while preserving the large-scale reionisation environment."
   },
   "fable": {
     "name": "FABLE",
@@ -307,7 +307,7 @@
     "volume": "(64 h^-1 Mpc)^3",
     "mass_resolution": "DM ~3.4e7 M⊙; baryons ~6.8e6 M⊙",
     "end_redshift": "z=6",
-    "description": "Fully coupled radiation-hydrodynamic simulations of the Epoch of Reionization with GPU-accelerated radiative transfer using RAMSES-CUDATON."
+    "description": "Fully coupled radiation-hydrodynamic simulations of the Epoch of reionisation with GPU-accelerated radiative transfer using RAMSES-CUDATON."
   },
   "horizon_agn": {
     "name": "Horizon-AGN",
@@ -338,7 +338,7 @@
     "name": "ASTRID",
     "aliases": [],
     "type": "Cosmological Simulation",
-    "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, AGN Feedback, Reionization, Massive Neutrinos",
+    "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, AGN Feedback, reionisation, Massive Neutrinos",
     "code": "MP-Gadget",
     "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH)",
     "subgrid_model": "ASTRID physics model (BlueTides-derived)",
@@ -346,7 +346,7 @@
     "mass_resolution": "DM ~2.5e7 M⊙; gas ~4.5e6 M⊙",
     "end_redshift": "z=3",
     "cost": "896M CPU hours",
-    "description": "A large cosmological SPH simulation focused on early galaxy formation, including physics for inhomogeneous reionization, baryon-dark matter streaming, and massive neutrinos."
+    "description": "A large cosmological SPH simulation focused on early galaxy formation, including physics for inhomogeneous reionisation, baryon-dark matter streaming, and massive neutrinos."
   },
   "fire": {
     "name": "FIRE",

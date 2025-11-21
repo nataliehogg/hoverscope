@@ -296,7 +296,7 @@
     "survey_area": "~0.25 sq deg (multiple fields)",
     "location": "Hubble Space Telescope",
     "status": "Completed (2013)",
-    "description": "Largest HST survey studying galaxy evolution and reionization at z > 1.5"
+    "description": "Largest HST survey studying galaxy evolution and reionisation at z > 1.5"
   },
   "goods": {
     "name": "GOODS",
