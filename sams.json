@@ -1,9 +1,17 @@
 {
-  "display_order": ["type", "included_physics", "volume", "mass_resolution", "end_redshift", "merger_tree_code", "parent_simulation"],
+  "display_order": [
+    "included_physics",
+    "volume",
+    "mass_resolution",
+    "end_redshift",
+    "merger_tree_code",
+    "parent_simulation"
+  ],
   "lgalaxies": {
     "name": "L-Galaxies",
-    "aliases": ["Munich SAM"],
-    "type": "Semi-Analytic Model",
+    "aliases": [
+      "Munich SAM"
+    ],
     "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Chemical Enrichment, Galaxy Mergers",
     "volume": "(500 h^-1 Mpc)^3",
     "mass_resolution": "DM ~8.6e8 h^-1 M⊙ (Millennium)",
@@ -13,8 +21,9 @@
   },
   "sc_sam": {
     "name": "Santa Cruz SAM",
-    "aliases": ["SC-SAM"],
-    "type": "Semi-Analytic Model",
+    "aliases": [
+      "SC-SAM"
+    ],
     "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Environmental Effects, Chemical Evolution",
     "volume": "(250 h^-1 Mpc)^3",
     "mass_resolution": "DM ~1.35e8 h^-1 M⊙ (Bolshoi)",
@@ -25,7 +34,6 @@
   "shark": {
     "name": "SHARK",
     "aliases": [],
-    "type": "Semi-Analytic Model",
     "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Reionization, Chemical Evolution",
     "volume": "(210 h^-1 Mpc)^3",
     "mass_resolution": "DM ~1e8 M⊙ (SURFS)",
@@ -35,8 +43,9 @@
   },
   "galform": {
     "name": "GALFORM",
-    "aliases": ["Durham SAM"],
-    "type": "Semi-Analytic Model",
+    "aliases": [
+      "Durham SAM"
+    ],
     "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Photoionization Suppression, Chemical Evolution",
     "volume": "(800 Mpc)^3",
     "mass_resolution": "DM ~1e9 M⊙ (Planck-Millennium)",
