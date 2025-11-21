@@ -1,8 +1,21 @@
 {
-  "display_order": ["type", "volume", "mass_resolution", "code", "included_physics", "hydrodynamics", "subgrid_model"],
+  "display_order": [
+    "type",
+    "volume",
+    "mass_resolution",
+    "code",
+    "included_physics",
+    "hydrodynamics",
+    "subgrid_model"
+  ],
   "illustris_tng": {
     "name": "IllustrisTNG",
-    "aliases": ["Illustris TNG", "TNG100", "TNG300", "TNG50"],
+    "aliases": [
+      "Illustris TNG",
+      "TNG100",
+      "TNG300",
+      "TNG50"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
     "code": "AREPO",
@@ -15,7 +28,10 @@
   },
   "illustris_original": {
     "name": "Illustris",
-    "aliases": ["Original Illustris", "Illustris-1"],
+    "aliases": [
+      "Original Illustris",
+      "Illustris-1"
+    ],
     "type": "Cosmological Simulation",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
     "code": "AREPO",
@@ -28,7 +44,9 @@
   },
   "eagle": {
     "name": "EAGLE",
-    "aliases": ["Evolution and Assembly of GaLaxies and their Environments"],
+    "aliases": [
+      "Evolution and Assembly of GaLaxies and their Environments"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, thermal AGN feedback, chemical enrichment",
     "code": "GADGET-3 (Modified)",
@@ -41,7 +59,10 @@
   },
   "millennium": {
     "name": "Millennium Simulation",
-    "aliases": ["Millennium Run", "Millennium-I"],
+    "aliases": [
+      "Millennium Run",
+      "Millennium-I"
+    ],
     "type": "Cosmological Simulation",
     "included_physics": "gravity (dark matter only)",
     "code": "GADGET-2",
@@ -53,7 +74,9 @@
   },
   "bolshoi": {
     "name": "Bolshoi Simulation",
-    "aliases": ["Bolshoi-Planck"],
+    "aliases": [
+      "Bolshoi-Planck"
+    ],
     "type": "Cosmological Simulation",
     "included_physics": "gravity (dark matter only)",
     "code": "ART",
@@ -65,7 +88,9 @@
   },
   "simba": {
     "name": "SIMBA",
-    "aliases": ["SImulation of MUltiphase Baryonic Accretion"],
+    "aliases": [
+      "SImulation of MUltiphase Baryonic Accretion"
+    ],
     "type": "Cosmological Simulation",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN jet feedback, black hole growth, dust, chemical enrichment",
     "code": "GIZMO",
@@ -77,7 +102,9 @@
   },
   "flares": {
     "name": "FLARES",
-    "aliases": ["First Light And Reionisation Epoch Simulations"],
+    "aliases": [
+      "First Light And Reionisation Epoch Simulations"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
     "code": "GADGET-3 (Modified)",
@@ -92,7 +119,9 @@
   },
   "flamingo": {
     "name": "FLAMINGO",
-    "aliases": ["Full-hydro Large-scale structure simulations with All-sky Mapping for the Interpretation of Next Generation Observations"],
+    "aliases": [
+      "Full-hydro Large-scale structure simulations with All-sky Mapping for the Interpretation of Next Generation Observations"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, massive neutrinos",
     "code": "SWIFT",
@@ -117,7 +146,9 @@
   },
   "camels": {
     "name": "CAMELS",
-    "aliases": ["Cosmology and Astrophysics with MachinE Learning Simulations"],
+    "aliases": [
+      "Cosmology and Astrophysics with MachinE Learning Simulations"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback; gravity-only variants",
     "code": "AREPO; GIZMO; GADGET-3",
@@ -192,7 +223,9 @@
   },
   "hestia": {
     "name": "HESTIA",
-    "aliases": ["High-resolution Environmental Simulations of The Immediate Area"],
+    "aliases": [
+      "High-resolution Environmental Simulations of The Immediate Area"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback",
     "code": "AREPO",
@@ -233,7 +266,9 @@
   },
   "fable": {
     "name": "FABLE",
-    "aliases": ["Feedback Acting on Baryons in Large-scale Environments"],
+    "aliases": [
+      "Feedback Acting on Baryons in Large-scale Environments"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
     "code": "AREPO",
@@ -258,7 +293,12 @@
   },
   "cosmic_dawn": {
     "name": "CoDa (Cosmic Dawn)",
-    "aliases": ["Cosmic Dawn", "CoDa", "CoDa I", "CoDa II"],
+    "aliases": [
+      "Cosmic Dawn",
+      "CoDa",
+      "CoDa I",
+      "CoDa II"
+    ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, Radiative Transfer",
     "code": "RAMSES-CUDATON",
@@ -307,5 +347,53 @@
     "end_redshift": "z=3",
     "cost": "896M CPU hours",
     "description": "A large cosmological SPH simulation focused on early galaxy formation, including physics for inhomogeneous reionization, baryon-dark matter streaming, and massive neutrinos."
+  },
+  "fire": {
+    "name": "FIRE",
+    "aliases": [
+      "FIRE-1",
+      "Galaxies on FIRE",
+      "Feedback In Realistic Environments"
+    ],
+    "type": "Cosmological Zoom Simulation Suite",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, O/B and AGB winds), radiation pressure, photoionization, photoelectric heating, metal enrichment, cooling",
+    "code": "GIZMO",
+    "hydrodynamics": "Pressure-Entropy Smoothed Particle Hydrodynamics (P-SPH)",
+    "subgrid_model": "FIRE stellar feedback model",
+    "volume": "Zoom-in regions around halos M_halo ~ 10^8–10^13 M⊙ (from cosmological boxes 86–172 cMpc)",
+    "mass_resolution": "Baryonic particles: ~250–7000 M⊙ (varies by target halo mass)",
+    "description": "First-generation FIRE zoom-in simulations implementing physically-motivated stellar feedback across halo masses 10^8–10^13 M⊙, using P-SPH hydrodynamics to study galaxy formation without fine-tuning feedback parameters."
+  },
+  "fire_2": {
+    "name": "FIRE-2",
+    "aliases": [
+      "FIRE-2",
+      "Latte"
+    ],
+    "type": "Cosmological Zoom Simulation Suite",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, stellar winds, radiation pressure), photoionization, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling",
+    "code": "GIZMO",
+    "hydrodynamics": "Meshless Finite Mass (MFM)",
+    "subgrid_model": "FIRE-2 stellar feedback and galaxy formation model",
+    "volume": "Zoom-in regions: Core suite (20 galaxies: 14 MW-mass, 5 SMC/LMC-mass, 4 low-mass); High-z suite (34 halos: M_halo=10^9–10^12 M⊙ at z=5–9)",
+    "mass_resolution": "Baryonic: 100–7000 M⊙ (by halo); Latte: 7070 M⊙; ELVIS: 3500–4000 M⊙; Spatial: gas ε=0.14–0.42 pc, stars ε=0.7–2.1 pc",
+    "num_zoom_regions": "Core: 20; High-z: 34; plus additional specialized suites",
+    "end_redshift": "z=0 (Core suite); z=5, 7, or 9 (High-z suite)",
+    "description": "Second-generation FIRE simulations using improved MFM hydrodynamics, producing realistic galaxies from dwarfs to Milky Way-mass with detailed multi-phase ISM and stellar feedback, publicly released with extensive data products."
+  },
+  "firebox": {
+    "name": "FIREbox",
+    "aliases": [
+      "FIREBOX",
+      "FIREBox"
+    ],
+    "type": "Cosmological Simulation (periodic box)",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe, stellar winds, radiation), photoionization, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling (identical FIRE-2 physics)",
+    "code": "GIZMO",
+    "hydrodynamics": "Meshless Finite Mass (MFM)",
+    "subgrid_model": "FIRE-2 stellar feedback and galaxy formation model",
+    "volume": "(22.1 cMpc)^3",
+    "mass_resolution": "Gas: 5.0×10^5 M⊙, DM: 1.45×10^6 M⊙; 1024^3 gas + 1024^3 DM particles; spatial: ~20 pc",
+    "description": "A uniform-resolution (22.1 cMpc)^3 periodic box simulation using FIRE-2 physics, providing ~1000 galaxies with M_star>10^8 M⊙ at z=0 and exceptional dynamic range (~10^6) for statistical galaxy formation studies."
   }
 }
