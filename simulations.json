@@ -14,7 +14,8 @@
       "Illustris TNG",
       "TNG100",
       "TNG300",
-      "TNG50"
+      "TNG50",
+      "TNG 300"
     ],
     "type": "Cosmological Simulation Suite",
     "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
