@@ -357,7 +357,7 @@
       "Feedback In Realistic Environments"
     ],
     "type": "Cosmological Zoom Simulation Suite",
-    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, O/B and AGB winds), radiation pressure, photoionization, photoelectric heating, metal enrichment, cooling",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, O/B and AGB winds), radiation pressure, photoionisation, photoelectric heating, metal enrichment, cooling",
     "code": "GIZMO",
     "hydrodynamics": "Pressure-Entropy Smoothed Particle Hydrodynamics (P-SPH)",
     "subgrid_model": "FIRE stellar feedback model",
@@ -372,7 +372,7 @@
       "Latte"
     ],
     "type": "Cosmological Zoom Simulation Suite",
-    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, stellar winds, radiation pressure), photoionization, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, stellar winds, radiation pressure), photoionisation, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling",
     "code": "GIZMO",
     "hydrodynamics": "Meshless Finite Mass (MFM)",
     "subgrid_model": "FIRE-2 stellar feedback and galaxy formation model",
@@ -389,7 +389,7 @@
       "FIREBox"
     ],
     "type": "Cosmological Simulation (periodic box)",
-    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe, stellar winds, radiation), photoionization, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling (identical FIRE-2 physics)",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe, stellar winds, radiation), photoionisation, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling (identical FIRE-2 physics)",
     "code": "GIZMO",
     "hydrodynamics": "Meshless Finite Mass (MFM)",
     "subgrid_model": "FIRE-2 stellar feedback and galaxy formation model",
