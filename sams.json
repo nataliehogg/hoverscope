@@ -34,7 +34,7 @@
   "shark": {
     "name": "SHARK",
     "aliases": [],
-    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Reionization, Chemical Evolution",
+    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Reionisation, Chemical Evolution",
     "volume": "(210 h^-1 Mpc)^3",
     "mass_resolution": "DM ~1e8 M⊙ (SURFS)",
     "merger_tree_code": "TreeFrog",
@@ -46,7 +46,7 @@
     "aliases": [
       "Durham SAM"
     ],
-    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Photoionization Suppression, Chemical Evolution",
+    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Photoionisation Suppression, Chemical Evolution",
     "volume": "(800 Mpc)^3",
     "mass_resolution": "DM ~1e9 M⊙ (Planck-Millennium)",
     "merger_tree_code": "Dhalo / Millennium Trees",

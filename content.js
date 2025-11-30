@@ -140,15 +140,20 @@ function processElement(element, elementIndex) {
         // Build regex pattern with special cases
         let pattern;
 
-        // Hubble: avoid "Hubble tension"
+        // Hubble: avoid "Hubble parameter", "Hubble tension", "Hubble expansion", "Hubble flow", "Hubble residuals", "Hubble Frontier Fields"
         if (name === 'Hubble' || name === 'Hubble Space Telescope' || name === 'HST') {
-          // Negative lookahead to exclude matches followed by "tension"
-          pattern = `\\b${escapeRegex(name)}\\b(?!\\s+tension)`;
+          // Negative lookahead to exclude matches followed by these terms (case-insensitive)
+          pattern = `\\b${escapeRegex(name)}\\b(?!\\s+(?:parameter|tension|expansion|flow|residuals|Frontier\\s+Fields))`;
         }
         // Planck: avoid hyphenated cases like "Fokker-Planck" or "Fokker--Planck"
         else if (name === 'Planck' || name === 'Planck satellite') {
           // Negative lookbehind to exclude matches preceded by one or two hyphens
           pattern = `(?<!-{1,2})\\b${escapeRegex(name)}\\b`;
+        }
+        // COSMOS: avoid "COSMOS-Web"
+        else if (name === 'COSMOS') {
+          // Negative lookahead to exclude matches followed by "-Web"
+          pattern = `\\b${escapeRegex(name)}\\b(?!-Web)`;
         }
         else {
           pattern = `\\b${escapeRegex(name)}\\b`;

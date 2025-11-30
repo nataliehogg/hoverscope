@@ -137,7 +137,7 @@
     "survey_area": "17,500 sq deg",
     "location": "Co-orbit with Chinese Space Station",
     "status": "In development",
-    "description": "2-meter Chinese space telescope with Hubble-class resolution surveying 40% of sky for cosmology and galaxy evolution"
+    "description": "2-metre Chinese space telescope with Hubble-class resolution surveying 40% of sky for cosmology and galaxy evolution"
   },
   "alma": {
     "name": "ALMA",
@@ -146,10 +146,10 @@
     ],
     "type": "Radio Interferometer",
     "launch_date": "March 13, 2013 (inauguration)",
-    "wavelengths": "Millimeter/submillimeter (0.3 - 9.6 mm)",
+    "wavelengths": "Millimetre/submillimetre (0.3 - 9.6 mm)",
     "location": "Atacama Desert, Chile (5000m altitude)",
     "status": "Operational",
-    "description": "World's most powerful millimeter/submillimeter observatory studying star/planet formation and distant galaxies"
+    "description": "World's most powerful millimetre/submillimetre observatory studying star/planet formation and distant galaxies"
   },
   "vla": {
     "name": "VLA",
@@ -213,7 +213,7 @@
     ],
     "type": "Space Telescope",
     "launch_date": "May 14, 2009",
-    "wavelengths": "Far-infrared to submillimeter (55 - 672 \u03bcm)",
+    "wavelengths": "Far-infrared to submillimetre (55 - 672 \u03bcm)",
     "location": "L2 Lagrange Point",
     "status": "Decommissioned (April 29, 2013)",
     "description": "Largest infrared telescope in space, studied star/galaxy formation and molecular clouds"
@@ -238,11 +238,11 @@
     ],
     "type": "Ground-based Telescope",
     "launch_date": "2007 (first observations)",
-    "wavelengths": "Millimeter/submillimeter (1-3 mm)",
+    "wavelengths": "Millimetre/submillimetre (1-3 mm)",
     "survey_area": "~50% of sky",
     "location": "Atacama Desert, Chile (5190m altitude)",
     "status": "Operational",
-    "description": "6-meter telescope measuring cosmic microwave background, dark energy, galaxy clusters, and gravitational lensing"
+    "description": "6-metre telescope measuring cosmic microwave background, dark energy, galaxy clusters, and gravitational lensing"
   },
   "spt": {
     "name": "SPT",
@@ -251,11 +251,11 @@
     ],
     "type": "Ground-based Telescope",
     "launch_date": "2007 (first light)",
-    "wavelengths": "Millimeter/submillimeter (1-3 mm)",
+    "wavelengths": "Millimetre/submillimetre (1-3 mm)",
     "survey_area": "2500 sq deg",
     "location": "Amundsen-Scott South Pole Station, Antarctica",
     "status": "Operational",
-    "description": "10-meter telescope observing cosmic microwave background, detecting galaxy clusters via Sunyaev-Zel'dovich effect"
+    "description": "10-metre telescope observing cosmic microwave background, detecting galaxy clusters via Sunyaev-Zel'dovich effect"
   },
   "wmap": {
     "name": "WMAP",
@@ -331,7 +331,7 @@
     "wavelengths": "Gamma-ray (15 keV - 10 MeV)",
     "location": "Highly elliptical Earth orbit",
     "status": "Operational",
-    "description": "ESA gamma-ray observatory studying violent cosmic phenomena and the galactic center"
+    "description": "ESA gamma-ray observatory studying violent cosmic phenomena and the galactic centre"
   },
   "ixpe": {
     "name": "IXPE",
@@ -563,7 +563,7 @@
     "wavelengths": "Visible to mid-infrared (0.3 - 25 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
-    "description": "Twin 10-meter telescopes with adaptive optics and powerful spectroscopic capabilities"
+    "description": "Twin 10-metre telescopes with adaptive optics and powerful spectroscopic capabilities"
   },
   "vlt": {
     "name": "VLT",
@@ -575,7 +575,7 @@
     "wavelengths": "Visible to mid-infrared (0.3 - 20 \u03bcm)",
     "location": "Cerro Paranal, Chile",
     "status": "Operational",
-    "description": "ESO's flagship facility with four 8.2-meter telescopes that can work together"
+    "description": "ESO's flagship facility with four 8.2-metre telescopes that can work together"
   },
   "gemini": {
     "name": "Gemini Observatory",
@@ -588,7 +588,7 @@
     "wavelengths": "Visible to mid-infrared (0.32 - 25 \u03bcm)",
     "location": "Hawaii (North), Chile (South)",
     "status": "Operational",
-    "description": "Twin 8.1-meter telescopes providing full-sky coverage with adaptive optics"
+    "description": "Twin 8.1-metre telescopes providing full-sky coverage with adaptive optics"
   },
   "subaru": {
     "name": "Subaru Telescope",
@@ -600,7 +600,7 @@
     "wavelengths": "Visible to infrared (0.3 - 30 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
-    "description": "Japanese 8.2-meter telescope with wide-field imaging capabilities"
+    "description": "Japanese 8.2-metre telescope with wide-field imaging capabilities"
   },
   "magellan": {
     "name": "Magellan Telescopes",
@@ -614,7 +614,7 @@
     "wavelengths": "Visible to infrared",
     "location": "Las Campanas Observatory, Chile",
     "status": "Operational",
-    "description": "Twin 6.5-meter telescopes operated by US consortium"
+    "description": "Twin 6.5-metre telescopes operated by US consortium"
   },
   "lbt": {
     "name": "LBT",
@@ -626,7 +626,7 @@
     "wavelengths": "Visible to mid-infrared (0.3 - 25 \u03bcm)",
     "location": "Mount Graham, Arizona",
     "status": "Operational",
-    "description": "Two 8.4-meter mirrors on single mount with advanced adaptive optics"
+    "description": "Two 8.4-metre mirrors on single mount with advanced adaptive optics"
   },
   "gbt": {
     "name": "GBT",
@@ -638,7 +638,7 @@
     "wavelengths": "Radio (3 mm - 3 m)",
     "location": "Green Bank, West Virginia",
     "status": "Operational",
-    "description": "World's largest fully steerable radio telescope at 100 meters"
+    "description": "World's largest fully steerable radio telescope at 100 metres"
   },
   "arecibo": {
     "name": "Arecibo Observatory",
@@ -650,7 +650,7 @@
     "wavelengths": "Radio (3 cm - 1 m)",
     "location": "Arecibo, Puerto Rico",
     "status": "Collapsed (December 1, 2020)",
-    "description": "Former 305-meter radio telescope, famous for SETI and planetary radar observations"
+    "description": "Former 305-metre radio telescope, famous for SETI and planetary radar observations"
   },
   "fast": {
     "name": "FAST",
@@ -663,7 +663,7 @@
     "wavelengths": "Radio (10 cm - 4.3 m)",
     "location": "Guizhou, China",
     "status": "Operational",
-    "description": "World's largest single-dish radio telescope at 500 meters, studying pulsars and SETI"
+    "description": "World's largest single-dish radio telescope at 500 metres, studying pulsars and SETI"
   },
   "lofar": {
     "name": "LOFAR",
@@ -699,7 +699,7 @@
     "wavelengths": "Millimeter (0.8 - 4 mm)",
     "location": "Plateau de Bure, French Alps",
     "status": "Operational",
-    "description": "Most powerful millimeter interferometer in Northern Hemisphere"
+    "description": "Most powerful millimetre interferometer in Northern Hemisphere"
   },
   "carma": {
     "name": "CARMA",
@@ -711,7 +711,7 @@
     "wavelengths": "Millimeter (1 - 3 mm)",
     "location": "Cedar Flat, California",
     "status": "Decommissioned (April 2015)",
-    "description": "Combined 23 antennas for millimeter-wave astronomy"
+    "description": "Combined 23 antennas for millimetre-wave astronomy"
   },
   "elt": {
     "name": "ELT",
@@ -724,7 +724,7 @@
     "wavelengths": "Visible to mid-infrared (0.4 - 24 \u03bcm)",
     "location": "Cerro Armazones, Chile",
     "status": "Under construction",
-    "description": "ESO's 39-meter telescope, will be world's largest optical/near-IR telescope"
+    "description": "ESO's 39-metre telescope, will be world's largest optical/near-IR telescope"
   },
   "tmt": {
     "name": "TMT",
@@ -736,7 +736,7 @@
     "wavelengths": "Visible to mid-infrared (0.31 - 28 \u03bcm)",
     "location": "Mauna Kea, Hawaii (proposed)",
     "status": "Planning/construction paused",
-    "description": "Planned 30-meter telescope with adaptive optics for deep space observation"
+    "description": "Planned 30-metre telescope with adaptive optics for deep space observation"
   },
   "gmt": {
     "name": "GMT",
@@ -748,7 +748,7 @@
     "wavelengths": "Visible to mid-infrared (0.32 - 25 \u03bcm)",
     "location": "Las Campanas Observatory, Chile",
     "status": "Under construction",
-    "description": "Seven 8.4-meter mirrors combining for 24.5-meter effective aperture"
+    "description": "Seven 8.4-metre mirrors combining for 24.5-metre effective aperture"
   },
   "cfht": {
     "name": "CFHT",
@@ -760,7 +760,7 @@
     "wavelengths": "Visible to infrared",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
-    "description": "3.6-meter telescope known for wide-field imaging surveys"
+    "description": "3.6-metre telescope known for wide-field imaging surveys"
   },
   "palomar": {
     "name": "Palomar Observatory",
@@ -773,7 +773,7 @@
     "wavelengths": "Visible to infrared",
     "location": "Palomar Mountain, California",
     "status": "Operational",
-    "description": "Historic 5.1-meter telescope that dominated astronomy for decades"
+    "description": "Historic 5.1-metre telescope that dominated astronomy for decades"
   },
   "mmt": {
     "name": "MMT Observatory",
@@ -786,7 +786,7 @@
     "wavelengths": "Visible to infrared",
     "location": "Mount Hopkins, Arizona",
     "status": "Operational",
-    "description": "6.5-meter telescope operated by University of Arizona and Smithsonian"
+    "description": "6.5-metre telescope operated by University of Arizona and Smithsonian"
   },
   "salt": {
     "name": "SALT",
@@ -798,7 +798,7 @@
     "wavelengths": "Visible to near-infrared (320 - 1700 nm)",
     "location": "Sutherland, South Africa",
     "status": "Operational",
-    "description": "Largest single optical telescope in Southern Hemisphere at 11 meters"
+    "description": "Largest single optical telescope in Southern Hemisphere at 11 metres"
   },
   "het": {
     "name": "HET",
@@ -810,7 +810,7 @@
     "wavelengths": "Visible to near-infrared (400 - 1100 nm)",
     "location": "McDonald Observatory, Texas",
     "status": "Operational",
-    "description": "9.2-meter telescope optimized for spectroscopy and dark energy studies"
+    "description": "9.2-metre telescope optimized for spectroscopy and dark energy studies"
   },
   "jwstfgs": {
     "name": "FGS/NIRISS",
@@ -845,7 +845,7 @@
     "wavelengths": "UV to near-infrared (0.1 - 1.8 \u03bcm)",
     "location": "L2 Lagrange Point",
     "status": "Concept study",
-    "description": "Proposed 4-meter space telescope with starshade for direct exoplanet imaging"
+    "description": "Proposed 4-metre space telescope with starshade for direct exoplanet imaging"
   },
   "luvoir": {
     "name": "LUVOIR",
@@ -869,7 +869,7 @@
     "wavelengths": "Infrared (0.3 - 1600 \u03bcm)",
     "location": "Boeing 747SP aircraft",
     "status": "Decommissioned (September 30, 2022)",
-    "description": "Airborne 2.7-meter infrared telescope flying above atmospheric water vapor"
+    "description": "Airborne 2.7-metre infrared telescope flying above atmospheric water vapor"
   },
   "eso36": {
     "name": "ESO 3.6m",
@@ -893,7 +893,7 @@
     "wavelengths": "Visible to near-infrared",
     "location": "La Palma, Canary Islands",
     "status": "Operational",
-    "description": "Italian 3.6-meter telescope with HARPS-N for exoplanet studies"
+    "description": "Italian 3.6-metre telescope with HARPS-N for exoplanet studies"
   },
   "ukirt": {
     "name": "UKIRT",
@@ -905,7 +905,7 @@
     "wavelengths": "Infrared (1 - 5 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
-    "description": "3.8-meter dedicated infrared telescope performing wide-field surveys"
+    "description": "3.8-metre dedicated infrared telescope performing wide-field surveys"
   },
   "irtf": {
     "name": "IRTF",
@@ -917,7 +917,7 @@
     "wavelengths": "Infrared (1 - 30 \u03bcm)",
     "location": "Mauna Kea, Hawaii",
     "status": "Operational",
-    "description": "3-meter NASA facility optimized for infrared planetary and solar system studies"
+    "description": "3-metre NASA facility optimized for infrared planetary and solar system studies"
   },
   "ligo": {
     "name": "LIGO",
@@ -1460,7 +1460,7 @@
     "wavelengths": "Near-infrared (0.85 - 2.4 \u03bcm)",
     "location": "Paranal Observatory, Chile",
     "status": "Operational",
-    "description": "ESO's 4.1-meter infrared survey telescope with wide field of view"
+    "description": "ESO's 4.1-metre infrared survey telescope with wide field of view"
   },
   "vera_rubin": {
     "name": "Vera C. Rubin Observatory",
