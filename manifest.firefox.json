@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hoverscope",
-  "version": "1.4.3",
+  "version": "1.5",
   "description": "Hover over telescope and satellite names on arXiv to see key specifications",
   "browser_specific_settings": {
     "gecko": {
@@ -40,7 +40,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["telescopes.json"],
+      "resources": ["telescopes.json", "surveys.json", "simulations.json", "sams.json"],
       "matches": ["<all_urls>"]
     }
   ]

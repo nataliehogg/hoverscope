@@ -1,0 +1,56 @@
+{
+  "display_order": [
+    "included_physics",
+    "volume",
+    "mass_resolution",
+    "end_redshift",
+    "merger_tree_code",
+    "parent_simulation"
+  ],
+  "lgalaxies": {
+    "name": "L-Galaxies",
+    "aliases": [
+      "Munich SAM"
+    ],
+    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Chemical Enrichment, Galaxy Mergers",
+    "volume": "(500 h^-1 Mpc)^3",
+    "mass_resolution": "DM ~8.6e8 h^-1 M⊙ (Millennium)",
+    "merger_tree_code": "LHALOTREE",
+    "parent_simulation": "Millennium Simulation",
+    "description": "A semi-analytic model built on Millennium Simulation trees, modeling galaxy growth via baryonic processes and halo mergers."
+  },
+  "sc_sam": {
+    "name": "Santa Cruz SAM",
+    "aliases": [
+      "SC-SAM"
+    ],
+    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Environmental Effects, Chemical Evolution",
+    "volume": "(250 h^-1 Mpc)^3",
+    "mass_resolution": "DM ~1.35e8 h^-1 M⊙ (Bolshoi)",
+    "merger_tree_code": "Consistent Trees",
+    "parent_simulation": "Bolshoi Simulation",
+    "description": "A flexible SAM framework incorporating feedback, cooling, and environmental processes, applied to halo trees from Bolshoi and other N-body simulations."
+  },
+  "shark": {
+    "name": "SHARK",
+    "aliases": [],
+    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Reionization, Chemical Evolution",
+    "volume": "(210 h^-1 Mpc)^3",
+    "mass_resolution": "DM ~1e8 M⊙ (SURFS)",
+    "merger_tree_code": "TreeFrog",
+    "parent_simulation": "SURFS Simulation",
+    "description": "A modern, open-source semi-analytic model applied to halo trees from SURFS, featuring modular implementations of key baryonic processes."
+  },
+  "galform": {
+    "name": "GALFORM",
+    "aliases": [
+      "Durham SAM"
+    ],
+    "included_physics": "Gas Cooling, Star Formation, Stellar Feedback, AGN Feedback, Photoionization Suppression, Chemical Evolution",
+    "volume": "(800 Mpc)^3",
+    "mass_resolution": "DM ~1e9 M⊙ (Planck-Millennium)",
+    "merger_tree_code": "Dhalo / Millennium Trees",
+    "parent_simulation": "Planck-Millennium Simulation",
+    "description": "A longstanding SAM incorporating various baryonic processes and applied to large-volume N-body simulations such as Millennium and Planck-Millennium."
+  }
+}

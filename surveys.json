@@ -1,0 +1,675 @@
+{
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
+  "sdss": {
+    "name": "SDSS",
+    "aliases": [
+      "Sloan Digital Sky Survey"
+    ],
+    "type": "Ground-based Survey",
+    "launch_date": "2000 (began operations)",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": ">1/3 of sky",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Operational",
+    "description": "Major spectroscopic survey creating detailed 3D maps of the universe"
+  },
+  "lsst": {
+    "name": "LSST",
+    "aliases": [
+      "Legacy Survey of Space and Time"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2025 (planned first light)",
+    "wavelengths": "Visible to near-infrared (320 - 1050 nm)",
+    "survey_area": "18,000 sq deg",
+    "location": "Cerro Pach\u00f3n, Chile",
+    "status": "Under commissioning",
+    "description": "Wide-field survey telescope that will image the entire visible sky every few nights"
+  },
+  "lamost": {
+    "name": "LAMOST",
+    "aliases": [
+      "Large Sky Area Multi-Object Fiber Spectroscopic Telescope",
+      "Guo Shoujing Telescope"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2008",
+    "wavelengths": "Visible (370 - 900 nm)",
+    "location": "Xinglong Station, China",
+    "status": "Operational",
+    "description": "4-meter telescope with 4000-fiber spectrograph for massive spectroscopic surveys"
+  },
+  "panstarrs": {
+    "name": "Pan-STARRS",
+    "aliases": [
+      "Panoramic Survey Telescope and Rapid Response System"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2008",
+    "wavelengths": "Visible to near-infrared (400 - 1000 nm)",
+    "survey_area": "30,000 sq deg",
+    "location": "Haleakal\u0101, Hawaii",
+    "status": "Operational",
+    "description": "Wide-field survey telescopes discovering asteroids, supernovae, and variable stars"
+  },
+  "ztf": {
+    "name": "ZTF",
+    "aliases": [
+      "Zwicky Transient Facility"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2018",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "3750 sq deg per hour",
+    "location": "Palomar Observatory, California",
+    "status": "Operational",
+    "description": "High-cadence all-sky survey finding supernovae, asteroids, and transient events"
+  },
+  "ngts": {
+    "name": "NGTS",
+    "aliases": [
+      "Next-Generation Transit Survey"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2015",
+    "wavelengths": "Visible (520 - 890 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Operational",
+    "description": "Array of 12 small telescopes hunting for transiting exoplanets"
+  },
+  "speculoos": {
+    "name": "SPECULOOS",
+    "aliases": [
+      "Search for habitable Planets EClipsing ULtra-cOOl Stars"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2019",
+    "wavelengths": "Near-infrared",
+    "location": "Paranal, Chile and Tenerife, Spain",
+    "status": "Operational",
+    "description": "Network of robotic telescopes searching for exoplanets around ultracool dwarfs"
+  },
+  "hat": {
+    "name": "HATNet",
+    "aliases": [
+      "Hungarian Automated Telescope Network"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2003",
+    "wavelengths": "Visible",
+    "location": "Arizona and Hawaii",
+    "status": "Operational",
+    "description": "Network of small automated telescopes discovering transiting exoplanets"
+  },
+  "wasp": {
+    "name": "SuperWASP",
+    "aliases": [
+      "Wide Angle Search for Planets"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2004",
+    "wavelengths": "Visible (400 - 700 nm)",
+    "location": "La Palma and South Africa",
+    "status": "Operational",
+    "description": "Two robotic observatories discovering transiting exoplanets"
+  },
+  "vst": {
+    "name": "VST",
+    "aliases": [
+      "VLT Survey Telescope"
+    ],
+    "type": "Ground-based Survey Telescope",
+    "launch_date": "2011",
+    "wavelengths": "Visible (330 - 1000 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Operational",
+    "description": "2.6-meter telescope designed for wide-field optical surveys"
+  },
+  "desi": {
+    "name": "DESI",
+    "aliases": [
+      "Dark Energy Spectroscopic Instrument"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2021 (began operations)",
+    "wavelengths": "Visible to near-infrared (360 - 980 nm)",
+    "survey_area": "14,000 sq deg",
+    "location": "Kitt Peak National Observatory, Arizona",
+    "status": "Operational",
+    "description": "5000-fiber spectrograph creating largest 3D map of universe, measuring 40 million galaxies"
+  },
+  "des": {
+    "name": "DES",
+    "aliases": [
+      "Dark Energy Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2013",
+    "wavelengths": "Visible to near-infrared (400 - 1080 nm)",
+    "survey_area": "5000 sq deg",
+    "location": "Cerro Tololo Inter-American Observatory, Chile",
+    "status": "Completed (2019)",
+    "description": "Deep multi-band survey of southern sky studying dark energy through multiple probes"
+  },
+  "kids": {
+    "name": "KiDS",
+    "aliases": [
+      "Kilo-Degree Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2011",
+    "wavelengths": "Visible to near-infrared (330 - 1000 nm)",
+    "survey_area": "1350 sq deg",
+    "location": "VLT Survey Telescope, Chile",
+    "status": "Operational",
+    "description": "Deep multi-band imaging survey for weak gravitational lensing and galaxy evolution"
+  },
+  "2mass": {
+    "name": "2MASS",
+    "aliases": [
+      "Two Micron All-Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "1997",
+    "wavelengths": "Near-infrared (1.25, 1.65, 2.17 \u03bcm)",
+    "survey_area": "Full sky",
+    "location": "Mount Hopkins, Arizona and Cerro Tololo, Chile",
+    "status": "Completed (2001)",
+    "description": "All-sky near-infrared survey cataloging 300+ million stars and 1+ million galaxies"
+  },
+  "allwise": {
+    "name": "AllWISE",
+    "aliases": [
+      "All-Sky WISE"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2013 (data release)",
+    "wavelengths": "Infrared (3.4, 4.6, 12, 22 \u03bcm)",
+    "survey_area": "Full sky",
+    "location": "Space-based (WISE satellite)",
+    "status": "Completed",
+    "description": "Combined WISE survey data covering entire sky in mid-infrared with enhanced depth"
+  },
+  "boss": {
+    "name": "BOSS",
+    "aliases": [
+      "Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2009",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "10,000 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Completed (2014)",
+    "description": "SDSS-III program measuring spectra of 1.5 million galaxies for baryon acoustic oscillations"
+  },
+  "eboss": {
+    "name": "eBOSS",
+    "aliases": [
+      "Extended Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "7500 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Completed (2019)",
+    "description": "SDSS-IV program extending BOSS to map cosmic structure from 0.6 < z < 2.2"
+  },
+  "apogee": {
+    "name": "APOGEE",
+    "aliases": [
+      "Apache Point Observatory Galactic Evolution Experiment"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2011",
+    "wavelengths": "Near-infrared (1.51 - 1.70 \u03bcm)",
+    "location": "Apache Point Observatory and Las Campanas Observatory",
+    "status": "Operational",
+    "description": "High-resolution infrared spectroscopy of 100,000+ stars across the Milky Way"
+  },
+  "galah": {
+    "name": "GALAH",
+    "aliases": [
+      "GALactic Archaeology with HERMES"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible (471 - 789 nm)",
+    "location": "Anglo-Australian Telescope, Australia",
+    "status": "Operational",
+    "description": "High-resolution spectroscopic survey measuring chemical abundances of 1 million stars"
+  },
+  "rave": {
+    "name": "RAVE",
+    "aliases": [
+      "RAdial Velocity Experiment"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2003",
+    "wavelengths": "Near-infrared (8410 - 8795 \u00c5)",
+    "location": "UK Schmidt Telescope, Australia",
+    "status": "Completed (2013)",
+    "description": "Medium-resolution spectroscopic survey of 500,000 stars for Galactic structure"
+  },
+  "cfhtls": {
+    "name": "CFHTLS",
+    "aliases": [
+      "Canada-France-Hawaii Telescope Legacy Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2003",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "170 sq deg (multiple fields)",
+    "location": "Canada-France-Hawaii Telescope, Hawaii",
+    "status": "Completed (2009)",
+    "description": "Deep multi-band imaging survey for weak lensing and high-redshift galaxies"
+  },
+  "cosmos": {
+    "name": "COSMOS",
+    "aliases": [
+      "Cosmic Evolution Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2003",
+    "wavelengths": "X-ray to radio (multi-wavelength)",
+    "survey_area": "2 sq deg",
+    "location": "Multiple telescopes worldwide",
+    "status": "Ongoing",
+    "description": "Deep multi-wavelength survey of single field studying galaxy evolution to z~6"
+  },
+  "candels": {
+    "name": "CANDELS",
+    "aliases": [
+      "Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2010",
+    "wavelengths": "Near-infrared (0.8 - 1.6 \u03bcm)",
+    "survey_area": "~0.25 sq deg (multiple fields)",
+    "location": "Hubble Space Telescope",
+    "status": "Completed (2013)",
+    "description": "Largest HST survey studying galaxy evolution and reionisation at z > 1.5"
+  },
+  "goods": {
+    "name": "GOODS",
+    "aliases": [
+      "Great Observatories Origins Deep Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2003",
+    "wavelengths": "Multi-wavelength (X-ray to radio)",
+    "survey_area": "~0.1 sq deg (two fields)",
+    "location": "Multiple space and ground telescopes",
+    "status": "Completed",
+    "description": "Ultra-deep multi-wavelength survey combining Hubble, Spitzer, Chandra, and others"
+  },
+  "hudf": {
+    "name": "HUDF",
+    "aliases": [
+      "Hubble Ultra Deep Field"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2004 (initial), 2012 (XDF)",
+    "wavelengths": "UV to near-infrared (0.2 - 1.7 \u03bcm)",
+    "survey_area": "11 arcmin\u00b2 (XDF: 4.7 arcmin\u00b2)",
+    "location": "Hubble Space Telescope",
+    "status": "Completed",
+    "description": "Deepest optical/NIR image ever taken, revealing ~10,000 galaxies to z~10"
+  },
+  "ukidss": {
+    "name": "UKIDSS",
+    "aliases": [
+      "UKIRT Infrared Deep Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2005",
+    "wavelengths": "Near-infrared (0.83 - 2.37 \u03bcm)",
+    "survey_area": "7500 sq deg (multiple surveys)",
+    "location": "United Kingdom Infrared Telescope, Hawaii",
+    "status": "Completed (2012)",
+    "description": "Deepest and largest near-infrared survey of its time with multiple components"
+  },
+  "viking": {
+    "name": "VIKING",
+    "aliases": [
+      "VISTA Kilo-degree INfrared Galaxy survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.15 \u03bcm)",
+    "survey_area": "1500 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "Completed (2013)",
+    "description": "Near-infrared complement to KiDS optical survey for photometric redshifts"
+  },
+  "video": {
+    "name": "VIDEO",
+    "aliases": [
+      "VISTA Deep Extragalactic Observations"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.88 - 2.15 \u03bcm)",
+    "survey_area": "12 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "Completed",
+    "description": "Deep infrared survey reaching z~4 for galaxy evolution studies"
+  },
+  "vhs": {
+    "name": "VHS",
+    "aliases": [
+      "VISTA Hemisphere Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (1.02, 1.25, 2.15 \u03bcm)",
+    "survey_area": "18,000 sq deg (southern hemisphere)",
+    "location": "VISTA telescope, Chile",
+    "status": "Operational",
+    "description": "Largest near-infrared survey covering entire southern sky to complement 2MASS"
+  },
+  "first": {
+    "name": "FIRST",
+    "aliases": [
+      "Faint Images of the Radio Sky at Twenty-Centimeters"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "10,575 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "Completed (2004)",
+    "description": "Radio survey cataloging ~1 million sources, studying AGN and radio galaxies"
+  },
+  "nvss": {
+    "name": "NVSS",
+    "aliases": [
+      "NRAO VLA Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "~34,000 sq deg (northern sky)",
+    "location": "Very Large Array, New Mexico",
+    "status": "Completed (1996)",
+    "description": "Large-area radio survey cataloging ~2 million sources above -40\u00b0 declination"
+  },
+  "vlass": {
+    "name": "VLASS",
+    "aliases": [
+      "VLA Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2017",
+    "wavelengths": "Radio (2-4 GHz)",
+    "survey_area": "33,000 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "Operational",
+    "description": "Modern all-sky radio survey with better resolution and sensitivity than NVSS/FIRST"
+  },
+  "racs": {
+    "name": "RACS",
+    "aliases": [
+      "Rapid ASKAP Continuum Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2019",
+    "wavelengths": "Radio (887.5 MHz)",
+    "survey_area": "34,000 sq deg (full southern sky)",
+    "location": "ASKAP, Australia",
+    "status": "Completed (2020)",
+    "description": "Fast all-southern-sky radio survey cataloging ~3 million sources"
+  },
+  "emu": {
+    "name": "EMU",
+    "aliases": [
+      "Evolutionary Map of the Universe"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2021 (early science)",
+    "wavelengths": "Radio (800-1088 MHz)",
+    "survey_area": "Full southern sky + part of north",
+    "location": "ASKAP, Australia",
+    "status": "Operational",
+    "description": "Deep radio continuum survey expected to detect ~70 million galaxies"
+  },
+  "lofartier1": {
+    "name": "LoTSS",
+    "aliases": [
+      "LOFAR Two-metre Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2014",
+    "wavelengths": "Radio (120-168 MHz)",
+    "survey_area": "Full northern sky",
+    "location": "LOFAR, Netherlands and Europe",
+    "status": "Operational",
+    "description": "Low-frequency radio survey mapping entire northern sky at unprecedented sensitivity"
+  },
+  "tgss": {
+    "name": "TGSS",
+    "aliases": [
+      "TIFR GMRT Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2010",
+    "wavelengths": "Radio (150 MHz)",
+    "survey_area": "36,900 sq deg",
+    "location": "Giant Metrewave Radio Telescope, India",
+    "status": "Completed (2012)",
+    "description": "Low-frequency radio survey covering sky north of -53\u00b0 declination"
+  },
+  "wenss": {
+    "name": "WENSS",
+    "aliases": [
+      "Westerbork Northern Sky Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "1991",
+    "wavelengths": "Radio (92 cm / 325 MHz)",
+    "survey_area": "~18,000 sq deg",
+    "location": "Westerbork Synthesis Radio Telescope, Netherlands",
+    "status": "Completed (1997)",
+    "description": "Low-frequency radio survey of northern sky at 325 MHz"
+  },
+  "gleam": {
+    "name": "GLEAM",
+    "aliases": [
+      "GaLactic and Extragalactic All-sky MWA survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2013",
+    "wavelengths": "Radio (72-231 MHz)",
+    "survey_area": "Full sky (declination < +30\u00b0)",
+    "location": "Murchison Widefield Array, Australia",
+    "status": "Completed (2016)",
+    "description": "Wide-band low-frequency survey with best spectral coverage at low frequencies"
+  },
+  "atlassurvey": {
+    "name": "ATLAS",
+    "aliases": [
+      "Asteroid Terrestrial-impact Last Alert System"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2015 (first unit), 2017 (second unit)",
+    "wavelengths": "Visible (cyan and orange filters)",
+    "survey_area": "Entire visible sky every 24 hours",
+    "location": "Hawaii (two sites)",
+    "status": "Operational",
+    "description": "All-sky survey searching for near-Earth asteroids and discovering supernovae"
+  },
+  "asassn": {
+    "name": "ASAS-SN",
+    "aliases": [
+      "All-Sky Automated Survey for Supernovae"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible (V and g bands)",
+    "survey_area": "Full sky every ~2 days",
+    "location": "Multiple sites worldwide (5 locations)",
+    "status": "Operational",
+    "description": "Global network of robotic telescopes discovering supernovae and transients"
+  },
+  "gaia_dr3": {
+    "name": "Gaia DR3",
+    "aliases": [
+      "Gaia Data Release 3"
+    ],
+    "type": "Astrometric Survey",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Gaia satellite at L2",
+    "status": "Active mission",
+    "description": "Third data release with 1.8 billion stars, including spectra and stellar parameters"
+  },
+  "hipparcos_catalog": {
+    "name": "Hipparcos Catalogue",
+    "aliases": [
+      "Hipparcos and Tycho Catalogues"
+    ],
+    "type": "Astrometric Survey",
+    "launch_date": "1997 (catalog release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Hipparcos satellite",
+    "status": "Completed",
+    "description": "First high-precision astrometric catalog with 118,000 stars and milliarcsecond accuracy"
+  },
+  "skymapper": {
+    "name": "SkyMapper",
+    "aliases": [
+      "SkyMapper Southern Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible (320 - 1000 nm, 6 filters)",
+    "survey_area": "Full southern sky",
+    "location": "Siding Spring Observatory, Australia",
+    "status": "Operational",
+    "description": "Digital all-sky survey of southern hemisphere for stellar populations and transients"
+  },
+  "4most": {
+    "name": "4MOST",
+    "aliases": [
+      "4-metre Multi-Object Spectroscopic Telescope"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (370 - 950 nm)",
+    "location": "VISTA telescope, Chile",
+    "status": "Under construction",
+    "description": "Multi-fiber spectrograph for VISTA obtaining millions of spectra for multiple surveys"
+  },
+  "weave": {
+    "name": "WEAVE",
+    "aliases": [
+      "WHT Enhanced Area Velocity Explorer"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2023",
+    "wavelengths": "Visible to near-infrared (366 - 959 nm)",
+    "location": "William Herschel Telescope, La Palma",
+    "status": "Operational",
+    "description": "Multi-fiber spectrograph performing large spectroscopic surveys of Milky Way and beyond"
+  },
+  "moons": {
+    "name": "MOONS",
+    "aliases": [
+      "Multi Object Optical and Near-infrared Spectrograph"
+    ],
+    "type": "Spectroscopic Survey",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (0.64 - 1.8 \u03bcm)",
+    "location": "Very Large Telescope, Chile",
+    "status": "Commissioning",
+    "description": "1000-fiber spectrograph for VLT studying galaxy evolution and Galactic archaeology"
+  },
+  "unions": {
+    "name": "UNIONS",
+    "aliases": [
+      "Ultraviolet Near-Infrared Optical Northern Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2019",
+    "wavelengths": "UV to near-infrared (0.2 - 1 \u03bcm)",
+    "survey_area": "4800 sq deg",
+    "location": "CFHT and multiple space telescopes",
+    "status": "Operational",
+    "description": "Deep multi-band survey of northern sky combining ground and space observations"
+  },
+  "delve": {
+    "name": "DELVE",
+    "aliases": [
+      "DECam Local Volume Exploration"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2019",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "~4000 sq deg (southern sky)",
+    "location": "Blanco Telescope, Chile",
+    "status": "Operational",
+    "description": "Wide-area survey targeting Milky Way satellites, stellar streams, and local volume"
+  },
+  "jwstcosmos": {
+    "name": "COSMOS-Web",
+    "aliases": [
+      "COSMOS-Webb"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2023",
+    "wavelengths": "Near-infrared (0.9 - 5 \u03bcm)",
+    "survey_area": "0.54 sq deg",
+    "location": "James Webb Space Telescope",
+    "status": "Operational",
+    "description": "Largest JWST survey program mapping COSMOS field for high-z galaxies and AGN"
+  },
+  "jades": {
+    "name": "JADES",
+    "aliases": [
+      "JWST Advanced Deep Extragalactic Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2022",
+    "wavelengths": "Near-infrared (0.6 - 5.3 \u03bcm)",
+    "survey_area": "~0.05 sq deg (GOODS fields)",
+    "location": "James Webb Space Telescope",
+    "status": "Operational",
+    "description": "Deep JWST spectroscopic survey studying first galaxies and galaxy assembly"
+  },
+  "ceers": {
+    "name": "CEERS",
+    "aliases": [
+      "Cosmic Evolution Early Release Science"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2022",
+    "wavelengths": "Near to mid-infrared (0.6 - 28 \u03bcm)",
+    "survey_area": "~0.1 sq deg (EGS field)",
+    "location": "James Webb Space Telescope",
+    "status": "Operational",
+    "description": "JWST early release science program studying galaxy evolution from z~10 to present"
+  },
+  "hsc_ssp": {
+    "name": "HSC-SSP",
+    "aliases": [
+      "Hyper Suprime-Cam Subaru Strategic Program"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "survey_area": "∼1400 sq deg",
+    "location": "Hyper Suprime-Cam, Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "Operational",
+    "description": "Deep, wide-field optical imaging survey with Hyper Suprime-Cam on Subaru for weak lensing, galaxy evolution, and transient science"
+  }
+}
