@@ -382,6 +382,12 @@ if (document.readyState === 'loading') {
   init();
 }
 
+// Re-process after all resources load (images, scripts, etc.) to catch late-loading content
+window.addEventListener('load', () => {
+  console.log('Hoverscope: Window loaded, re-processing page');
+  processPage();
+});
+
 // Also process dynamically loaded content (for single-page apps and revealed content)
 const observer = new MutationObserver((mutations) => {
   let shouldProcess = false;
@@ -408,12 +414,10 @@ const observer = new MutationObserver((mutations) => {
   }
 });
 
-// Start observing after initial load
-setTimeout(() => {
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true,
-    attributes: true,
-    attributeFilter: ['class', 'style', 'hidden'] // Watch for class/style/hidden changes
-  });
-}, 1000);
+// Start observing immediately to catch dynamic content
+observer.observe(document.body, {
+  childList: true,
+  subtree: true,
+  attributes: true,
+  attributeFilter: ['class', 'style', 'hidden'] // Watch for class/style/hidden changes
+});
