@@ -54,7 +54,6 @@ function processPage() {
     '.arxiv_item',
     '.title',
     '.abstract',
-    '.authors',
     'blockquote.abstract',
     'h1.title',
     '.ltx_abstract',
@@ -64,7 +63,6 @@ function processPage() {
     '.paper',
     '.paper-title',
     '.paper-abstract',
-    '.paper-authors',
     '.paper-entry',
     '.paper-item',
     '.paper-list',
@@ -245,6 +243,10 @@ function getTextNodes(element) {
         }
         // Skip if inside form fields or editable elements
         if (node.parentElement.closest('input, textarea, select, [contenteditable="true"]')) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        // Skip if inside author fields (deprecated behavior)
+        if (node.parentElement.closest('.authors, .paper-authors, [class*="author"]')) {
           return NodeFilter.FILTER_REJECT;
         }
         // Only include nodes with actual text
