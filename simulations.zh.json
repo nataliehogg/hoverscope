@@ -1,0 +1,400 @@
+{
+  "display_order": [
+    "type",
+    "volume",
+    "mass_resolution",
+    "code",
+    "included_physics",
+    "hydrodynamics",
+    "subgrid_model"
+  ],
+  "illustris_tng": {
+    "name": "IllustrisTNG",
+    "aliases": [
+      "Illustris TNG",
+      "TNG100",
+      "TNG300",
+      "TNG50",
+      "TNG 300"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
+    "code": "AREPO",
+    "hydrodynamics": "Moving-mesh magneto-hydrodynamics",
+    "subgrid_model": "IllustrisTNG galaxy formation model",
+    "volume": "TNG50: (50 Mpc)^3; TNG100: (100 Mpc)^3; TNG300: (300 Mpc)^3",
+    "mass_resolution": "TNG50-1: Gas ~8.5e4 M⊙, DM ~4.5e5 M⊙; TNG100-1: Gas 1.4e6 M⊙, DM 7.5e6 M⊙; TNG300-1: Gas ~1.1e7 M⊙, DM ~5.9e7 M⊙",
+    "cost": ">100M CPU hours across all runs",
+    "description": "一套大尺度 magneto-hydrodynamical 星系形成模拟，涵盖三个体积 (边长50–300 Mpc)。"
+  },
+  "illustris_original": {
+    "name": "Illustris",
+    "aliases": [
+      "Original Illustris",
+      "Illustris-1"
+    ],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
+    "code": "AREPO",
+    "hydrodynamics": "Moving-mesh hydrodynamics",
+    "subgrid_model": "Illustris galaxy formation model",
+    "volume": "(106.5 Mpc)^3",
+    "mass_resolution": "Gas 1.26e6 M⊙, DM 6.26e6 M⊙",
+    "cost": "~19M CPU hours",
+    "description": "IllustrisTNG 的前身，一个在约100 Mpc盒子中的 hydrodynamical 星系形成模拟。"
+  },
+  "eagle": {
+    "name": "EAGLE",
+    "aliases": [
+      "Evolution and Assembly of GaLaxies and their Environments"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, thermal AGN feedback, chemical enrichment",
+    "code": "GADGET-3 (Modified)",
+    "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH)",
+    "subgrid_model": "EAGLE galaxy formation model",
+    "volume": "Boxes from (25 Mpc)^3 up to (100 Mpc)^3",
+    "mass_resolution": "100 Mpc run: Gas 1.81e6 M⊙, DM 9.70e6 M⊙; higher resolution 25 Mpc run: Gas ~2.3e5 M⊙, DM ~1.2e6 M⊙",
+    "cost": "~4.5M CPU hours for flagship run",
+    "description": "一套 hydrodynamical 模拟，经过校准以匹配 z=0 星系群，涵盖边长 25–100 Mpc 的体积。"
+  },
+  "millennium": {
+    "name": "Millennium Simulation",
+    "aliases": [
+      "Millennium Run",
+      "Millennium-I"
+    ],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity (dark matter only)",
+    "code": "GADGET-2",
+    "hydrodynamics": "None (dark matter-only N-body)",
+    "subgrid_model": "N/A",
+    "volume": "(500 h^-1 Mpc)^3",
+    "mass_resolution": "DM 8.6e8 h^-1 M⊙",
+    "description": "一个基础性的大尺度 dark matter-only N-body 模拟，在一个 500h^-1 Mpc 的盒子中追踪了超过100亿个粒子演化。"
+  },
+  "bolshoi": {
+    "name": "Bolshoi Simulation",
+    "aliases": [
+      "Bolshoi-Planck"
+    ],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity (dark matter only)",
+    "code": "ART",
+    "hydrodynamics": "None (dark matter-only N-body)",
+    "subgrid_model": "N/A",
+    "volume": "(250 h^-1 Mpc)^3",
+    "mass_resolution": "DM 1.35e8 h^-1 M⊙",
+    "description": "一个高分辨率 dark matter-only 模拟 (250h^-1 Mpc 立方)，用于创建详细的晕族目录和并合树。"
+  },
+  "simba": {
+    "name": "SIMBA",
+    "aliases": [
+      "SImulation of MUltiphase Baryonic Accretion"
+    ],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN jet feedback, black hole growth, dust, chemical enrichment",
+    "code": "GIZMO",
+    "hydrodynamics": "Meshless finite-mass hydrodynamics (MFM)",
+    "subgrid_model": "SIMBA galaxy formation model",
+    "volume": "(100 h^-1 Mpc)^3",
+    "mass_resolution": "Gas 1.82e7 M⊙, DM 9.6e7 M⊙",
+    "description": "一个 hydrodynamical 模拟 (100h^-1 Mpc 盒子)，侧重于星系与超大质量黑洞的协同演化，采用新颖的喷流反馈实现。"
+  },
+  "flares": {
+    "name": "FLARES",
+    "aliases": [
+      "First Light And Reionisation Epoch Simulations"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
+    "code": "GADGET-3 (Modified)",
+    "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH)",
+    "subgrid_model": "EAGLE/FLARES galaxy formation model",
+    "volume": "Effective aggregate volume ≈ (3.2 Gpc)^3 (from zoom regions drawn from a (3.2 cGpc)^3 parent volume)",
+    "mass_resolution": "Gas 1.8e6 M⊙, DM 9.7e6 M⊙ (comparable to EAGLE high-resolution runs in zoom regions)",
+    "num_zoom_regions": 40,
+    "end_redshift": "z=5",
+    "cost": "~4M CPU hours",
+    "description": "一套40个 zoom-in 模拟，在再电离时期针对不同过密度区域，能够实现代表 (3.2 Gpc)^3 体积的综合统计。"
+  },
+  "flamingo": {
+    "name": "FLAMINGO",
+    "aliases": [
+      "Full-hydro Large-scale structure simulations with All-sky Mapping for the Interpretation of Next Generation Observations"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, massive neutrinos",
+    "code": "SWIFT",
+    "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH)",
+    "subgrid_model": "FLAMINGO galaxy formation model",
+    "volume": "Up to (2.8 Gpc)^3 (multiple runs at different resolutions)",
+    "mass_resolution": "High-res: baryon ~1×10^8 M⊙ (DM ~5×10^8 M⊙); Mid-res: baryon ~1×10^9 M⊙ (DM ~5×10^9 M⊙)",
+    "cost": "~28M CPU hours (excluding L2800N10080)",
+    "description": "一套大体积 (高达 2.8 Gpc)^3 hydrodynamical 模拟，专为下一代大尺度结构巡天设计，包括重子和中微子的影响。"
+  },
+  "colibre": {
+    "name": "COLIBRE",
+    "aliases": [],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
+    "code": "SWIFT",
+    "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH)",
+    "subgrid_model": "COLIBRE galaxy formation model (EAGLE-derived)",
+    "volume": "Test volumes from (25 cMpc)^3 up to (400 cMpc)^3",
+    "mass_resolution": "Highest res: baryon ~1×10^5 M⊙ (DM ~5×10^5 M⊙); Lowest res: baryon ~1×10^7 M⊙ (DM ~5×10^7 M⊙)",
+    "description": "一套模拟，涵盖一系列体积和分辨率，旨在通过在不同尺度上校准反馈，重现从高红移到 z=0 的星系特性。"
+  },
+  "camels": {
+    "name": "CAMELS",
+    "aliases": [
+      "Cosmology and Astrophysics with MachinE Learning Simulations"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback; gravity-only variants",
+    "code": "AREPO; GIZMO; GADGET-3",
+    "hydrodynamics": "Moving-mesh MHD (AREPO) and meshless hydrodynamics (GIZMO); none for N-body-only runs",
+    "subgrid_model": "IllustrisTNG and SIMBA galaxy formation models with varied subgrid parameters; N-body only for DMO runs",
+    "volume": "(25 h^-1 Mpc)^3 per simulation (some extended to (50 h^-1 Mpc)^3 in later generations)",
+    "mass_resolution": "DM ~1×10^9 M⊙, gas ~2×10^8 M⊙ (for 25 h^-1 Mpc boxes, at fiducial resolution)",
+    "description": "一个大型套件 (约4,000+) 小型宇宙学模拟 (25 h^-1 Mpc 盒子)，改变宇宙学参数和子网格物理，旨在训练机器学习模型并消除重子效应的影响。"
+  },
+  "quijote": {
+    "name": "Quijote Simulations",
+    "aliases": [],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity (dark matter only, some runs with massive neutrinos)",
+    "code": "GADGET-3",
+    "hydrodynamics": "None (dark matter-only N-body)",
+    "subgrid_model": "N/A",
+    "volume": "(1 h^-1 Gpc)^3 per simulation",
+    "mass_resolution": "Simulations span 256^3 to 1024^3 DM particles in 1 h^-1 Gpc (e.g. 512^3 gives DM ≈7×10^11 h^-1 M⊙ per particle; 1024^3 gives ≈9×10^10 h^-1 M⊙)",
+    "description": "一套大规模的 44,100 个 N-body 模拟 (1 h^-1 Gpc 盒子)，探索超过7,000种宇宙学，旨在量化大尺度结构中的信息内容并为模拟器提供训练数据。"
+  },
+  "bluetides": {
+    "name": "BlueTides",
+    "aliases": [],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment, UV background reionisation",
+    "code": "MP-Gadget",
+    "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH, pressure-entropy formulation)",
+    "subgrid_model": "BlueTides galaxy formation model",
+    "volume": "(400 h^-1 Mpc)^3",
+    "mass_resolution": "DM 1.2×10^7 h^-1 M⊙; gas 2.4×10^6 h^-1 M⊙",
+    "end_redshift": "z=8 (extended to ~z=6.5)",
+    "description": "一个创纪录的 hydrodynamic 模拟 (2×7040^3 个粒子)，在 Blue Waters 超级计算机上运行，在一个 400 h^-1 Mpc 体积中模拟从 z=99 到 z~8 的星系和类星体形成。"
+  },
+  "frontier": {
+    "name": "Frontier Simulation",
+    "aliases": [],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN jet feedback",
+    "code": "AthenaPK",
+    "hydrodynamics": "Grid-based magneto-hydrodynamics (finite-volume)",
+    "subgrid_model": "Frontier AGN jet heating and feedback model",
+    "volume": "≈(3 Gpc)^3 (spanning ~10 billion light-years across)",
+    "mass_resolution": "DM ~1×10^9 M⊙; gas ~2×10^8 M⊙ (approximate for current runs)",
+    "description": "一个旗舰级宇宙学 hydrodynamical 模拟，在 exascale Frontier 超级计算机上运行，覆盖约100亿光年，并包含 dark matter、气体、恒星形成和黑洞物理，用于与即将进行的巡天进行比较。"
+  },
+  "sphinx": {
+    "name": "SPHINX",
+    "aliases": [],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, radiative transfer, non-equilibrium cooling",
+    "code": "RAMSES-RT",
+    "hydrodynamics": "Adaptive mesh refinement (AMR) radiation-hydrodynamics",
+    "subgrid_model": "SPHINX galaxy formation and reionisation model",
+    "volume": "Boxes of 5–10 cMpc on a side",
+    "mass_resolution": "DM 2.5×10^5 M⊙ per particle; minimum cell size ~10 pc",
+    "end_redshift": "z~6 (end of reionisation)",
+    "description": "一套小体积 (5–10 cMpc) radiation-hydrodynamical 模拟，模拟最初的十亿年，分辨多相 ISM 并追踪数千个早期星系中电离辐射的逃逸。"
+  },
+  "megatron": {
+    "name": "MEGATRON",
+    "aliases": [],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, radiative transfer, non-equilibrium chemistry, star formation, stellar feedback, Population III and II enrichment",
+    "code": "RAMSES-RTZ",
+    "hydrodynamics": "Adaptive mesh refinement (AMR) radiation-hydrodynamics",
+    "subgrid_model": "MEGATRON galaxy formation and ISM model (PRISM-based)",
+    "volume": "Zoom-in on the Lagrangian region of a Milky Way-mass halo within a larger cosmological box",
+    "mass_resolution": "DM ~1×10^5 M⊙; gas ~1×10^4 M⊙ (in highest-resolution regions)",
+    "end_redshift": "z~1–2 (for Milky Way progenitor runs; some applications to z~8 dwarf regime)",
+    "description": "一套高分辨率 radiation-hydrodynamic zoom 模拟，模拟一个银河系质量的环境，从第三星族恒星形成时期到宇宙正午，具有详细的非平衡化学和多频辐射传输。"
+  },
+  "hestia": {
+    "name": "HESTIA",
+    "aliases": [
+      "High-resolution Environmental Simulations of The Immediate Area"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback",
+    "code": "AREPO",
+    "hydrodynamics": "Moving-mesh magneto-hydrodynamics",
+    "subgrid_model": "Auriga/HESTIA galaxy formation model",
+    "volume": "High-resolution region ~5 Mpc radius around the Local Group (embedded in a ~100 h^-1 Mpc constrained volume)",
+    "mass_resolution": "DM 1.5×10^5 M⊙; gas 2.2×10^4 M⊙; Plummer-equivalent softening ~220 pc",
+    "num_zoom_regions": 30,
+    "description": "一套受约束的本星系群模拟，生成真实的银河系和仙女座星系模拟 (及其卫星星系)，嵌入在一个宇宙学精确的环境中。"
+  },
+  "thesan": {
+    "name": "THESAN",
+    "aliases": [],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, magneto-hydrodynamics, star formation, stellar feedback, AGN feedback, radiative transfer, dust, chemical enrichment",
+    "code": "AREPO-RT",
+    "hydrodynamics": "Moving-mesh radiation-MHD",
+    "subgrid_model": "THESAN galaxy formation and reionisation model (IllustrisTNG-based)",
+    "volume": "(95.5 cMpc)^3",
+    "mass_resolution": "DM 3.12×10^6 M⊙; gas 5.82×10^5 M⊙ (flagship THESAN-1 run)",
+    "end_redshift": "z≈5.5",
+    "cost": "~30M CPU hours for flagship run",
+    "description": "一个大体积 (95.5 cMpc)^3 radiation-MHD 模拟套件，模拟再电离时期，扩展了 IllustrisTNG 物理模型，带有 on-the-fly 辐射传输，以产生真实的再电离历史和高红移星系群。"
+  },
+  "thesan_zoom": {
+    "name": "THESAN-ZOOM",
+    "aliases": [],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, radiative transfer, star formation, stellar feedback, dust, chemical enrichment",
+    "code": "AREPO-RT",
+    "hydrodynamics": "Moving-mesh radiation-hydrodynamics",
+    "subgrid_model": "THESAN-ZOOM multi-phase ISM and galaxy formation model",
+    "volume": "Zoom-in regions around haloes (M_halo ~10^8–10^13 M⊙ at z=3) selected from the THESAN volume",
+    "mass_resolution": "DM ~7×10^2 M⊙; gas ~1.4×10^2 M⊙ (17 comoving pc softening in fiducial runs)",
+    "num_zoom_regions": 14,
+    "end_redshift": "z=3",
+    "description": "一套超高分辨率 radiation-hydrodynamic zoom 模拟，模拟源自 THESAN 的14个高红移星系，在秒差距尺度上分辨 ISM，同时保留大尺度再电离环境。"
+  },
+  "fable": {
+    "name": "FABLE",
+    "aliases": [
+      "Feedback Acting on Baryons in Large-scale Environments"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, AGN feedback, chemical enrichment",
+    "code": "AREPO",
+    "hydrodynamics": "Moving-mesh hydrodynamics",
+    "subgrid_model": "FABLE (Illustris-based) feedback model",
+    "volume": "Calibration box ~ (40 cMpc)^3 plus zoom-in simulations of galaxy groups and clusters (M_200 ~10^13–10^15 M⊙)",
+    "mass_resolution": "Calibration run: gas ~1×10^6 M⊙, DM ~few ×10^6 M⊙; higher resolution in zoom-in halos (DM ~10^5–10^6 M⊙ in cluster cores)",
+    "num_zoom_regions": 27,
+    "description": "一个模拟套件，结合了 (40 cMpc)^3 校准盒子和星系群和星系团的 zoom-in 模拟，使用改进的基于 Illustris 的模型以建模大质量晕中的重子含量和反馈。"
+  },
+  "lyra": {
+    "name": "LYRA",
+    "aliases": [],
+    "type": "宇宙学模拟",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback, supernova feedback, chemical enrichment",
+    "code": "AREPO",
+    "hydrodynamics": "Moving-mesh hydrodynamics",
+    "subgrid_model": "LYRA dwarf galaxy formation model",
+    "volume": "Zoom-in on a ~2×10^9 M⊙ halo (selected from a larger volume or isolated setup)",
+    "mass_resolution": "DM ≈2×10^1 M⊙; gas 4 M⊙ per cell (resolves individual supernova events)",
+    "description": "一个极致分辨率的矮星系 zoom 模拟，将 ISM 分辨到约4 M⊙ 气体元素和10 K，形成单个恒星并追踪其反馈到 z=0。"
+  },
+  "cosmic_dawn": {
+    "name": "CoDa (Cosmic Dawn)",
+    "aliases": [
+      "Cosmic Dawn",
+      "CoDa",
+      "CoDa I",
+      "CoDa II"
+    ],
+    "type": "宇宙学模拟套件",
+    "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, Radiative Transfer",
+    "code": "RAMSES-CUDATON",
+    "hydrodynamics": "Adaptive Mesh Refinement (AMR) with radiative transfer",
+    "subgrid_model": "CoDa galaxy formation model",
+    "volume": "(64 h^-1 Mpc)^3",
+    "mass_resolution": "DM ~3.4e7 M⊙; baryons ~6.8e6 M⊙",
+    "end_redshift": "z=6",
+    "description": "完全耦合的 radiation-hydrodynamic 模拟，模拟再电离时期，带有 GPU 加速的辐射传输，使用 RAMSES-CUDATON。"
+  },
+  "horizon_agn": {
+    "name": "Horizon-AGN",
+    "aliases": [],
+    "type": "宇宙学模拟",
+    "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, AGN Feedback, Metal Enrichment",
+    "code": "RAMSES",
+    "hydrodynamics": "Adaptive Mesh Refinement (AMR)",
+    "subgrid_model": "Horizon galaxy formation model",
+    "volume": "(100 h^-1 Mpc)^3",
+    "mass_resolution": "DM ~8e7 M⊙; gas ~1e7 M⊙",
+    "end_redshift": "z~0.2",
+    "description": "一个大体积宇宙学 hydrodynamical 模拟，使用 AMR 和 AGN 反馈，探索从高红移到本地区域宇宙的星系形成和演化。"
+  },
+  "newhorizon": {
+    "name": "NewHorizon",
+    "aliases": [],
+    "type": "宇宙学 Zoom 模拟",
+    "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, AGN Feedback, Metal Enrichment",
+    "code": "RAMSES",
+    "hydrodynamics": "Adaptive Mesh Refinement (AMR)",
+    "subgrid_model": "NewHorizon physics model (based on Horizon-AGN)",
+    "volume": "(16 Mpc)^3 zoom region",
+    "mass_resolution": "DM ~1e6 M⊙; gas cell size down to ~34 pc",
+    "description": "一个高分辨率 zoom-in 模拟，嵌入在一个更大的宇宙学盒子中，侧重于详细的 ISM 结构和星系形成。"
+  },
+  "astrid": {
+    "name": "ASTRID",
+    "aliases": [],
+    "type": "宇宙学模拟",
+    "included_physics": "Gravity, Hydrodynamics, Star Formation, Stellar Feedback, AGN Feedback, reionisation, Massive Neutrinos",
+    "code": "MP-Gadget",
+    "hydrodynamics": "Smoothed Particle Hydrodynamics (SPH)",
+    "subgrid_model": "ASTRID physics model (BlueTides-derived)",
+    "volume": "(250 h^-1 Mpc)^3",
+    "mass_resolution": "DM ~2.5e7 M⊙; gas ~4.5e6 M⊙",
+    "end_redshift": "z=3",
+    "cost": "896M CPU hours",
+    "description": "一个大型宇宙学 SPH 模拟，侧重于早期星系形成，包括非均匀再电离、重子-dark matter 流和质量中微子的物理。"
+  },
+  "fire": {
+    "name": "FIRE",
+    "aliases": [
+      "FIRE-1",
+      "Galaxies on FIRE",
+      "Feedback In Realistic Environments"
+    ],
+    "type": "宇宙学 Zoom 模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, O/B and AGB winds), radiation pressure, photoionisation, photoelectric heating, metal enrichment, cooling",
+    "code": "GIZMO",
+    "hydrodynamics": "Pressure-Entropy Smoothed Particle Hydrodynamics (P-SPH)",
+    "subgrid_model": "FIRE stellar feedback model",
+    "volume": "Zoom-in regions around halos M_halo ~ 10^8–10^13 M⊙ (from cosmological boxes 86–172 cMpc)",
+    "mass_resolution": "Baryonic particles: ~250–7000 M⊙ (varies by target halo mass)",
+    "description": "第一代 FIRE zoom-in 模拟，实现了物理驱动的恒星反馈，涵盖晕质量 10^8–10^13 M⊙，使用 P-SPH hydrodynamics 以研究星系形成，无需微调反馈参数。"
+  },
+  "fire_2": {
+    "name": "FIRE-2",
+    "aliases": [
+      "FIRE-2",
+      "Latte"
+    ],
+    "type": "宇宙学 Zoom 模拟套件",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe Ia/II, stellar winds, radiation pressure), photoionisation, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling",
+    "code": "GIZMO",
+    "hydrodynamics": "Meshless Finite Mass (MFM)",
+    "subgrid_model": "FIRE-2 stellar feedback and galaxy formation model",
+    "volume": "Zoom-in regions: Core suite (20 galaxies: 14 MW-mass, 5 SMC/LMC-mass, 4 low-mass); High-z suite (34 halos: M_halo=10^9–10^12 M⊙ at z=5–9)",
+    "mass_resolution": "Baryonic: 100–7000 M⊙ (by halo); Latte: 7070 M⊙; ELVIS: 3500–4000 M⊙; Spatial: gas ε=0.14–0.42 pc, stars ε=0.7–2.1 pc",
+    "num_zoom_regions": "Core: 20; High-z: 34; plus additional specialized suites",
+    "end_redshift": "z=0 (Core suite); z=5, 7, or 9 (High-z suite)",
+    "description": "第二代 FIRE 模拟，使用改进的 MFM hydrodynamics，产生从矮星系到银河系质量的真实星系，具有详细的多相 ISM 和恒星反馈，公开发布并附有大量数据产品。"
+  },
+  "firebox": {
+    "name": "FIREbox",
+    "aliases": [
+      "FIREBOX",
+      "FIREBox"
+    ],
+    "type": "宇宙学模拟 (周期性盒子)",
+    "included_physics": "gravity, hydrodynamics, star formation, stellar feedback (SNe, stellar winds, radiation), photoionisation, photoelectric heating, metal enrichment (11 species), metallicity-dependent cooling (identical FIRE-2 physics)",
+    "code": "GIZMO",
+    "hydrodynamics": "Meshless Finite Mass (MFM)",
+    "subgrid_model": "FIRE-2 stellar feedback and galaxy formation model",
+    "volume": "(22.1 cMpc)^3",
+    "mass_resolution": "Gas: 5.0×10^5 M⊙, DM: 1.45×10^6 M⊙; 1024^3 gas + 1024^3 DM particles; spatial: ~20 pc",
+    "description": "一个均匀分辨率的 (22.1 cMpc)^3 周期性盒子模拟，使用 FIRE-2 物理，提供 z=0 时 M_star>10^8 M⊙ 的约1000个星系，和卓越的动态范围 (约10^6)，用于统计星系形成研究。"
+  }
+}

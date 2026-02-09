@@ -1,0 +1,675 @@
+{
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
+  "sdss": {
+    "name": "SDSS",
+    "aliases": [
+      "Sloan Digital Sky Survey"
+    ],
+    "type": "地基巡天",
+    "launch_date": "2000 (began operations)",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": ">1/3 of sky",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "运行中",
+    "description": "绘制宇宙详细3D地图的大型spectroscopic 巡天"
+  },
+  "lsst": {
+    "name": "LSST",
+    "aliases": [
+      "Legacy Survey of Space and Time"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2025 (planned first light)",
+    "wavelengths": "Visible to near-infrared (320 - 1050 nm)",
+    "survey_area": "18,000 sq deg",
+    "location": "Cerro Pachón, Chile",
+    "status": "调试中",
+    "description": "广域巡天望远镜，每隔数晚对整个可见天空成像"
+  },
+  "lamost": {
+    "name": "LAMOST",
+    "aliases": [
+      "Large Sky Area Multi-Object Fiber Spectroscopic Telescope",
+      "Guo Shoujing Telescope"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2008",
+    "wavelengths": "Visible (370 - 900 nm)",
+    "location": "Xinglong Station, China",
+    "status": "运行中",
+    "description": "带有4000光纤spectrograph的4米望远镜，用于大规模spectroscopic 巡天"
+  },
+  "panstarrs": {
+    "name": "Pan-STARRS",
+    "aliases": [
+      "Panoramic Survey Telescope and Rapid Response System"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2008",
+    "wavelengths": "Visible to near-infrared (400 - 1000 nm)",
+    "survey_area": "30,000 sq deg",
+    "location": "Haleakalā, Hawaii",
+    "status": "运行中",
+    "description": "发现小行星、超新星和变星的广域巡天望远镜"
+  },
+  "ztf": {
+    "name": "ZTF",
+    "aliases": [
+      "Zwicky Transient Facility"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2018",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "3750 sq deg per hour",
+    "location": "Palomar Observatory, California",
+    "status": "运行中",
+    "description": "发现超新星、小行星和瞬变事件的高频次全天巡天"
+  },
+  "ngts": {
+    "name": "NGTS",
+    "aliases": [
+      "Next-Generation Transit Survey"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2015",
+    "wavelengths": "Visible (520 - 890 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "运行中",
+    "description": "搜寻transiting 系外行星的12台小型望远镜阵列"
+  },
+  "speculoos": {
+    "name": "SPECULOOS",
+    "aliases": [
+      "Search for habitable Planets EClipsing ULtra-cOOl Stars"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2019",
+    "wavelengths": "Near-infrared",
+    "location": "Paranal, Chile and Tenerife, Spain",
+    "status": "运行中",
+    "description": "搜寻围绕ultracool 矮星的系外行星的机械望远镜网络"
+  },
+  "hat": {
+    "name": "HATNet",
+    "aliases": [
+      "Hungarian Automated Telescope Network"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2003",
+    "wavelengths": "Visible",
+    "location": "Arizona and Hawaii",
+    "status": "运行中",
+    "description": "发现transiting 系外行星的小型自动化望远镜网络"
+  },
+  "wasp": {
+    "name": "SuperWASP",
+    "aliases": [
+      "Wide Angle Search for Planets"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2004",
+    "wavelengths": "Visible (400 - 700 nm)",
+    "location": "La Palma and South Africa",
+    "status": "运行中",
+    "description": "发现transiting 系外行星的两座机械天文台"
+  },
+  "vst": {
+    "name": "VST",
+    "aliases": [
+      "VLT Survey Telescope"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2011",
+    "wavelengths": "Visible (330 - 1000 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "运行中",
+    "description": "设计用于广域Optical 巡天的2.6米望远镜"
+  },
+  "desi": {
+    "name": "DESI",
+    "aliases": [
+      "Dark Energy Spectroscopic Instrument"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2021 (began operations)",
+    "wavelengths": "Visible to near-infrared (360 - 980 nm)",
+    "survey_area": "14,000 sq deg",
+    "location": "Kitt Peak National Observatory, Arizona",
+    "status": "运行中",
+    "description": "创建最大宇宙3D地图，测量4000万个星系的5000光纤spectrograph"
+  },
+  "des": {
+    "name": "DES",
+    "aliases": [
+      "Dark Energy Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2013",
+    "wavelengths": "Visible to near-infrared (400 - 1080 nm)",
+    "survey_area": "5000 sq deg",
+    "location": "Cerro Tololo Inter-American Observatory, Chile",
+    "status": "已完成 (2019)",
+    "description": "深度multi-band 南方天空巡天，通过多重探测器研究暗能量"
+  },
+  "kids": {
+    "name": "KiDS",
+    "aliases": [
+      "Kilo-Degree Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2011",
+    "wavelengths": "Visible to near-infrared (330 - 1000 nm)",
+    "survey_area": "1350 sq deg",
+    "location": "VLT Survey Telescope, Chile",
+    "status": "运行中",
+    "description": "深度multi-band 成像巡天，用于弱引力透镜和星系演化"
+  },
+  "2mass": {
+    "name": "2MASS",
+    "aliases": [
+      "Two Micron All-Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "1997",
+    "wavelengths": "Near-infrared (1.25, 1.65, 2.17 μm)",
+    "survey_area": "Full sky",
+    "location": "Mount Hopkins, Arizona and Cerro Tololo, Chile",
+    "status": "已完成 (2001)",
+    "description": "全天near-infrared 巡天，编目3亿+颗恒星和100万+个星系"
+  },
+  "allwise": {
+    "name": "AllWISE",
+    "aliases": [
+      "All-Sky WISE"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2013 (data release)",
+    "wavelengths": "Infrared (3.4, 4.6, 12, 22 μm)",
+    "survey_area": "Full sky",
+    "location": "Space-based (WISE satellite)",
+    "status": "已完成",
+    "description": "结合WISE 巡天数据，覆盖整个天空在mid-infrared 波段，具有增强深度"
+  },
+  "boss": {
+    "name": "BOSS",
+    "aliases": [
+      "Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2009",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "10,000 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "已完成 (2014)",
+    "description": "SDSS-III 项目，测量150万个星系的光谱，用于重子声学振荡"
+  },
+  "eboss": {
+    "name": "eBOSS",
+    "aliases": [
+      "Extended Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2014",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "7500 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "已完成 (2019)",
+    "description": "SDSS-IV 项目，扩展BOSS以绘制从 0.6 < z < 2.2 的宇宙结构"
+  },
+  "apogee": {
+    "name": "APOGEE",
+    "aliases": [
+      "Apache Point Observatory Galactic Evolution Experiment"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2011",
+    "wavelengths": "Near-infrared (1.51 - 1.70 μm)",
+    "location": "Apache Point Observatory and Las Campanas Observatory",
+    "status": "运行中",
+    "description": "跨越银河系的10万+颗恒星的High-resolution infrared spectroscopy"
+  },
+  "galah": {
+    "name": "GALAH",
+    "aliases": [
+      "GALactic Archaeology with HERMES"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2014",
+    "wavelengths": "Visible (471 - 789 nm)",
+    "location": "Anglo-Australian Telescope, Australia",
+    "status": "运行中",
+    "description": "测量100万颗恒星化学丰度的High-resolution spectroscopic 巡天"
+  },
+  "rave": {
+    "name": "RAVE",
+    "aliases": [
+      "RAdial Velocity Experiment"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2003",
+    "wavelengths": "Near-infrared (8410 - 8795 Å)",
+    "location": "UK Schmidt Telescope, Australia",
+    "status": "已完成 (2013)",
+    "description": "用于银河系结构的50万颗恒星的Medium-resolution spectroscopic 巡天"
+  },
+  "cfhtls": {
+    "name": "CFHTLS",
+    "aliases": [
+      "Canada-France-Hawaii Telescope Legacy Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2003",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "170 sq deg (multiple fields)",
+    "location": "Canada-France-Hawaii Telescope, Hawaii",
+    "status": "已完成 (2009)",
+    "description": "深度multi-band 成像巡天，用于弱引力透镜和高红移星系"
+  },
+  "cosmos": {
+    "name": "COSMOS",
+    "aliases": [
+      "Cosmic Evolution Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2003",
+    "wavelengths": "X-ray to radio (multi-wavelength)",
+    "survey_area": "2 sq deg",
+    "location": "Multiple telescopes worldwide",
+    "status": "进行中",
+    "description": "深度multi-wavelength 单一区域巡天，研究星系演化至 z~6"
+  },
+  "candels": {
+    "name": "CANDELS",
+    "aliases": [
+      "Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2010",
+    "wavelengths": "Near-infrared (0.8 - 1.6 μm)",
+    "survey_area": "~0.25 sq deg (multiple fields)",
+    "location": "Hubble Space Telescope",
+    "status": "已完成 (2013)",
+    "description": "最大HST 巡天，研究在 z > 1.5 的星系演化和再电离"
+  },
+  "goods": {
+    "name": "GOODS",
+    "aliases": [
+      "Great Observatories Origins Deep Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2003",
+    "wavelengths": "Multi-wavelength (X-ray to radio)",
+    "survey_area": "~0.1 sq deg (two fields)",
+    "location": "Multiple space and ground telescopes",
+    "status": "已完成",
+    "description": "结合Hubble, Spitzer, Chandra 及其他的超深度multi-wavelength 巡天"
+  },
+  "hudf": {
+    "name": "HUDF",
+    "aliases": [
+      "Hubble Ultra Deep Field"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2004 (initial), 2012 (XDF)",
+    "wavelengths": "UV to near-infrared (0.2 - 1.7 μm)",
+    "survey_area": "11 arcmin² (XDF: 4.7 arcmin²)",
+    "location": "Hubble Space Telescope",
+    "status": "已完成",
+    "description": "迄今为止最深的Optical/NIR 图像，揭示约10000个星系至 z~10"
+  },
+  "ukidss": {
+    "name": "UKIDSS",
+    "aliases": [
+      "UKIRT Infrared Deep Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2005",
+    "wavelengths": "Near-infrared (0.83 - 2.37 μm)",
+    "survey_area": "7500 sq deg (multiple surveys)",
+    "location": "United Kingdom Infrared Telescope, Hawaii",
+    "status": "已完成 (2012)",
+    "description": "当时最深和最大的near-infrared 巡天，具有多个组成部分"
+  },
+  "viking": {
+    "name": "VIKING",
+    "aliases": [
+      "VISTA Kilo-degree INfrared Galaxy survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.15 μm)",
+    "survey_area": "1500 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "已完成 (2013)",
+    "description": "用于测光红移的KiDS Optical 巡天的near-infrared 补充"
+  },
+  "video": {
+    "name": "VIDEO",
+    "aliases": [
+      "VISTA Deep Extragalactic Observations"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.88 - 2.15 μm)",
+    "survey_area": "12 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "已完成",
+    "description": "深度infrared 巡天，达到 z~4，用于星系演化研究"
+  },
+  "vhs": {
+    "name": "VHS",
+    "aliases": [
+      "VISTA Hemisphere Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (1.02, 1.25, 2.15 μm)",
+    "survey_area": "18,000 sq deg (southern hemisphere)",
+    "location": "VISTA telescope, Chile",
+    "status": "运行中",
+    "description": "覆盖整个南方天空的最大near-infrared 巡天，补充2MASS"
+  },
+  "first": {
+    "name": "FIRST",
+    "aliases": [
+      "Faint Images of the Radio Sky at Twenty-Centimeters"
+    ],
+    "type": "天空巡天",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "10,575 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "已完成 (2004)",
+    "description": "Radio 巡天，编目约100万个源，研究AGN 和Radio 星系"
+  },
+  "nvss": {
+    "name": "NVSS",
+    "aliases": [
+      "NRAO VLA Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "~34,000 sq deg (northern sky)",
+    "location": "Very Large Array, New Mexico",
+    "status": "已完成 (1996)",
+    "description": "大面积Radio 巡天，编目赤纬高于 -40° 的约200万个源"
+  },
+  "vlass": {
+    "name": "VLASS",
+    "aliases": [
+      "VLA Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2017",
+    "wavelengths": "Radio (2-4 GHz)",
+    "survey_area": "33,000 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "运行中",
+    "description": "现代全天Radio 巡天，具有比NVSS/FIRST 更好的分辨率和灵敏度"
+  },
+  "racs": {
+    "name": "RACS",
+    "aliases": [
+      "Rapid ASKAP Continuum Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2019",
+    "wavelengths": "Radio (887.5 MHz)",
+    "survey_area": "34,000 sq deg (full southern sky)",
+    "location": "ASKAP, Australia",
+    "status": "已完成 (2020)",
+    "description": "快速全南方天空Radio 巡天，编目约300万个源"
+  },
+  "emu": {
+    "name": "EMU",
+    "aliases": [
+      "Evolutionary Map of the Universe"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2021 (early science)",
+    "wavelengths": "Radio (800-1088 MHz)",
+    "survey_area": "Full southern sky + part of north",
+    "location": "ASKAP, Australia",
+    "status": "运行中",
+    "description": "深度Radio continuum 巡天，预计探测到约7000万个星系"
+  },
+  "lofartier1": {
+    "name": "LoTSS",
+    "aliases": [
+      "LOFAR Two-metre Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2014",
+    "wavelengths": "Radio (120-168 MHz)",
+    "survey_area": "Full northern sky",
+    "location": "LOFAR, Netherlands and Europe",
+    "status": "运行中",
+    "description": "Low-frequency Radio 巡天，绘制具有前所未有的灵敏度的整个北方天空"
+  },
+  "tgss": {
+    "name": "TGSS",
+    "aliases": [
+      "TIFR GMRT Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2010",
+    "wavelengths": "Radio (150 MHz)",
+    "survey_area": "36,900 sq deg",
+    "location": "Giant Metrewave Radio Telescope, India",
+    "status": "已完成 (2012)",
+    "description": "Low-frequency Radio 巡天，覆盖赤纬高于 -53° 的天空"
+  },
+  "wenss": {
+    "name": "WENSS",
+    "aliases": [
+      "Westerbork Northern Sky Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "1991",
+    "wavelengths": "Radio (92 cm / 325 MHz)",
+    "survey_area": "~18,000 sq deg",
+    "location": "Westerbork Synthesis Radio Telescope, Netherlands",
+    "status": "已完成 (1997)",
+    "description": "在 325 MHz 的Low-frequency Radio 北方天空巡天"
+  },
+  "gleam": {
+    "name": "GLEAM",
+    "aliases": [
+      "GaLactic and Extragalactic All-sky MWA survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2013",
+    "wavelengths": "Radio (72-231 MHz)",
+    "survey_area": "Full sky (declination < +30°)",
+    "location": "Murchison Widefield Array, Australia",
+    "status": "已完成 (2016)",
+    "description": "宽带Low-frequency 巡天，具有在low frequencies 的最佳光谱覆盖"
+  },
+  "atlassurvey": {
+    "name": "ATLAS",
+    "aliases": [
+      "Asteroid Terrestrial-impact Last Alert System"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2015 (first unit), 2017 (second unit)",
+    "wavelengths": "Visible (cyan and orange filters)",
+    "survey_area": "Entire visible sky every 24 hours",
+    "location": "Hawaii (two sites)",
+    "status": "运行中",
+    "description": "搜寻近地小行星和发现超新星的全天巡天"
+  },
+  "asassn": {
+    "name": "ASAS-SN",
+    "aliases": [
+      "All-Sky Automated Survey for Supernovae"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2014",
+    "wavelengths": "Visible (V and g bands)",
+    "survey_area": "Full sky every ~2 days",
+    "location": "Multiple sites worldwide (5 locations)",
+    "status": "运行中",
+    "description": "发现超新星和瞬变体的全球机械望远镜网络"
+  },
+  "gaia_dr3": {
+    "name": "Gaia DR3",
+    "aliases": [
+      "Gaia Data Release 3"
+    ],
+    "type": "Astrometric 巡天",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Gaia satellite at L2",
+    "status": "活跃任务",
+    "description": "第三批数据发布，包含18亿颗恒星，包括光谱和恒星参数"
+  },
+  "hipparcos_catalog": {
+    "name": "Hipparcos Catalogue",
+    "aliases": [
+      "Hipparcos and Tycho Catalogues"
+    ],
+    "type": "Astrometric 巡天",
+    "launch_date": "1997 (catalog release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Hipparcos satellite",
+    "status": "已完成",
+    "description": "首个高精度astrometric 星表，包含11.8万颗恒星，具有milliarcsecond 精度"
+  },
+  "skymapper": {
+    "name": "SkyMapper",
+    "aliases": [
+      "SkyMapper Southern Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2014",
+    "wavelengths": "Visible (320 - 1000 nm, 6 filters)",
+    "survey_area": "Full southern sky",
+    "location": "Siding Spring Observatory, Australia",
+    "status": "运行中",
+    "description": "数字南半球全天巡天，用于恒星族群和瞬变体"
+  },
+  "4most": {
+    "name": "4MOST",
+    "aliases": [
+      "4-metre Multi-Object Spectroscopic Telescope"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (370 - 950 nm)",
+    "location": "VISTA telescope, Chile",
+    "status": "建造中",
+    "description": "用于VISTA 的Multi-fibre spectrograph，获取数百万条光谱用于多项巡天"
+  },
+  "weave": {
+    "name": "WEAVE",
+    "aliases": [
+      "WHT Enhanced Area Velocity Explorer"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2023",
+    "wavelengths": "Visible to near-infrared (366 - 959 nm)",
+    "location": "William Herschel Telescope, La Palma",
+    "status": "运行中",
+    "description": "进行银河系及以外大型spectroscopic 巡天的Multi-fibre spectrograph"
+  },
+  "moons": {
+    "name": "MOONS",
+    "aliases": [
+      "Multi Object Optical and Near-infrared Spectrograph"
+    ],
+    "type": "spectroscopic 巡天",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (0.64 - 1.8 μm)",
+    "location": "Very Large Telescope, Chile",
+    "status": "调试中",
+    "description": "用于VLT 的1000光纤spectrograph，研究星系演化和银河考古学"
+  },
+  "unions": {
+    "name": "UNIONS",
+    "aliases": [
+      "Ultraviolet Near-Infrared Optical Northern Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2019",
+    "wavelengths": "UV to near-infrared (0.2 - 1 μm)",
+    "survey_area": "4800 sq deg",
+    "location": "CFHT and multiple space telescopes",
+    "status": "运行中",
+    "description": "结合地基和空间观测的深度multi-band 北方天空巡天"
+  },
+  "delve": {
+    "name": "DELVE",
+    "aliases": [
+      "DECam Local Volume Exploration"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2019",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "~4000 sq deg (southern sky)",
+    "location": "Blanco Telescope, Chile",
+    "status": "运行中",
+    "description": "目标为银河系卫星、恒星流和本地星系群的大面积巡天"
+  },
+  "jwstcosmos": {
+    "name": "COSMOS-Web",
+    "aliases": [
+      "COSMOS-Webb"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2023",
+    "wavelengths": "Near-infrared (0.9 - 5 μm)",
+    "survey_area": "0.54 sq deg",
+    "location": "James Webb Space Telescope",
+    "status": "运行中",
+    "description": "最大JWST 巡天项目，绘制COSMOS 场用于高红移星系和AGN"
+  },
+  "jades": {
+    "name": "JADES",
+    "aliases": [
+      "JWST Advanced Deep Extragalactic Survey"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2022",
+    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
+    "survey_area": "~0.05 sq deg (GOODS fields)",
+    "location": "James Webb Space Telescope",
+    "status": "运行中",
+    "description": "深度JWST spectroscopic 巡天，研究早期星系和星系组装"
+  },
+  "ceers": {
+    "name": "CEERS",
+    "aliases": [
+      "Cosmic Evolution Early Release Science"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2022",
+    "wavelengths": "Near to mid-infrared (0.6 - 28 μm)",
+    "survey_area": "~0.1 sq deg (EGS field)",
+    "location": "James Webb Space Telescope",
+    "status": "运行中",
+    "description": "JWST 早期发布科学项目，研究从 z~10 到现在的星系演化"
+  },
+  "hsc_ssp": {
+    "name": "HSC-SSP",
+    "aliases": [
+      "Hyper Suprime-Cam Subaru Strategic Program"
+    ],
+    "type": "天空巡天",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "survey_area": "∼1400 sq deg",
+    "location": "Hyper Suprime-Cam, Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "使用Hyper Suprime-Cam 在Subaru 上的深度广域Optical 成像巡天，用于弱引力透镜、星系演化和瞬变科学"
+  }
+}

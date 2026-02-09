@@ -1,0 +1,1494 @@
+{
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
+  "jwst": {
+    "name": "JWST",
+    "aliases": [
+      "James Webb Space Telescope",
+      "Webb"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "0.6 - 28.5 μm (Near/Mid-infrared)",
+    "location": "L2 Lagrange Point",
+    "status": "运行中",
+    "description": "最强大的infrared 空间望远镜，研究早期宇宙、星系形成和系外行星大气"
+  },
+  "hubble": {
+    "name": "Hubble Space Telescope",
+    "aliases": [
+      "HST",
+      "Hubble"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "April 24, 1990",
+    "wavelengths": "UV, Visible, Near-infrared (0.1 - 2.5 μm)",
+    "location": "Low Earth Orbit",
+    "status": "运行中",
+    "description": "革命性的空间望远镜，提供深度场图像并改变我们对宇宙的理解"
+  },
+  "chandra": {
+    "name": "Chandra X-ray Observatory",
+    "aliases": [
+      "Chandra",
+      "CXO"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "July 23, 1999",
+    "wavelengths": "X-ray (0.1 - 10 keV)",
+    "location": "Highly elliptical Earth orbit",
+    "status": "运行中",
+    "description": "首要的X-ray 望远镜，研究黑洞、超新星、星系团和高能现象"
+  },
+  "spitzer": {
+    "name": "Spitzer Space Telescope",
+    "aliases": [
+      "Spitzer",
+      "SST"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "August 25, 2003",
+    "wavelengths": "Infrared (3 - 180 μm)",
+    "location": "Earth-trailing solar orbit",
+    "status": "退役 (2020年1月30日)",
+    "description": "infrared 望远镜，研究了恒星形成、系外行星和遥远星系"
+  },
+  "kepler": {
+    "name": "Kepler Space Telescope",
+    "aliases": [
+      "Kepler"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "March 7, 2009",
+    "wavelengths": "Visible light (430 - 890 nm)",
+    "survey_area": "115 sq deg in Cygnus constellation",
+    "status": "退役 (2018年10月30日)",
+    "description": "系外行星搜寻者，使用 transit photometry 发现了数千颗行星"
+  },
+  "tess": {
+    "name": "TESS",
+    "aliases": [
+      "Transiting Exoplanet Survey Satellite"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "April 18, 2018",
+    "wavelengths": "Visible to near-infrared (600 - 1000 nm)",
+    "survey_area": "~85% of sky",
+    "status": "运行中",
+    "description": "全天系外行星巡天任务，寻找围绕附近亮星的行星"
+  },
+  "gaia": {
+    "name": "Gaia",
+    "aliases": [
+      "Gaia satellite"
+    ],
+    "type": "Astrometry 卫星",
+    "launch_date": "December 19, 2013",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "L2 Lagrange Point",
+    "status": "运行中",
+    "description": "绘制银河系的3D地图，测量超过十亿颗恒星的位置、距离和运动"
+  },
+  "euclid": {
+    "name": "Euclid",
+    "aliases": [
+      "Euclid telescope"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "July 1, 2023",
+    "wavelengths": "Visible to near-infrared (550 - 2000 nm)",
+    "survey_area": "15,000 sq deg",
+    "location": "L2 Lagrange Point",
+    "status": "运行中",
+    "description": "ESA 任务，绘制跨越宇宙历史的暗物质和暗能量"
+  },
+  "roman": {
+    "name": "Nancy Grace Roman Space Telescope",
+    "aliases": [
+      "Roman",
+      "Roman Space Telescope",
+      "WFIRST"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "May 2027 (planned)",
+    "wavelengths": "Visible to near-infrared (0.5 - 2.3 μm)",
+    "survey_area": "~2000 sq deg",
+    "location": "L2 Lagrange Point",
+    "status": "正在开发中",
+    "description": "宽视场巡天望远镜，用于暗能量、系外行星和infrared 天体物理学"
+  },
+  "csst": {
+    "name": "CSST",
+    "aliases": [
+      "China Space Station Telescope",
+      "Xuntian",
+      "Chinese Survey Space Telescope"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "2025-2026 (planned)",
+    "wavelengths": "UV to near-infrared (255 nm - 1000 nm)",
+    "survey_area": "17,500 sq deg",
+    "location": "Co-orbit with Chinese Space Station",
+    "status": "正在开发中",
+    "description": "2米中国空间望远镜，具有哈勃级分辨率，巡视40%的天空，用于宇宙学和星系演化"
+  },
+  "alma": {
+    "name": "ALMA",
+    "aliases": [
+      "Atacama Large Millimeter Array"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "March 13, 2013 (inauguration)",
+    "wavelengths": "Millimetre/submillimetre (0.3 - 9.6 mm)",
+    "location": "Atacama Desert, Chile (5000m altitude)",
+    "status": "运行中",
+    "description": "世界上最强大的millimetre/submillimetre 天文台，研究恒星/行星形成和遥远星系"
+  },
+  "vla": {
+    "name": "VLA",
+    "aliases": [
+      "Very Large Array",
+      "Karl G. Jansky Very Large Array"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "1980",
+    "wavelengths": "Radio (0.7 cm - 4 m)",
+    "location": "New Mexico, USA",
+    "status": "运行中",
+    "description": "27面天线radio 望远镜阵列，研究来自天体的radio 辐射"
+  },
+  "ska": {
+    "name": "SKA",
+    "aliases": [
+      "Square Kilometre Array"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "2027 (planned first light)",
+    "wavelengths": "Radio (50 MHz - 14 GHz)",
+    "location": "Australia and South Africa",
+    "status": "建设中",
+    "description": "下一代radio 望远镜阵列，具有前所未有的灵敏度和巡天速度"
+  },
+  "jwstmiri": {
+    "name": "MIRI",
+    "aliases": [
+      "Mid-Infrared Instrument"
+    ],
+    "type": "JWST 仪器",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Mid-infrared (5 - 28 μm)",
+    "description": "JWST 的mid-infrared 照相机和摄谱仪，用于研究冷却天体和尘埃"
+  },
+  "jwstnirspec": {
+    "name": "NIRSpec",
+    "aliases": [
+      "Near Infrared Spectrograph"
+    ],
+    "type": "JWST 仪器",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
+    "description": "JWST 的multi-object 摄谱仪，用于研究遥远星系和系外行星大气"
+  },
+  "jwstnircam": {
+    "name": "NIRCam",
+    "aliases": [
+      "Near Infrared Camera"
+    ],
+    "type": "JWST 仪器",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Near-infrared (0.6 - 5 μm)",
+    "description": "JWST 的主要的infrared 成像仪和波前传感器"
+  },
+  "herschel": {
+    "name": "Herschel Space Observatory",
+    "aliases": [
+      "Herschel"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "May 14, 2009",
+    "wavelengths": "Far-infrared to submillimetre (55 - 672 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "退役 (2013年4月29日)",
+    "description": "太空中最大的infrared 望远镜，研究了恒星/星系形成和分子云"
+  },
+  "planck": {
+    "name": "Planck",
+    "aliases": [
+      "Planck satellite"
+    ],
+    "type": "空间天文台",
+    "launch_date": "May 14, 2009",
+    "wavelengths": "Microwave to far-infrared (0.3 - 11 mm)",
+    "survey_area": "Full sky",
+    "location": "L2 Lagrange Point",
+    "status": "退役 (2013年10月23日)",
+    "description": "绘制了具有前所未有的精度的cosmic microwave background，测量宇宙年龄和组成"
+  },
+  "act": {
+    "name": "ACT",
+    "aliases": [
+      "Atacama Cosmology Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2007 (first observations)",
+    "wavelengths": "Millimetre/submillimetre (1-3 mm)",
+    "survey_area": "~50% of sky",
+    "location": "Atacama Desert, Chile (5190m altitude)",
+    "status": "运行中",
+    "description": "6米望远镜，测量cosmic microwave background、暗能量、星系团和引力透镜"
+  },
+  "spt": {
+    "name": "SPT",
+    "aliases": [
+      "South Pole Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2007 (first light)",
+    "wavelengths": "Millimetre/submillimetre (1-3 mm)",
+    "survey_area": "2500 sq deg",
+    "location": "Amundsen-Scott South Pole Station, Antarctica",
+    "status": "运行中",
+    "description": "10米望远镜，观测cosmic microwave background，通过 Sunyaev-Zel'dovich effect 探测星系团"
+  },
+  "wmap": {
+    "name": "WMAP",
+    "aliases": [
+      "Wilkinson Microwave Anisotropy Probe"
+    ],
+    "type": "空间天文台",
+    "launch_date": "June 30, 2001",
+    "wavelengths": "Microwave (3.2 - 14 mm)",
+    "survey_area": "Full sky",
+    "location": "L2 Lagrange Point",
+    "status": "退役 (2010年)",
+    "description": "测量了cosmic microwave background 辐射中的温度波动"
+  },
+  "fermi": {
+    "name": "Fermi Gamma-ray Space Telescope",
+    "aliases": [
+      "Fermi",
+      "GLAST"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "June 11, 2008",
+    "wavelengths": "Gamma-ray (20 MeV - 300 GeV)",
+    "location": "Low Earth Orbit",
+    "status": "运行中",
+    "description": "研究gamma-ray 天空，包括脉冲星、耀变体和gamma-ray 暴"
+  },
+  "xmm": {
+    "name": "XMM-Newton",
+    "aliases": [
+      "XMM",
+      "X-ray Multi-Mirror Mission"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 10, 1999",
+    "wavelengths": "X-ray (0.15 - 12 keV)",
+    "location": "Highly elliptical Earth orbit",
+    "status": "运行中",
+    "description": "ESA 的X-ray 天文台，研究黑洞、中子星和星系团中的热气体"
+  },
+  "nustar": {
+    "name": "NuSTAR",
+    "aliases": [
+      "Nuclear Spectroscopic Telescope Array"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "June 13, 2012",
+    "wavelengths": "Hard X-ray (3 - 79 keV)",
+    "location": "Low Earth Orbit",
+    "status": "运行中",
+    "description": "第一个在轨聚焦硬X-ray 望远镜，研究黑洞和超新星遗迹"
+  },
+  "swift": {
+    "name": "Swift",
+    "aliases": [
+      "Swift Gamma-Ray Burst Mission",
+      "Neil Gehrels Swift Observatory"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "November 20, 2004",
+    "wavelengths": "Gamma-ray, X-ray, UV, Visible",
+    "location": "Low Earth Orbit",
+    "status": "运行中",
+    "description": "快速探测和研究gamma-ray 暴及其他瞬态现象"
+  },
+  "integral": {
+    "name": "INTEGRAL",
+    "aliases": [
+      "International Gamma-Ray Astrophysics Laboratory"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "October 17, 2002",
+    "wavelengths": "Gamma-ray (15 keV - 10 MeV)",
+    "location": "Highly elliptical Earth orbit",
+    "status": "运行中",
+    "description": "ESA gamma-ray 天文台，研究剧烈宇宙现象和银河系中心"
+  },
+  "ixpe": {
+    "name": "IXPE",
+    "aliases": [
+      "Imaging X-ray Polarimetry Explorer"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 9, 2021",
+    "wavelengths": "X-ray (2 - 8 keV)",
+    "location": "Low Earth Orbit",
+    "status": "正在开发中",
+    "description": "第一个X-ray polarimetry 任务，研究极端环境中的磁场"
+  },
+  "xrism": {
+    "name": "XRISM",
+    "aliases": [
+      "X-ray Imaging and Spectroscopy Mission"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "September 7, 2023",
+    "wavelengths": "X-ray (0.3 - 12 keV)",
+    "location": "Low Earth Orbit",
+    "status": "运行中",
+    "description": "JAXA/NASA X-ray 天文台，具有高分辨率spectroscopy 能力"
+  },
+  "athena": {
+    "name": "Athena",
+    "aliases": [
+      "Advanced Telescope for High-Energy Astrophysics"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "2037 (planned)",
+    "wavelengths": "X-ray (0.2 - 12 keV)",
+    "location": "L2 Lagrange Point",
+    "status": "退役 (2013年6月28日)",
+    "description": "下一代ESA X-ray 天文台，研究炽热宇宙和高能现象"
+  },
+  "nicer": {
+    "name": "NICER",
+    "aliases": [
+      "Neutron star Interior Composition Explorer"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "June 3, 2017",
+    "wavelengths": "X-ray (0.2 - 12 keV)",
+    "location": "International Space Station",
+    "status": "退役 (2007年10月18日)",
+    "description": "研究中子星，并测试用于航天器的基于脉冲星的导航"
+  },
+  "galex": {
+    "name": "GALEX",
+    "aliases": [
+      "Galaxy Evolution Explorer"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "April 28, 2003",
+    "wavelengths": "Ultraviolet (135 - 280 nm)",
+    "location": "Low Earth Orbit",
+    "status": "退役 (1983年11月21日)",
+    "description": "UV 巡天望远镜，绘制了跨越100亿年的星系演化"
+  },
+  "fuse": {
+    "name": "FUSE",
+    "aliases": [
+      "Far Ultraviolet Spectroscopic Explorer"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "June 24, 1999",
+    "wavelengths": "Far-ultraviolet (90.5 - 119.5 nm)",
+    "location": "Low Earth Orbit",
+    "status": "运行中 (NEOWISE 任务)",
+    "description": "高分辨率UV spectroscopy，研究星际介质和恒星大气"
+  },
+  "iras": {
+    "name": "IRAS",
+    "aliases": [
+      "Infrared Astronomical Satellite"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "January 25, 1983",
+    "wavelengths": "Infrared (12 - 100 μm)",
+    "location": "Low Earth Orbit",
+    "status": "退役 (2013年6月24日)",
+    "description": "第一个进行全天infrared 巡天的空间望远镜，发现了infrared 星系"
+  },
+  "wise": {
+    "name": "WISE",
+    "aliases": [
+      "Wide-field Infrared Survey Explorer",
+      "NEOWISE"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 14, 2009",
+    "wavelengths": "Infrared (3.4 - 22 μm)",
+    "survey_area": "Full sky",
+    "location": "Low Earth Orbit",
+    "status": "运行中",
+    "description": "全天infrared 巡天，发现小行星、褐矮星和遥远星系"
+  },
+  "corot": {
+    "name": "CoRoT",
+    "aliases": [
+      "Convection, Rotation and planetary Transits"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 27, 2006",
+    "wavelengths": "Visible light",
+    "location": "Low Earth Orbit",
+    "status": "正在开发中",
+    "description": "法国主导的系外行星搜寻者和asteroseismology 任务"
+  },
+  "cheops": {
+    "name": "CHEOPS",
+    "aliases": [
+      "Characterising Exoplanet Satellite"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 18, 2019",
+    "wavelengths": "Visible light (330 - 1100 nm)",
+    "location": "Low Earth Orbit",
+    "status": "正在开发中",
+    "description": "ESA 任务，利用高精度 photometry 表征已知系外行星"
+  },
+  "plato": {
+    "name": "PLATO",
+    "aliases": [
+      "PLAnetary Transits and Oscillations of stars"
+    ],
+    "type": "Astrometry 卫星",
+    "launch_date": "2026 (planned)",
+    "wavelengths": "Visible light",
+    "location": "L2 Lagrange Point",
+    "status": "退役 (1993年8月)",
+    "description": "ESA 任务，寻找和表征围绕类太阳恒星的类地系外行星"
+  },
+  "ariel": {
+    "name": "Ariel",
+    "aliases": [
+      "Atmospheric Remote-sensing Infrared Exoplanet Large-survey"
+    ],
+    "type": "太阳天文台",
+    "launch_date": "2029 (planned)",
+    "wavelengths": "Visible to infrared (0.5 - 7.8 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "运行中",
+    "description": "ESA 任务，研究数百颗系外行星的大气"
+  },
+  "hipparcos": {
+    "name": "Hipparcos",
+    "aliases": [
+      "High Precision Parallax Collecting Satellite"
+    ],
+    "type": "太阳天文台",
+    "launch_date": "August 8, 1989",
+    "wavelengths": "Visible light",
+    "location": "Highly elliptical Earth orbit",
+    "status": "运行中",
+    "description": "第一个空间astrometry 任务，创建了包含视差的精确恒星目录"
+  },
+  "soho": {
+    "name": "SOHO",
+    "aliases": [
+      "Solar and Heliospheric Observatory"
+    ],
+    "type": "太阳天文台",
+    "launch_date": "December 2, 1995",
+    "wavelengths": "UV, Visible, EUV",
+    "location": "L1 Lagrange Point",
+    "status": "运行中 (STEREO-A)",
+    "description": "持续监测太阳，发现数千颗彗星"
+  },
+  "sdo": {
+    "name": "SDO",
+    "aliases": [
+      "Solar Dynamics Observatory"
+    ],
+    "type": "太阳探测器",
+    "launch_date": "February 11, 2010",
+    "wavelengths": "UV, EUV, Visible",
+    "location": "Geosynchronous orbit",
+    "status": "运行中",
+    "description": "研究太阳变异性及其对地球的影响，具有高空间/时间分辨率"
+  },
+  "stereo": {
+    "name": "STEREO",
+    "aliases": [
+      "Solar Terrestrial Relations Observatory"
+    ],
+    "type": "太阳天文台",
+    "launch_date": "October 25, 2006",
+    "wavelengths": "UV, EUV, Visible, Radio",
+    "location": "Solar orbit (ahead/behind Earth)",
+    "status": "运行中",
+    "description": "双子航天器，提供太阳日冕和日冕物质抛射的3D视图"
+  },
+  "parkersolar": {
+    "name": "Parker Solar Probe",
+    "aliases": [
+      "Parker",
+      "PSP"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "August 12, 2018",
+    "wavelengths": "Visible, Radio, In-situ particles",
+    "location": "Highly elliptical solar orbit",
+    "status": "运行中",
+    "description": "第一个飞入太阳日冕的航天器，研究太阳风和磁场"
+  },
+  "solarorbiter": {
+    "name": "Solar Orbiter",
+    "aliases": [
+      "SolO"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "February 9, 2020",
+    "wavelengths": "UV, EUV, Visible, X-ray",
+    "location": "Elliptical solar orbit",
+    "status": "运行中",
+    "description": "ESA/NASA 任务，从近距离研究太阳两极和太阳风"
+  },
+  "keck": {
+    "name": "Keck Observatory",
+    "aliases": [
+      "Keck",
+      "Keck I and II"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1993 (Keck I), 1996 (Keck II)",
+    "wavelengths": "Visible to mid-infrared (0.3 - 25 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "双子10米望远镜，具有自适应光学系统和强大的spectroscopic 能力"
+  },
+  "vlt": {
+    "name": "VLT",
+    "aliases": [
+      "Very Large Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1998-2001",
+    "wavelengths": "Visible to mid-infrared (0.3 - 20 μm)",
+    "location": "Cerro Paranal, Chile",
+    "status": "运行中",
+    "description": "ESO 的旗舰设施，具有四台可以协同工作的8.2米望远镜"
+  },
+  "gemini": {
+    "name": "Gemini Observatory",
+    "aliases": [
+      "Gemini North",
+      "Gemini South"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1999 (North), 2001 (South)",
+    "wavelengths": "Visible to mid-infrared (0.32 - 25 μm)",
+    "location": "Hawaii (North), Chile (South)",
+    "status": "运行中",
+    "description": "双子8.1米望远镜，提供全天覆盖并具有自适应光学系统"
+  },
+  "subaru": {
+    "name": "Subaru Telescope",
+    "aliases": [
+      "Subaru"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1999",
+    "wavelengths": "Visible to infrared (0.3 - 30 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "日本8.2米望远镜，具有宽视场成像能力"
+  },
+  "magellan": {
+    "name": "Magellan Telescopes",
+    "aliases": [
+      "Magellan",
+      "Clay",
+      "Baade"
+    ],
+    "type": "Radio 望远镜",
+    "launch_date": "2000 (Baade), 2002 (Clay)",
+    "wavelengths": "Visible to infrared",
+    "location": "Las Campanas Observatory, Chile",
+    "status": "运行中",
+    "description": "由美国联盟运营的双子6.5米望远镜"
+  },
+  "lbt": {
+    "name": "LBT",
+    "aliases": [
+      "Large Binocular Telescope"
+    ],
+    "type": "Radio 望远镜",
+    "launch_date": "2004-2008",
+    "wavelengths": "Visible to mid-infrared (0.3 - 25 μm)",
+    "location": "Mount Graham, Arizona",
+    "status": "倒塌 (2020年12月1日)",
+    "description": "安装在单个支架上的两面8.4米反射镜，具有先进的自适应光学系统"
+  },
+  "gbt": {
+    "name": "GBT",
+    "aliases": [
+      "Green Bank Telescope"
+    ],
+    "type": "Radio 望远镜",
+    "launch_date": "2000",
+    "wavelengths": "Radio (3 mm - 3 m)",
+    "location": "Green Bank, West Virginia",
+    "status": "运行中",
+    "description": "世界上最大的100米全可动radio 望远镜"
+  },
+  "arecibo": {
+    "name": "Arecibo Observatory",
+    "aliases": [
+      "Arecibo"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "1963",
+    "wavelengths": "Radio (3 cm - 1 m)",
+    "location": "Arecibo, Puerto Rico",
+    "status": "运行中",
+    "description": "前305米radio 望远镜，闻名于SETI 和行星雷达观测"
+  },
+  "fast": {
+    "name": "FAST",
+    "aliases": [
+      "Five-hundred-meter Aperture Spherical Telescope",
+      "Tianyan"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "September 25, 2016",
+    "wavelengths": "Radio (10 cm - 4.3 m)",
+    "location": "Guizhou, China",
+    "status": "运行中",
+    "description": "世界上最大的500米单口径radio 望远镜，研究脉冲星和SETI"
+  },
+  "lofar": {
+    "name": "LOFAR",
+    "aliases": [
+      "Low Frequency Array"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "2010",
+    "wavelengths": "Radio (10 - 240 MHz)",
+    "location": "Netherlands and Europe",
+    "status": "运行中",
+    "description": "大规模low-frequency radio 望远镜网络，研究宇宙射线和系外行星"
+  },
+  "meerkat": {
+    "name": "MeerKAT",
+    "aliases": [
+      "Karoo Array Telescope"
+    ],
+    "type": "Radio 干涉仪",
+    "launch_date": "July 13, 2018",
+    "wavelengths": "Radio (580 MHz - 14.5 GHz)",
+    "location": "Northern Cape, South Africa",
+    "status": "退役 (2015年4月)",
+    "description": "SKA 的64面抛物面天线前身，研究HI、脉冲星和瞬变源"
+  },
+  "noema": {
+    "name": "NOEMA",
+    "aliases": [
+      "Northern Extended Millimeter Array"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2014 (expansion completed)",
+    "wavelengths": "Millimeter (0.8 - 4 mm)",
+    "location": "Plateau de Bure, French Alps",
+    "status": "建设中",
+    "description": "北半球最强大的millimetre 干涉仪"
+  },
+  "carma": {
+    "name": "CARMA",
+    "aliases": [
+      "Combined Array for Research in Millimeter-wave Astronomy"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2006",
+    "wavelengths": "Millimeter (1 - 3 mm)",
+    "location": "Cedar Flat, California",
+    "status": "规划/建设暂停",
+    "description": "组合23面天线，用于millimetre-wave 天文学"
+  },
+  "elt": {
+    "name": "ELT",
+    "aliases": [
+      "Extremely Large Telescope",
+      "European Extremely Large Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2028 (planned first light)",
+    "wavelengths": "Visible to mid-infrared (0.4 - 24 μm)",
+    "location": "Cerro Armazones, Chile",
+    "status": "建设中",
+    "description": "ESO 的39米望远镜，将是世界上最大的optical/near-IR 望远镜"
+  },
+  "tmt": {
+    "name": "TMT",
+    "aliases": [
+      "Thirty Meter Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "TBD (construction paused)",
+    "wavelengths": "Visible to mid-infrared (0.31 - 28 μm)",
+    "location": "Mauna Kea, Hawaii (proposed)",
+    "status": "运行中",
+    "description": "计划中的30米望远镜，具有自适应光学系统，用于深空观测"
+  },
+  "gmt": {
+    "name": "GMT",
+    "aliases": [
+      "Giant Magellan Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2029 (planned first light)",
+    "wavelengths": "Visible to mid-infrared (0.32 - 25 μm)",
+    "location": "Las Campanas Observatory, Chile",
+    "status": "运行中",
+    "description": "七面8.4米反射镜，组合成24.5米有效口径"
+  },
+  "cfht": {
+    "name": "CFHT",
+    "aliases": [
+      "Canada-France-Hawaii Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1979",
+    "wavelengths": "Visible to infrared",
+    "location": "Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "3.6米望远镜，以宽视场成像巡天闻名"
+  },
+  "palomar": {
+    "name": "Palomar Observatory",
+    "aliases": [
+      "Hale Telescope",
+      "Palomar 200-inch"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1948",
+    "wavelengths": "Visible to infrared",
+    "location": "Palomar Mountain, California",
+    "status": "运行中",
+    "description": "历史性的5.1米望远镜，在数十年来主导了天文学"
+  },
+  "mmt": {
+    "name": "MMT Observatory",
+    "aliases": [
+      "MMT",
+      "Multiple Mirror Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1979 (converted to single mirror 1999)",
+    "wavelengths": "Visible to infrared",
+    "location": "Mount Hopkins, Arizona",
+    "status": "运行中",
+    "description": "由亚利桑那大学和史密森尼学会运营的6.5米望远镜"
+  },
+  "salt": {
+    "name": "SALT",
+    "aliases": [
+      "Southern African Large Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2005",
+    "wavelengths": "Visible to near-infrared (320 - 1700 nm)",
+    "location": "Sutherland, South Africa",
+    "status": "运行中",
+    "description": "南半球最大的11米单体optical 望远镜"
+  },
+  "het": {
+    "name": "HET",
+    "aliases": [
+      "Hobby-Eberly Telescope"
+    ],
+    "type": "概念研究",
+    "launch_date": "1997",
+    "wavelengths": "Visible to near-infrared (400 - 1100 nm)",
+    "location": "McDonald Observatory, Texas",
+    "status": "JWST 仪器",
+    "description": "9.2米望远镜，优化用于spectroscopy 和暗能量研究"
+  },
+  "jwstfgs": {
+    "name": "FGS/NIRISS",
+    "aliases": [
+      "Fine Guidance Sensor",
+      "Near Infrared Imager and Slitless Spectrograph"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Near-infrared (0.8 - 5 μm)",
+    "description": "JWST 的指向控制传感器和加拿大科学仪器，用于系外行星研究"
+  },
+  "ixo": {
+    "name": "Lynx",
+    "aliases": [
+      "Lynx X-ray Observatory"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "2030s (proposed)",
+    "wavelengths": "X-ray (0.2 - 10 keV)",
+    "location": "L2 Lagrange Point",
+    "status": "概念研究",
+    "description": "提议的NASA 旗舰X-ray 任务，具有前所未有的灵敏度"
+  },
+  "habex": {
+    "name": "HabEx",
+    "aliases": [
+      "Habitable Exoplanet Observatory"
+    ],
+    "type": "空间望远镜",
+    "launch_date": "2030s (proposed)",
+    "wavelengths": "UV to near-infrared (0.1 - 1.8 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "概念研究",
+    "description": "提议的4米空间望远镜，带有星影罩，用于直接系外行星成像"
+  },
+  "luvoir": {
+    "name": "LUVOIR",
+    "aliases": [
+      "Large UV/Optical/IR Surveyor"
+    ],
+    "type": "机载天文台",
+    "launch_date": "2030s (proposed)",
+    "wavelengths": "UV to near-infrared (0.1 - 2.5 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "退役 (2022年9月30日)",
+    "description": "提议的8-15米旗舰任务，用于系外行星表征和天体物理学"
+  },
+  "sofia": {
+    "name": "SOFIA",
+    "aliases": [
+      "Stratospheric Observatory for Infrared Astronomy"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2010",
+    "wavelengths": "Infrared (0.3 - 1600 μm)",
+    "location": "Boeing 747SP aircraft",
+    "status": "运行中",
+    "description": "机载2.7米infrared 望远镜，飞行在大气水蒸气之上"
+  },
+  "eso36": {
+    "name": "ESO 3.6m",
+    "aliases": [
+      "ESO 3.6-metre telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1976",
+    "wavelengths": "Visible to infrared",
+    "location": "La Silla Observatory, Chile",
+    "status": "运行中",
+    "description": "HARPS 摄谱仪的所在地，主要的系外行星发现设施"
+  },
+  "tng": {
+    "name": "TNG",
+    "aliases": [
+      "Telescopio Nazionale Galileo"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1998",
+    "wavelengths": "Visible to near-infrared",
+    "location": "La Palma, Canary Islands",
+    "status": "运行中",
+    "description": "意大利3.6米望远镜，带有HARPS-N，用于系外行星研究"
+  },
+  "ukirt": {
+    "name": "UKIRT",
+    "aliases": [
+      "United Kingdom Infrared Telescope"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "1979",
+    "wavelengths": "Infrared (1 - 5 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "3.8米专用infrared 望远镜，进行宽视场巡天"
+  },
+  "irtf": {
+    "name": "IRTF",
+    "aliases": [
+      "NASA Infrared Telescope Facility"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "1979",
+    "wavelengths": "Infrared (1 - 30 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "3米NASA 设施，优化用于infrared 行星和太阳系研究"
+  },
+  "ligo": {
+    "name": "LIGO",
+    "aliases": [
+      "Laser Interferometer Gravitational-Wave Observatory"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "2002 (initial), 2015 (Advanced LIGO)",
+    "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
+    "location": "Hanford, Washington and Livingston, Louisiana",
+    "status": "运行中",
+    "description": "第一个观测引力波的探测器，探测黑洞和中子星的合并"
+  },
+  "virgo": {
+    "name": "Virgo",
+    "aliases": [
+      "Virgo interferometer"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "2007 (initial), 2017 (Advanced Virgo)",
+    "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
+    "location": "Cascina, Italy",
+    "status": "运行中",
+    "description": "欧洲引力波探测器，与LIGO 协同工作"
+  },
+  "kagra": {
+    "name": "KAGRA",
+    "aliases": [
+      "Kamioka Gravitational Wave Detector"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "2020",
+    "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
+    "location": "Kamioka Mine, Japan (underground)",
+    "status": "运行中",
+    "description": "低温地下引力波探测器，全球GW 网络的一部分"
+  },
+  "geo600": {
+    "name": "GEO600",
+    "aliases": [
+      "GEO 600"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "2002",
+    "wavelengths": "Gravitational waves (50 Hz - 1.5 kHz)",
+    "location": "Sarstedt, Germany",
+    "status": "正在开发中",
+    "description": "德英引力波探测器，作为技术试验台"
+  },
+  "lisa": {
+    "name": "LISA",
+    "aliases": [
+      "Laser Interferometer Space Antenna"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "2037 (planned)",
+    "wavelengths": "Gravitational waves (0.1 mHz - 1 Hz)",
+    "location": "Heliocentric orbit (trailing Earth)",
+    "status": "规划中",
+    "description": "空间GW 探测器，臂长250万公里，探测超大质量黑洞合并"
+  },
+  "einsteintelescope": {
+    "name": "Einstein Telescope",
+    "aliases": [
+      "ET"
+    ],
+    "type": "引力波天文台",
+    "launch_date": "2030s (planned)",
+    "wavelengths": "Gravitational waves (1 Hz - 10 kHz)",
+    "location": "Europe (site TBD, underground)",
+    "status": "规划中",
+    "description": "提议的第三代地下GW 天文台，灵敏度是Advanced LIGO 的10倍"
+  },
+  "cosmicexplorer": {
+    "name": "Cosmic Explorer",
+    "aliases": [
+      "CE"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2030s (planned)",
+    "wavelengths": "Gravitational waves (5 Hz - 10 kHz)",
+    "location": "United States (sites TBD)",
+    "status": "运行中",
+    "description": "提议的下一代GW 探测器，臂长40公里，比LIGO 灵敏10倍"
+  },
+  "icecube": {
+    "name": "IceCube",
+    "aliases": [
+      "IceCube Neutrino Observatory"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2010 (completed)",
+    "wavelengths": "Neutrinos (GeV - PeV energies)",
+    "location": "South Pole, Antarctica (1.5-2.5 km deep ice)",
+    "status": "运行中",
+    "description": "使用南极冰的立方公里neutrino 探测器，发现了天体物理neutrino"
+  },
+  "antares": {
+    "name": "ANTARES",
+    "aliases": [
+      "Astronomy with a Neutrino Telescope and Abyss environmental RESearch"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2008",
+    "wavelengths": "Neutrinos (GeV - PeV energies)",
+    "location": "Mediterranean Sea off France (2.5 km deep)",
+    "status": "建设中",
+    "description": "地中海中的水下neutrino 望远镜，监测北半球"
+  },
+  "kmnet": {
+    "name": "KM3NeT",
+    "aliases": [
+      "Cubic Kilometre Neutrino Telescope"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2016 (first units), ongoing construction",
+    "wavelengths": "Neutrinos (GeV - PeV energies)",
+    "location": "Mediterranean Sea (multiple sites)",
+    "status": "运行中",
+    "description": "下一代水下neutrino 天文台，探测器位于意大利、法国和希腊海岸外"
+  },
+  "superkamiokande": {
+    "name": "Super-Kamiokande",
+    "aliases": [
+      "Super-K",
+      "SK"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "1996",
+    "wavelengths": "Neutrinos (MeV - GeV energies)",
+    "location": "Kamioka Mine, Japan (1 km underground)",
+    "status": "建设中",
+    "description": "50,000吨水Cherenkov 探测器，研究太阳、大气和超新星neutrino"
+  },
+  "hyperkamiokande": {
+    "name": "Hyper-Kamiokande",
+    "aliases": [
+      "Hyper-K",
+      "HK"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2027 (planned)",
+    "wavelengths": "Neutrinos (MeV - GeV energies)",
+    "location": "Kamioka Mine, Japan (underground)",
+    "status": "建设中",
+    "description": "下一代260,000吨水探测器，Super-Kamiokande 的继任者"
+  },
+  "dune": {
+    "name": "DUNE",
+    "aliases": [
+      "Deep Underground Neutrino Experiment"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2028 (planned)",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Sanford Lab, South Dakota (1.5 km underground)",
+    "status": "运行中",
+    "description": "巨型液氩探测器，使用来自Fermilab 的束流研究neutrino 振荡"
+  },
+  "nova": {
+    "name": "NOvA",
+    "aliases": [
+      "NuMI Off-Axis νe Appearance"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2014",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Ash River, Minnesota",
+    "status": "退役 (2021年10月)",
+    "description": "长基线neutrino 实验，使用Fermilab 束流研究振荡"
+  },
+  "borexino": {
+    "name": "Borexino",
+    "aliases": [],
+    "type": "neutrino 探测器",
+    "launch_date": "2007",
+    "wavelengths": "Neutrinos (sub-MeV to MeV energies)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "退役 (2006年)",
+    "description": "超纯液体scintillator 探测器，对太阳neutrino 进行了精确测量"
+  },
+  "sno": {
+    "name": "SNO",
+    "aliases": [
+      "Sudbury Neutrino Observatory"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "1999",
+    "wavelengths": "Neutrinos (MeV energies)",
+    "location": "Sudbury, Ontario (2 km underground)",
+    "status": "运行中",
+    "description": "证实了neutrino 振荡的重水探测器，2015年诺贝尔奖"
+  },
+  "snoplus": {
+    "name": "SNO+",
+    "aliases": [
+      "SNO Plus"
+    ],
+    "type": "neutrino 实验",
+    "launch_date": "2017",
+    "wavelengths": "Neutrinos (MeV energies)",
+    "location": "Sudbury, Ontario (2 km underground)",
+    "status": "运行中",
+    "description": "SNO 的继任者，使用液体scintillator，研究太阳neutrino 和neutrinoless double-beta decay"
+  },
+  "t2k": {
+    "name": "T2K",
+    "aliases": [
+      "Tokai to Kamioka"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2010",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Tokai to Kamioka, Japan (295 km baseline)",
+    "status": "退役 (2019年)",
+    "description": "长基线neutrino 振荡实验，使用Super-Kamiokande 作为远探测器"
+  },
+  "miniboone": {
+    "name": "MiniBooNE",
+    "aliases": [
+      "Mini Booster Neutrino Experiment"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2002",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Fermilab, Illinois",
+    "status": "运行中",
+    "description": "油Cherenkov 探测器，调查了neutrino 振荡和异常现象"
+  },
+  "microboone": {
+    "name": "MicroBooNE",
+    "aliases": [
+      "Micro Booster Neutrino Experiment"
+    ],
+    "type": "neutrino 探测器",
+    "launch_date": "2015",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Fermilab, Illinois",
+    "status": "建设中",
+    "description": "液氩time projection chamber，研究neutrino 相互作用和异常现象"
+  },
+  "baikal": {
+    "name": "Baikal-GVD",
+    "aliases": [
+      "Gigaton Volume Detector"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2016 (first cluster), ongoing construction",
+    "wavelengths": "Neutrinos (TeV - PeV energies)",
+    "location": "Lake Baikal, Russia (1 km deep)",
+    "status": "退役 (2018年，升级为XENONnT)",
+    "description": "世界上最深的湖泊中的水下neutrino 望远镜，探测高能宇宙neutrino"
+  },
+  "xenon1t": {
+    "name": "XENON1T",
+    "aliases": [
+      "XENON1T"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2016",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "运行中",
+    "description": "液氙探测器，具有超低本底，寻找WIMP 暗物质"
+  },
+  "xenonnt": {
+    "name": "XENONnT",
+    "aliases": [
+      "XENON nT"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2020",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "退役 (2016年)",
+    "description": "升级的8.3吨液氙探测器，最灵敏的WIMP 暗物质实验"
+  },
+  "lux": {
+    "name": "LUX",
+    "aliases": [
+      "Large Underground Xenon"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2013",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Sanford Lab, South Dakota (1.5 km underground)",
+    "status": "运行中",
+    "description": "370公斤液氙探测器，设定了世界领先的WIMP 排除限"
+  },
+  "luxzeplin": {
+    "name": "LUX-ZEPLIN",
+    "aliases": [
+      "LZ"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2022",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Sanford Lab, South Dakota (1.5 km underground)",
+    "status": "运行中",
+    "description": "10吨液氙探测器，结合LUX 和ZEPLIN 技术，用于WIMP 搜索"
+  },
+  "pandax": {
+    "name": "PandaX",
+    "aliases": [
+      "Particle and Astrophysical Xenon"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2014 (PandaX-II), 2020 (PandaX-4T)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "China Jinping Underground Laboratory (2.4 km underground)",
+    "status": "运行中",
+    "description": "世界上最深的地下实验室中的一系列液氙探测器，寻找暗物质"
+  },
+  "cdms": {
+    "name": "CDMS",
+    "aliases": [
+      "Cryogenic Dark Matter Search"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2003 (CDMS II)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Soudan Mine, Minnesota (initially), later Sudbury",
+    "status": "演变为SuperCDMS",
+    "description": "开创性的低温锗/硅探测器，寻找WIMP 暗物质"
+  },
+  "supercdms": {
+    "name": "SuperCDMS",
+    "aliases": [
+      "Super Cryogenic Dark Matter Search"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2022 (SNOLAB)",
+    "wavelengths": "Dark matter particles (WIMPs, low-mass)",
+    "location": "SNOLAB, Sudbury, Ontario (2 km underground)",
+    "status": "运行中",
+    "description": "先进的低温探测器，对低质量暗物质粒子敏感"
+  },
+  "darkside": {
+    "name": "DarkSide",
+    "aliases": [
+      "DarkSide-50"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2015",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "运行中",
+    "description": "液氩探测器，使用来自科罗拉多州的地下氩气以降低本底"
+  },
+  "darkside20k": {
+    "name": "DarkSide-20k",
+    "aliases": [
+      "DS-20k"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2027 (planned)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "运行中",
+    "description": "下一代20吨液氩探测器，用于WIMP 暗物质搜索"
+  },
+  "deap": {
+    "name": "DEAP-3600",
+    "aliases": [
+      "Dark matter Experiment using Argon Pulse-shape discrimination"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2016",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "SNOLAB, Sudbury, Ontario (2 km underground)",
+    "status": "建设中",
+    "description": "3.6吨单相液氩探测器，寻找WIMP 暗物质"
+  },
+  "cresst": {
+    "name": "CRESST",
+    "aliases": [
+      "Cryogenic Rare Event Search with Superconducting Thermometers"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2016 (CRESST-III)",
+    "wavelengths": "Dark matter particles (WIMPs, low-mass)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "运行中",
+    "description": "低温探测器，使用钨酸钙晶体，对低质量暗物质敏感"
+  },
+  "edelweiss": {
+    "name": "EDELWEISS",
+    "aliases": [
+      "Expérience pour DEtecter Les Wimps En Site Souterrain"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2000 (initial), ongoing upgrades",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Modane Underground Laboratory, France (1.7 km underground)",
+    "status": "运行中",
+    "description": "低温锗bolometers，寻找WIMP-原子核相互作用"
+  },
+  "admx": {
+    "name": "ADMX",
+    "aliases": [
+      "Axion Dark Matter Experiment"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2018 (Gen 2)",
+    "wavelengths": "Dark matter particles (Axions)",
+    "location": "University of Washington, Seattle",
+    "status": "运行中",
+    "description": "使用微波腔的Haloscope，寻找axion 暗物质粒子"
+  },
+  "dama": {
+    "name": "DAMA/LIBRA",
+    "aliases": [
+      "DArk MAtter/Large sodium Iodide Bulk for RAre processes"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2003 (DAMA/LIBRA), 1996 (original DAMA)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "运行中",
+    "description": "碘化钠scintillator，探测被认为是暗物质的年度调制信号"
+  },
+  "coupp": {
+    "name": "COUPP",
+    "aliases": [
+      "Chicagoland Observatory for Underground Particle Physics"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2005",
+    "wavelengths": "Dark matter particles (WIMPs, spin-dependent)",
+    "location": "SNOLAB, Sudbury, Ontario",
+    "status": "运行中",
+    "description": "气泡室技术，使用过热液体用于WIMP 探测"
+  },
+  "pico": {
+    "name": "PICO",
+    "aliases": [
+      "PICO-60",
+      "PICASSO + COUPP"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2013 (PICO-60)",
+    "wavelengths": "Dark matter particles (WIMPs, spin-dependent)",
+    "location": "SNOLAB, Sudbury, Ontario (2 km underground)",
+    "status": "运行中",
+    "description": "使用过热C3F8 的气泡室，对自旋相关的WIMP 相互作用敏感"
+  },
+  "darwin": {
+    "name": "DARWIN",
+    "aliases": [
+      "DARk matter WImp search with liquid xenoN"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "Late 2020s (planned)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Europe (site TBD, underground)",
+    "status": "演变为PICO",
+    "description": "提议的50吨液氙探测器，极致的WIMP 暗物质灵敏度"
+  },
+  "cosine": {
+    "name": "COSINE-100",
+    "aliases": [
+      "COSINE"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2016",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Yangyang Underground Laboratory, South Korea",
+    "status": "运行中",
+    "description": "碘化钠探测器，测试DAMA/LIBRA 年度调制主张"
+  },
+  "anais": {
+    "name": "ANAIS",
+    "aliases": [
+      "Annual modulation with NaI Scintillators"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2017",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Canfranc Underground Laboratory, Spain",
+    "status": "规划中",
+    "description": "碘化钠探测器，独立测试DAMA 年度调制信号"
+  },
+  "pantheon": {
+    "name": "Pantheon",
+    "aliases": [
+      "Pantheon Sample"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2018 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "运行中",
+    "description": "1048颗Type Ia 超新星(0.01 < z < 2.3)的汇编，提供对暗能量的宇宙学约束"
+  },
+  "pantheonplus": {
+    "name": "Pantheon+",
+    "aliases": [
+      "Pantheon Plus",
+      "PantheonPlus"
+    ],
+    "type": "暗物质探测器",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "运行中",
+    "description": "1701颗Type Ia 超新星的扩展样本，结合Pantheon 和Pan-STARRS1 数据，用于精确宇宙学"
+  },
+  "union3": {
+    "name": "Union3",
+    "aliases": [
+      "Union 3",
+      "SCPUnion3"
+    ],
+    "type": "超新星样本",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "已完成",
+    "description": "2087颗Type Ia 超新星的汇编，来自多个巡天，用于宇宙学分析"
+  },
+  "jla": {
+    "name": "JLA",
+    "aliases": [
+      "Joint Light-curve Analysis"
+    ],
+    "type": "超新星样本",
+    "launch_date": "2014 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "SNLS and SDSS surveys",
+    "status": "已完成",
+    "description": "740颗Type Ia 超新星的联合分析，来自SNLS 和SDSS，用于暗能量测量"
+  },
+  "vista": {
+    "name": "VISTA",
+    "aliases": [
+      "Visible and Infrared Survey Telescope for Astronomy"
+    ],
+    "type": "超新星样本",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.4 μm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "已完成",
+    "description": "ESO 的4.1米infrared 巡天望远镜，具有宽视场"
+  },
+  "vera_rubin": {
+    "name": "Vera C. Rubin Observatory",
+    "aliases": [
+      "Vera Rubin",
+      "Vera C. Rubin Observatory",
+      "Rubin Observatory",
+      "LSST",
+      "Large Synoptic Survey Telescope"
+    ],
+    "type": "超新星样本",
+    "launch_date": "N/A (Ground-based Observatory)",
+    "wavelengths": "Optical, Near-infrared (u, g, r, i, z, y filters; 0.32 - 1.08 μm)",
+    "location": "Cerro Pachón, Coquimbo Region, Northern Chile",
+    "status": "已完成",
+    "description": "下一代宽视场巡天望远镜，进行 Legacy Survey of Space and Time，绘制南天，研究暗物质、暗能量和动态宇宙"
+  },
+  "hsc": {
+    "name": "Hyper Suprime-Cam",
+    "aliases": [
+      "HSC",
+      "Subaru HSC"
+    ],
+    "type": "地基巡天望远镜",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "location": "Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "运行中",
+    "description": "Subaru 望远镜上的宽视场主焦点相机，实现深度、高分辨率optical 成像，用于宇宙学和星系演化研究"
+  }
+}
