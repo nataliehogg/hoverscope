@@ -149,6 +149,11 @@ function processElement(element, elementIndex) {
           // Negative lookbehind to exclude matches preceded by one or two hyphens
           pattern = `(?<!-{1,2})\\b${escapeRegex(name)}\\b`;
         }
+        // Fermi: avoid hyphenated cases like "Fermi-Hubbard" or "Fermi--Hubbard"
+        else if (name === 'Fermi' || name === 'Fermi Gamma-ray Space Telescope') {
+          // Negative lookahead to exclude matches followed by hyphen(s) and "Hubbard"
+          pattern = `\\b${escapeRegex(name)}\\b(?![-–]{1,2}Hubbard)`;
+        }
         // COSMOS: avoid "COSMOS-Web"
         else if (name === 'COSMOS') {
           // Negative lookahead to exclude matches followed by "-Web"
