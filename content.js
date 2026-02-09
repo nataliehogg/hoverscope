@@ -54,7 +54,6 @@ function processPage() {
     '.arxiv_item',
     '.title',
     '.abstract',
-    '.authors',
     'blockquote.abstract',
     'h1.title',
     '.ltx_abstract',
@@ -64,7 +63,6 @@ function processPage() {
     '.paper',
     '.paper-title',
     '.paper-abstract',
-    '.paper-authors',
     '.paper-entry',
     '.paper-item',
     '.paper-list',
@@ -140,15 +138,21 @@ function processElement(element, elementIndex) {
         // Build regex pattern with special cases
         let pattern;
 
-        // Hubble: avoid "Hubble parameter", "Hubble tension", "Hubble expansion", "Hubble flow", "Hubble residuals", "Hubble Frontier Fields"
+        // Hubble: avoid "Hubble constant", "Hubble parameter", "Hubble tension", "Hubble expansion", "Hubble flow", "Hubble residuals", "Hubble Frontier Fields", "Hubble-Lemaître", "Hubble diagram"
         if (name === 'Hubble' || name === 'Hubble Space Telescope' || name === 'HST') {
           // Negative lookahead to exclude matches followed by these terms (case-insensitive)
-          pattern = `\\b${escapeRegex(name)}\\b(?!\\s+(?:parameter|tension|expansion|flow|residuals|Frontier\\s+Fields))`;
+          // Also exclude hyphenated forms like "Hubble-Lemaître"
+          pattern = `\\b${escapeRegex(name)}\\b(?![-–](?:Lem[aî]tre)|\\s+(?:constant|parameter|tension|expansion|flow|residuals|diagram|Frontier\\s+Fields))`;
         }
         // Planck: avoid hyphenated cases like "Fokker-Planck" or "Fokker--Planck"
         else if (name === 'Planck' || name === 'Planck satellite') {
           // Negative lookbehind to exclude matches preceded by one or two hyphens
           pattern = `(?<!-{1,2})\\b${escapeRegex(name)}\\b`;
+        }
+        // Fermi: avoid hyphenated cases like "Fermi-Hubbard" or "Fermi--Hubbard"
+        else if (name === 'Fermi' || name === 'Fermi Gamma-ray Space Telescope') {
+          // Negative lookahead to exclude matches followed by hyphen(s) and "Hubbard"
+          pattern = `\\b${escapeRegex(name)}\\b(?![-–]{1,2}Hubbard)`;
         }
         // COSMOS: avoid "COSMOS-Web"
         else if (name === 'COSMOS') {
@@ -240,6 +244,14 @@ function getTextNodes(element) {
       acceptNode: function(node) {
         // Skip if already processed or inside script/style
         if (node.parentElement.closest('.hoverscope-term, script, style, #hoverscope-tooltip')) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        // Skip if inside form fields or editable elements
+        if (node.parentElement.closest('input, textarea, select, [contenteditable="true"]')) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        // Skip if inside author fields (deprecated behavior)
+        if (node.parentElement.closest('.authors, .paper-authors, [class*="author"]')) {
           return NodeFilter.FILTER_REJECT;
         }
         // Only include nodes with actual text
@@ -370,6 +382,12 @@ if (document.readyState === 'loading') {
   init();
 }
 
+// Re-process after all resources load (images, scripts, etc.) to catch late-loading content
+window.addEventListener('load', () => {
+  console.log('Hoverscope: Window loaded, re-processing page');
+  processPage();
+});
+
 // Also process dynamically loaded content (for single-page apps and revealed content)
 const observer = new MutationObserver((mutations) => {
   let shouldProcess = false;
@@ -396,12 +414,10 @@ const observer = new MutationObserver((mutations) => {
   }
 });
 
-// Start observing after initial load
-setTimeout(() => {
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true,
-    attributes: true,
-    attributeFilter: ['class', 'style', 'hidden'] // Watch for class/style/hidden changes
-  });
-}, 1000);
+// Start observing immediately to catch dynamic content
+observer.observe(document.body, {
+  childList: true,
+  subtree: true,
+  attributes: true,
+  attributeFilter: ['class', 'style', 'hidden'] // Watch for class/style/hidden changes
+});
