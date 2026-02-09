@@ -242,6 +242,10 @@ function getTextNodes(element) {
         if (node.parentElement.closest('.hoverscope-term, script, style, #hoverscope-tooltip')) {
           return NodeFilter.FILTER_REJECT;
         }
+        // Skip if inside form fields or editable elements
+        if (node.parentElement.closest('input, textarea, select, [contenteditable="true"]')) {
+          return NodeFilter.FILTER_REJECT;
+        }
         // Only include nodes with actual text
         if (node.textContent.trim().length > 0) {
           return NodeFilter.FILTER_ACCEPT;
