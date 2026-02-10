@@ -48,11 +48,11 @@ async function loadBundledData() {
     console.log(`Hoverscope: Loading data for language: ${language}`);
 
     // Get localized filenames
-    const telescopesFile = getLocalizedFilename("telescopes.json", language);
-    const surveysFile = getLocalizedFilename("surveys.json", language);
-    const simulationsFile = getLocalizedFilename("simulations.json", language);
-    const samsFile = getLocalizedFilename("sams.json", language);
-    const samplersFile = getLocalizedFilename("samplers.json", language);
+    const telescopesFile = "data/" + getLocalizedFilename("telescopes.json", language);
+    const surveysFile = "data/" + getLocalizedFilename("surveys.json", language);
+    const simulationsFile = "data/" + getLocalizedFilename("simulations.json", language);
+    const samsFile = "data/" + getLocalizedFilename("sams.json", language);
+    const samplersFile = "data/" + getLocalizedFilename("samplers.json", language);
 
     // Load all database files in parallel, with fallback to English
     const loadWithFallback = async (filename, fallbackFilename) => {
@@ -68,11 +68,11 @@ async function loadBundledData() {
     };
 
     const [telescopes, surveys, simulations, sams, samplers] = await Promise.all([
-      loadWithFallback(telescopesFile, "telescopes.json"),
-      loadWithFallback(surveysFile, "surveys.json"),
-      loadWithFallback(simulationsFile, "simulations.json"),
-      loadWithFallback(samsFile, "sams.json"),
-      loadWithFallback(samplersFile, "samplers.json"),
+      loadWithFallback(telescopesFile, "data/telescopes.json"),
+      loadWithFallback(surveysFile, "data/surveys.json"),
+      loadWithFallback(simulationsFile, "data/simulations.json"),
+      loadWithFallback(samsFile, "data/sams.json"),
+      loadWithFallback(samplersFile, "data/samplers.json"),
     ]);
 
     // Combine databases
@@ -172,23 +172,23 @@ async function tryUpdateFromGitHub() {
   try {
     // Load all database files from GitHub in parallel
     const [telescopes, surveys, simulations, sams, samplers] = await Promise.all([
-      fetch(GITHUB_BASE_URL + "telescopes.json").then((r) => {
+      fetch(GITHUB_BASE_URL + "data/telescopes.json").then((r) => {
         if (!r.ok) throw new Error("telescopes.json fetch failed");
         return r.json();
       }),
-      fetch(GITHUB_BASE_URL + "surveys.json").then((r) => {
+      fetch(GITHUB_BASE_URL + "data/surveys.json").then((r) => {
         if (!r.ok) throw new Error("surveys.json fetch failed");
         return r.json();
       }),
-      fetch(GITHUB_BASE_URL + "simulations.json").then((r) => {
+      fetch(GITHUB_BASE_URL + "data/simulations.json").then((r) => {
         if (!r.ok) throw new Error("simulations.json fetch failed");
         return r.json();
       }),
-      fetch(GITHUB_BASE_URL + "sams.json").then((r) => {
+      fetch(GITHUB_BASE_URL + "data/sams.json").then((r) => {
         if (!r.ok) throw new Error("sams.json fetch failed");
         return r.json();
       }),
-      fetch(GITHUB_BASE_URL + "samplers.json").then((r) => {
+      fetch(GITHUB_BASE_URL + "data/samplers.json").then((r) => {
         if (!r.ok) throw new Error("samplers.json fetch failed");
         return r.json();
       }),

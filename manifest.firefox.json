@@ -43,12 +43,12 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "telescopes.json", "surveys.json", "simulations.json", "sams.json", "samplers.json",
-        "telescopes.de.json", "surveys.de.json", "simulations.de.json", "sams.de.json", "samplers.de.json",
-        "telescopes.es.json", "surveys.es.json", "simulations.es.json", "sams.es.json", "samplers.es.json",
-        "telescopes.fr.json", "surveys.fr.json", "simulations.fr.json", "sams.fr.json", "samplers.fr.json",
-        "telescopes.it.json", "surveys.it.json", "simulations.it.json", "sams.it.json", "samplers.it.json",
-        "telescopes.zh.json", "surveys.zh.json", "simulations.zh.json", "sams.zh.json", "samplers.zh.json"
+        "data/telescopes.json", "data/surveys.json", "data/simulations.json", "data/sams.json", "data/samplers.json",
+        "data/telescopes.de.json", "data/surveys.de.json", "data/simulations.de.json", "data/sams.de.json", "data/samplers.de.json",
+        "data/telescopes.es.json", "data/surveys.es.json", "data/simulations.es.json", "data/sams.es.json", "data/samplers.es.json",
+        "data/telescopes.fr.json", "data/surveys.fr.json", "data/simulations.fr.json", "data/sams.fr.json", "data/samplers.fr.json",
+        "data/telescopes.it.json", "data/surveys.it.json", "data/simulations.it.json", "data/sams.it.json", "data/samplers.it.json",
+        "data/telescopes.zh.json", "data/surveys.zh.json", "data/simulations.zh.json", "data/sams.zh.json", "data/samplers.zh.json"
       ],
       "matches": ["<all_urls>"]
     }

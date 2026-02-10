@@ -12,7 +12,7 @@ Hoverscope is a browser extension that detects mentions of telescopes, satellite
 - 🔄 **Auto-updating**: Database updates automatically from GitHub
 - 🌓 **Dark Mode**: Adapts to your system preferences
 - 📚 **Comprehensive**: Covers major space/ground telescopes and instruments, contemporary and historical simulations, Semi-Analytic Models (SAMs), and Bayesian sampling codes
-- 🌍 **Multilingual**: Tooltip labels available in English, German, Spanish, French, Italian, and Mandarin
+- 🌍 **Multilingual**: Tooltip labels available in English, German, Spanish, French, Italian, and Mandarin. Please note that these are machine translations; pull requests to correct errors are welcome.
 - 🎯 **arXiv Optimised**: Works seamlessly on paper titles, abstracts and arXiv's html view
 
 ## Information Displayed
@@ -203,7 +203,6 @@ Want to add more telescopes or improve the extension? Contributions welcome!
 
 Hoverscope:
 
-- ✅ Only runs on arXiv.org
 - ✅ Does not collect any user data
 - ✅ Does not track browsing history
 - ✅ Minimal permissions (storage only)
