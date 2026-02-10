@@ -52,6 +52,7 @@ async function loadBundledData() {
     const surveysFile = getLocalizedFilename("surveys.json", language);
     const simulationsFile = getLocalizedFilename("simulations.json", language);
     const samsFile = getLocalizedFilename("sams.json", language);
+    const samplersFile = getLocalizedFilename("samplers.json", language);
 
     // Load all database files in parallel, with fallback to English
     const loadWithFallback = async (filename, fallbackFilename) => {
@@ -66,11 +67,12 @@ async function loadBundledData() {
       }
     };
 
-    const [telescopes, surveys, simulations, sams] = await Promise.all([
+    const [telescopes, surveys, simulations, sams, samplers] = await Promise.all([
       loadWithFallback(telescopesFile, "telescopes.json"),
       loadWithFallback(surveysFile, "surveys.json"),
       loadWithFallback(simulationsFile, "simulations.json"),
       loadWithFallback(samsFile, "sams.json"),
+      loadWithFallback(samplersFile, "samplers.json"),
     ]);
 
     // Combine databases
@@ -79,6 +81,7 @@ async function loadBundledData() {
       surveys,
       simulations,
       sams,
+      samplers,
     );
 
     await chrome.storage.local.set({
@@ -90,7 +93,7 @@ async function loadBundledData() {
     console.log(
       "Hoverscope: Loaded",
       Object.keys(combinedData).length - 1,
-      "entries from bundled databases (telescopes, surveys, simulations, SAMs)",
+      "entries from bundled databases (telescopes, surveys, simulations, SAMs, samplers)",
     );
   } catch (error) {
     console.error("Hoverscope: Error loading bundled data:", error);
@@ -98,7 +101,7 @@ async function loadBundledData() {
 }
 
 // Combine multiple data sources into a single database
-function combineDataSources(telescopes, surveys, simulations, sams) {
+function combineDataSources(telescopes, surveys, simulations, sams, samplers) {
   // Create the combined _display_orders object
   const displayOrders = {
     telescope:
@@ -131,6 +134,13 @@ function combineDataSources(telescopes, surveys, simulations, sams) {
         "merger_tree_code",
         "parent_simulation",
       ],
+    sampler:
+      samplers.display_order || [
+        "type",
+        "method",
+        "language",
+        "parallelisable",
+      ],
   };
 
   // Combine all entries, excluding display_order fields
@@ -152,6 +162,7 @@ function combineDataSources(telescopes, surveys, simulations, sams) {
   addEntries(surveys, "telescope");
   addEntries(simulations, "simulation");
   addEntries(sams, "SAM");
+  addEntries(samplers, "sampler");
 
   return combined;
 }
@@ -160,7 +171,7 @@ function combineDataSources(telescopes, surveys, simulations, sams) {
 async function tryUpdateFromGitHub() {
   try {
     // Load all database files from GitHub in parallel
-    const [telescopes, surveys, simulations, sams] = await Promise.all([
+    const [telescopes, surveys, simulations, sams, samplers] = await Promise.all([
       fetch(GITHUB_BASE_URL + "telescopes.json").then((r) => {
         if (!r.ok) throw new Error("telescopes.json fetch failed");
         return r.json();
@@ -177,6 +188,10 @@ async function tryUpdateFromGitHub() {
         if (!r.ok) throw new Error("sams.json fetch failed");
         return r.json();
       }),
+      fetch(GITHUB_BASE_URL + "samplers.json").then((r) => {
+        if (!r.ok) throw new Error("samplers.json fetch failed");
+        return r.json();
+      }),
     ]);
 
     // Combine databases
@@ -185,6 +200,7 @@ async function tryUpdateFromGitHub() {
       surveys,
       simulations,
       sams,
+      samplers,
     );
 
     await chrome.storage.local.set({

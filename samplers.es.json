@@ -1,0 +1,124 @@
+{
+  "display_order": [
+    "type",
+    "method",
+    "language",
+    "parallelisable"
+  ],
+  "multinest": {
+    "name": "MultiNest",
+    "aliases": [
+      "PyMultiNest"
+    ],
+    "type": "Nested Sampling",
+    "method": "Multi-modal ellipsoidal nested sampling",
+    "language": "Fortran/C++ (Python wrapper: PyMultiNest)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un algoritmo multi-modal de nested sampling que divide el conjunto de puntos activos en elipsoides para muestrear eficientemente posteriors complejos y multi-modales. Ampliamente utilizado para la estimación de parámetros bayesianos y la comparación de modelos en astrofísica."
+  },
+  "polychord": {
+    "name": "PolyChord",
+    "aliases": [
+      "PyPolyChord"
+    ],
+    "type": "Nested Sampling",
+    "method": "Slice sampling within nested sampling",
+    "language": "Fortran/C++ (Python wrapper: PyPolyChord)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un algoritmo de nested sampling que utiliza slice sampling para explorar eficientemente espacios de parámetros de alta dimensión (hasta ~cientos de dimensiones). Supera a MultiNest en altas dimensiones y maneja bien los posteriors no gaussianos."
+  },
+  "dynesty": {
+    "name": "dynesty",
+    "aliases": [],
+    "type": "Nested Sampling",
+    "method": "Dynamic nested sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "Un paquete de nested sampling dinámico pure-Python que asigna adaptativamente puntos activos para mejorar las estimaciones posteriores y de evidencia. Admite múltiples métodos de acotamiento y muestreo, incluyendo random walks, slice sampling y Hamiltonian Monte Carlo."
+  },
+  "emcee": {
+    "name": "emcee",
+    "aliases": [
+      "the MCMC Hammer"
+    ],
+    "type": "MCMC",
+    "method": "Affine-invariant ensemble sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing/MPI)",
+    "description": "Un muestreador MCMC de ensemble afín-invariante que utiliza un conjunto de 'walkers' interactuantes para proponer movimientos. Uno de los códigos MCMC más utilizados en astrofísica, particularmente efectivo para problemas de dimensiones moderadamente altas con parámetros correlacionados."
+  },
+  "ultranest": {
+    "name": "UltraNest",
+    "aliases": [],
+    "type": "Nested Sampling",
+    "method": "Reactive nested sampling (MLFriends)",
+    "language": "Python (C/Fortran accelerated)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un paquete de inferencia bayesiana que implementa nested sampling reactivo con el algoritmo MLFriends. Proporciona estimaciones robustas de la incertidumbre sobre la evidencia bayesiana y es adecuado para posteriors complejos multi-modales."
+  },
+  "cobaya": {
+    "name": "cobaya",
+    "aliases": [],
+    "type": "MCMC / Nested Sampling",
+    "method": "Metropolis-Hastings MCMC with oversampling; nested sampling via plugins",
+    "language": "Python",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un marco de análisis bayesiano para cosmología que soporta MCMC y nested sampling, con interfaces nativas a códigos Boltzmann (CAMB, CLASS) y likelihoods de experimentos de CMB y estructura a gran escala."
+  },
+  "cosmomc": {
+    "name": "CosmoMC",
+    "aliases": [],
+    "type": "MCMC",
+    "method": "Metropolis-Hastings MCMC",
+    "language": "Fortran (Python interface)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un paquete de estimación de parámetros cosmológicos que utiliza Metropolis-Hastings MCMC con soporte nativo para espectros de potencia de CMB a través de CAMB. Una herramienta estándar para la estimación de parámetros de CMB, utilizada en análisis por Planck, ACT y SPT."
+  },
+  "montepython": {
+    "name": "MontePython",
+    "aliases": [],
+    "type": "MCMC / Nested Sampling",
+    "method": "Metropolis-Hastings MCMC; nested sampling via MultiNest",
+    "language": "Python",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un código de estimación de parámetros Monte Carlo para cosmología, interfazado con el código Boltzmann CLASS. Soporta Metropolis-Hastings MCMC y puede usarse con MultiNest para nested sampling."
+  },
+  "zeus_sampler": {
+    "name": "zeus",
+    "aliases": [],
+    "type": "MCMC",
+    "method": "Ensemble slice sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing/MPI)",
+    "description": "Un muestreador MCMC de ensemble basado en slice sampling, diseñado para manejar posteriors multi-modales y altamente correlacionados sin ajustar los tamaños de paso. Combina el paralelismo de los métodos de ensemble con la robustez de slice sampling."
+  },
+  "nautilus_sampler": {
+    "name": "nautilus",
+    "aliases": [],
+    "type": "Importance Nested Sampling",
+    "method": "Importance nested sampling with neural network proposals",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "Un paquete de inferencia bayesiana que utiliza importance nested sampling con distribuciones de propuesta basadas en redes neuronales. Logra alta eficiencia en dimensiones moderadas a altas con menos evaluaciones de likelihood que el nested sampling tradicional."
+  },
+  "nessai": {
+    "name": "nessai",
+    "aliases": [],
+    "type": "Nested Sampling",
+    "method": "Normalising flow-based nested sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "Un algoritmo de nested sampling que utiliza normalising flows para aprender distribuciones de propuesta eficientes. Particularmente efectivo para problemas donde las evaluaciones de likelihood son costosas, como la estimación de parámetros de ondas gravitacionales."
+  },
+  "bilby": {
+    "name": "Bilby",
+    "aliases": [
+      "bilby"
+    ],
+    "type": "Marco de Inferencia Bayesiana",
+    "method": "Wrapper for multiple samplers (dynesty, emcee, MultiNest, PolyChord, etc.)",
+    "language": "Python",
+    "parallelisable": "Yes (via backend sampler)",
+    "description": "Una biblioteca de inferencia bayesiana amigable para el usuario, dirigida principalmente a la astronomía de ondas gravitacionales. Proporciona una interfaz unificada a múltiples backends de muestreo e incluye modelos likelihood y de forma de onda de ondas gravitacionales incorporados."
+  }
+}

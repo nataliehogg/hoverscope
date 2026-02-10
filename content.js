@@ -22,7 +22,10 @@ const FIELD_TRANSLATIONS = {
     end_redshift: 'Endrotverschiebung',
     merger_tree_code: 'Merger-Tree-Code',
     parent_simulation: 'Übergeordnete Simulation',
-    included_physics: 'Enthaltene Physik'
+    included_physics: 'Enthaltene Physik',
+    method: 'Methode',
+    language: 'Programmiersprache',
+    parallelisable: 'Parallelisierbar'
   },
   es: {
     type: 'Tipo',
@@ -38,7 +41,10 @@ const FIELD_TRANSLATIONS = {
     end_redshift: 'Corrimiento al rojo final',
     merger_tree_code: 'Código de árbol de fusión',
     parent_simulation: 'Simulación principal',
-    included_physics: 'Física incluida'
+    included_physics: 'Física incluida',
+    method: 'Método',
+    language: 'Lenguaje de programación',
+    parallelisable: 'Paralelizable'
   },
   fr: {
     type: 'Type',
@@ -54,7 +60,10 @@ const FIELD_TRANSLATIONS = {
     end_redshift: 'Décalage vers le rouge final',
     merger_tree_code: 'Code d\'arbre de fusion',
     parent_simulation: 'Simulation parente',
-    included_physics: 'Physique incluse'
+    included_physics: 'Physique incluse',
+    method: 'Méthode',
+    language: 'Langage de programmation',
+    parallelisable: 'Parallélisable'
   },
   it: {
     type: 'Tipo',
@@ -70,7 +79,10 @@ const FIELD_TRANSLATIONS = {
     end_redshift: 'Redshift finale',
     merger_tree_code: 'Codice albero di fusione',
     parent_simulation: 'Simulazione genitore',
-    included_physics: 'Fisica inclusa'
+    included_physics: 'Fisica inclusa',
+    method: 'Metodo',
+    language: 'Linguaggio di programmazione',
+    parallelisable: 'Parallelizzabile'
   },
   zh: {
     type: '类型',
@@ -86,7 +98,10 @@ const FIELD_TRANSLATIONS = {
     end_redshift: '最终红移',
     merger_tree_code: '合并树代码',
     parent_simulation: '父模拟',
-    included_physics: '包含的物理'
+    included_physics: '包含的物理',
+    method: '方法',
+    language: '编程语言',
+    parallelisable: '可并行化'
   }
 };
 
@@ -220,7 +235,7 @@ function processPage() {
     elementIndex++;
   });
 
-  console.log(`Hoverscope: Found and marked ${totalMatches} telescope/survey/simulation/SAM mentions`);
+  console.log(`Hoverscope: Found and marked ${totalMatches} telescope/survey/simulation/SAM/sampler mentions`);
 }
 
 function processElement(element, elementIndex) {

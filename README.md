@@ -2,7 +2,7 @@
 
 **Hover over telescope and satellite names on arXiv to see key specifications instantly.**
 
-Hoverscope is a browser extension that detects mentions of telescopes, satellites, astronomical instruments, simulations, and semi-analytic models in arXiv papers and displays detailed information when you hover over them.
+Hoverscope is a browser extension that detects mentions of telescopes, satellites, astronomical instruments, simulations, semi-analytic models, and sampling codes in arXiv papers and displays detailed information when you hover over them.
 
 ![demo](https://github.com/user-attachments/assets/b29f4be1-001d-4eab-8127-37eb573be266)
 
@@ -11,7 +11,8 @@ Hoverscope is a browser extension that detects mentions of telescopes, satellite
 - ✨ **Instant Information**: Hover over names to see specifications instantly
 - 🔄 **Auto-updating**: Database updates automatically from GitHub
 - 🌓 **Dark Mode**: Adapts to your system preferences
-- 📚 **Comprehensive**: Covers major space/ground telescopes and instruments, as well as contempary and historical simulations and Semi-Analytic Models (SAMs)
+- 📚 **Comprehensive**: Covers major space/ground telescopes and instruments, contemporary and historical simulations, Semi-Analytic Models (SAMs), and Bayesian sampling codes
+- 🌍 **Multilingual**: Tooltip labels available in English, German, Spanish, French, Italian, and Mandarin
 - 🎯 **arXiv Optimised**: Works seamlessly on paper titles, abstracts and arXiv's html view
 
 ## Information Displayed
@@ -42,6 +43,14 @@ For each Semi-Analytic Model (SAM) Hoverscope shows:
 - **Dark Matter Simulation Used** (e.g. Millennium, Bolshoi)
 - **Mass Resolution** (of the underlying dark matter simulation)
 - **Merger Tree Code** (e.g. Consistent Trees, DTrees)
+- **Brief Description**
+
+For each sampling code Hoverscope shows:
+
+- **Type** (e.g. MCMC, Nested Sampling)
+- **Method** (the specific algorithm)
+- **Language** (implementation language)
+- **Parallelisable** (MPI/multiprocessing support)
 - **Brief Description**
 
 ## Installation
@@ -144,6 +153,15 @@ Hoverscope currently recognises **30+ telescopes and instruments**, including:
 - L-GALAXIES
 - GALFORM
 - SCSAM
+- And more...
+
+**Sampling Codes:**
+
+- emcee
+- MultiNest
+- PolyChord
+- dynesty
+- UltraNest
 - And more...
 
 The extension automatically checks for database updates daily. The database is stored as a JSON file that can be easily updated.
