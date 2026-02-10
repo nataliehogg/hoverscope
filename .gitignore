@@ -7,3 +7,6 @@ manifest.json
 # Development tools
 *.py
 *.code-workspace
+
+# Claude Code settings
+.claude/
