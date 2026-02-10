@@ -1,0 +1,124 @@
+{
+  "display_order": [
+    "type",
+    "method",
+    "language",
+    "parallelisable"
+  ],
+  "multinest": {
+    "name": "MultiNest",
+    "aliases": [
+      "PyMultiNest"
+    ],
+    "type": "Campionamento Annidato",
+    "method": "Multi-modal ellipsoidal nested sampling",
+    "language": "Fortran/C++ (Python wrapper: PyMultiNest)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un algoritmo di campionamento annidato multi-modale che partiziona il set di punti attivi in ellissoidi per campionare in modo efficiente distribuzioni posteriori complesse e multi-modali. Ampiamente utilizzato per la stima bayesiana dei parametri e il confronto di modelli in astrofisica."
+  },
+  "polychord": {
+    "name": "PolyChord",
+    "aliases": [
+      "PyPolyChord"
+    ],
+    "type": "Campionamento Annidato",
+    "method": "Slice sampling within nested sampling",
+    "language": "Fortran/C++ (Python wrapper: PyPolyChord)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un algoritmo di campionamento annidato che utilizza il campionamento a fette per esplorare in modo efficiente spazi di parametri ad alta dimensionalità (fino a ~centinaia di dimensioni). Supera MultiNest in alte dimensioni e gestisce bene le distribuzioni posteriori non gaussiane."
+  },
+  "dynesty": {
+    "name": "dynesty",
+    "aliases": [],
+    "type": "Campionamento Annidato",
+    "method": "Dynamic nested sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "Un pacchetto di campionamento annidato dinamico in puro-Python che alloca in modo adattivo i punti attivi per migliorare le stime della distribuzione posteriore e dell'evidenza. Supporta più metodi di delimitazione e campionamento, inclusi random walks, slice sampling e Hamiltonian Monte Carlo."
+  },
+  "emcee": {
+    "name": "emcee",
+    "aliases": [
+      "the MCMC Hammer"
+    ],
+    "type": "MCMC",
+    "method": "Affine-invariant ensemble sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing/MPI)",
+    "description": "Un campionatore MCMC di ensemble affine-invariante che utilizza un set di camminatori interagenti per proporre movimenti. Uno dei codici MCMC più ampiamente utilizzati in astrofisica, particolarmente efficace per problemi di dimensionalità moderatamente alta con parametri correlati."
+  },
+  "ultranest": {
+    "name": "UltraNest",
+    "aliases": [],
+    "type": "Campionamento Annidato",
+    "method": "Reactive nested sampling (MLFriends)",
+    "language": "Python (C/Fortran accelerated)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un pacchetto di inferenza bayesiana che implementa il campionamento annidato reattivo con l'algoritmo MLFriends. Fornisce stime robuste dell'incertezza sull'evidenza bayesiana ed è adatto a distribuzioni posteriori complesse e multi-modali."
+  },
+  "cobaya": {
+    "name": "cobaya",
+    "aliases": [],
+    "type": "MCMC / Campionamento Annidato",
+    "method": "Metropolis-Hastings MCMC with oversampling; nested sampling via plugins",
+    "language": "Python",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un framework di analisi bayesiana per la cosmologia che supporta MCMC e il campionamento annidato, con interfacce native a codici Boltzmann (CAMB, CLASS) e verosimiglianze da esperimenti di CMB e struttura a larga scala."
+  },
+  "cosmomc": {
+    "name": "CosmoMC",
+    "aliases": [],
+    "type": "MCMC",
+    "method": "Metropolis-Hastings MCMC",
+    "language": "Fortran (Python interface)",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un pacchetto di stima dei parametri cosmologici che utilizza MCMC Metropolis-Hastings con supporto nativo per gli spettri di potenza della CMB tramite CAMB. Uno strumento standard per la stima dei parametri della CMB, utilizzato nelle analisi di Planck, ACT e SPT."
+  },
+  "montepython": {
+    "name": "MontePython",
+    "aliases": [],
+    "type": "MCMC / Campionamento Annidato",
+    "method": "Metropolis-Hastings MCMC; nested sampling via MultiNest",
+    "language": "Python",
+    "parallelisable": "Yes (MPI)",
+    "description": "Un codice di stima dei parametri Monte Carlo per la cosmologia, interfacciato con il codice Boltzmann CLASS. Supporta MCMC Metropolis-Hastings e può essere utilizzato con MultiNest per il campionamento annidato."
+  },
+  "zeus_sampler": {
+    "name": "zeus",
+    "aliases": [],
+    "type": "MCMC",
+    "method": "Ensemble slice sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing/MPI)",
+    "description": "Un campionatore MCMC di ensemble basato sul campionamento a fette, progettato per gestire distribuzioni posteriori multi-modali e altamente correlate senza la sintonizzazione delle dimensioni del passo. Combina il parallelismo dei metodi di ensemble con la robustezza del campionamento a fette."
+  },
+  "nautilus_sampler": {
+    "name": "nautilus",
+    "aliases": [],
+    "type": "Campionamento Annidato di Importanza",
+    "method": "Importance nested sampling with neural network proposals",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "Un pacchetto di inferenza bayesiana che utilizza il campionamento annidato di importanza con distribuzioni di proposta basate su reti neurali. Raggiunge un'elevata efficienza in dimensioni moderate-alte con meno valutazioni di verosimiglianza rispetto al campionamento annidato tradizionale."
+  },
+  "nessai": {
+    "name": "nessai",
+    "aliases": [],
+    "type": "Campionamento Annidato",
+    "method": "Normalising flow-based nested sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "Un algoritmo di campionamento annidato che utilizza flussi normalizzanti per apprendere distribuzioni di proposta efficienti. Particolarmente efficace per problemi in cui le valutazioni di verosimiglianza sono costose, come la stima dei parametri delle onde gravitazionali."
+  },
+  "bilby": {
+    "name": "Bilby",
+    "aliases": [
+      "bilby"
+    ],
+    "type": "Framework di Inferenza Bayesiana",
+    "method": "Wrapper for multiple samplers (dynesty, emcee, MultiNest, PolyChord, etc.)",
+    "language": "Python",
+    "parallelisable": "Yes (via backend sampler)",
+    "description": "Una libreria di inferenza bayesiana user-friendly che si rivolge principalmente all'astronomia delle onde gravitazionali. Fornisce un'interfaccia unificata a più backend di campionamento e include modelli di verosimiglianza e forme d'onda delle onde gravitazionali incorporati."
+  }
+}

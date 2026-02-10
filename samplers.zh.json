@@ -1,0 +1,124 @@
+{
+  "display_order": [
+    "type",
+    "method",
+    "language",
+    "parallelisable"
+  ],
+  "multinest": {
+    "name": "MultiNest",
+    "aliases": [
+      "PyMultiNest"
+    ],
+    "type": "Nested Sampling",
+    "method": "Multi-modal ellipsoidal nested sampling",
+    "language": "Fortran/C++ (Python wrapper: PyMultiNest)",
+    "parallelisable": "Yes (MPI)",
+    "description": "一种多模态 nested sampling 算法，将 live point 集划分为椭球体，以高效地采样复杂的多模态 posteriors。广泛用于天体物理学中的 Bayesian 参数估计和模型比较。"
+  },
+  "polychord": {
+    "name": "PolyChord",
+    "aliases": [
+      "PyPolyChord"
+    ],
+    "type": "Nested Sampling",
+    "method": "Slice sampling within nested sampling",
+    "language": "Fortran/C++ (Python wrapper: PyPolyChord)",
+    "parallelisable": "Yes (MPI)",
+    "description": "一种使用 slice sampling 的 nested sampling 算法，以高效探索高维参数空间（高达数百维）。在高维空间中表现优于 MultiNest，并能很好地处理非 Gaussian posteriors。"
+  },
+  "dynesty": {
+    "name": "dynesty",
+    "aliases": [],
+    "type": "Nested Sampling",
+    "method": "Dynamic nested sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "一个纯 Python 动态 nested sampling 包，它自适应地分配 live points，以改善 posterior 和 evidence 估计。支持多种 bounding 和 sampling 方法，包括 random walks, slice sampling 和 Hamiltonian Monte Carlo。"
+  },
+  "emcee": {
+    "name": "emcee",
+    "aliases": [
+      "the MCMC Hammer"
+    ],
+    "type": "MCMC",
+    "method": "Affine-invariant ensemble sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing/MPI)",
+    "description": "一个仿射不变的 ensemble MCMC sampler，它使用一组相互作用的 walkers 来提出移动。是天体物理学中最广泛使用的 MCMC 代码之一，特别适用于具有相关参数的中高维问题。"
+  },
+  "ultranest": {
+    "name": "UltraNest",
+    "aliases": [],
+    "type": "Nested Sampling",
+    "method": "Reactive nested sampling (MLFriends)",
+    "language": "Python (C/Fortran accelerated)",
+    "parallelisable": "Yes (MPI)",
+    "description": "一个 Bayesian inference 包，它使用 MLFriends 算法实现 reactive nested sampling。提供 Bayesian evidence 的稳健不确定性估计，并且非常适用于复杂的、多模态的 posteriors。"
+  },
+  "cobaya": {
+    "name": "cobaya",
+    "aliases": [],
+    "type": "MCMC / Nested Sampling",
+    "method": "Metropolis-Hastings MCMC with oversampling; nested sampling via plugins",
+    "language": "Python",
+    "parallelisable": "Yes (MPI)",
+    "description": "一个用于宇宙学的 Bayesian 分析框架，支持 MCMC 和 nested sampling，并与 Boltzmann codes (CAMB, CLASS) 具有原生接口，以及来自 CMB 和大尺度结构实验的 likelihoods。"
+  },
+  "cosmomc": {
+    "name": "CosmoMC",
+    "aliases": [],
+    "type": "MCMC",
+    "method": "Metropolis-Hastings MCMC",
+    "language": "Fortran (Python interface)",
+    "parallelisable": "Yes (MPI)",
+    "description": "一个宇宙学参数估计包，它使用 Metropolis-Hastings MCMC，通过 CAMB 原生支持 CMB power spectra。是 CMB 参数估计的标准工具，用于 Planck, ACT 和 SPT 的分析。"
+  },
+  "montepython": {
+    "name": "MontePython",
+    "aliases": [],
+    "type": "MCMC / Nested Sampling",
+    "method": "Metropolis-Hastings MCMC; nested sampling via MultiNest",
+    "language": "Python",
+    "parallelisable": "Yes (MPI)",
+    "description": "一个用于宇宙学的 Monte Carlo 参数估计代码，与 CLASS Boltzmann code 接口。支持 Metropolis-Hastings MCMC，并且可以与 MultiNest 一起用于 nested sampling。"
+  },
+  "zeus_sampler": {
+    "name": "zeus",
+    "aliases": [],
+    "type": "MCMC",
+    "method": "Ensemble slice sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing/MPI)",
+    "description": "一个基于 slice sampling 的 ensemble MCMC sampler，旨在处理多模态和高度相关的 posteriors，无需调整步长。结合了 ensemble 方法的并行性和 slice sampling 的稳健性。"
+  },
+  "nautilus_sampler": {
+    "name": "nautilus",
+    "aliases": [],
+    "type": "Importance Nested Sampling",
+    "method": "Importance nested sampling with neural network proposals",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "一个 Bayesian inference 包，它使用 importance nested sampling 和基于神经网络的 proposal distributions。在中高维空间中实现高效率，且 likelihood evaluations 少于传统的 nested sampling。"
+  },
+  "nessai": {
+    "name": "nessai",
+    "aliases": [],
+    "type": "Nested Sampling",
+    "method": "Normalising flow-based nested sampling",
+    "language": "Python",
+    "parallelisable": "Yes (multiprocessing)",
+    "description": "一种 nested sampling 算法，它使用 normalising flows 来学习高效的 proposal distributions。特别适用于 likelihood evaluations 成本高昂的问题，例如 gravitational-wave 参数估计。"
+  },
+  "bilby": {
+    "name": "Bilby",
+    "aliases": [
+      "bilby"
+    ],
+    "type": "Bayesian Inference 框架",
+    "method": "Wrapper for multiple samplers (dynesty, emcee, MultiNest, PolyChord, etc.)",
+    "language": "Python",
+    "parallelisable": "Yes (via backend sampler)",
+    "description": "一个用户友好的 Bayesian inference 库，主要面向 gravitational-wave 天文学。提供一个统一的接口，连接到多个 sampling backends，并包含内置的 gravitational-wave likelihood 和 waveform 模型。"
+  }
+}

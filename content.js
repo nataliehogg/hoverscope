@@ -3,10 +3,138 @@
 
 let telescopeData = {};
 let tooltip = null;
+let userLanguage = 'en';
+
+// Field label translations
+const FIELD_TRANSLATIONS = {
+  en: {}, // English - no translation needed, use default
+  de: {
+    type: 'Typ',
+    wavelengths: 'Wellenlängen',
+    location: 'Standort',
+    status: 'Status',
+    launch_year: 'Startjahr',
+    decommission_year: 'Stilllegungsjahr',
+    diameter: 'Durchmesser',
+    altitude: 'Höhe',
+    volume: 'Volumen',
+    mass_resolution: 'Massenauflösung',
+    end_redshift: 'Endrotverschiebung',
+    merger_tree_code: 'Merger-Tree-Code',
+    parent_simulation: 'Übergeordnete Simulation',
+    included_physics: 'Enthaltene Physik',
+    method: 'Methode',
+    language: 'Programmiersprache',
+    parallelisable: 'Parallelisierbar'
+  },
+  es: {
+    type: 'Tipo',
+    wavelengths: 'Longitudes de onda',
+    location: 'Ubicación',
+    status: 'Estado',
+    launch_year: 'Año de lanzamiento',
+    decommission_year: 'Año de desmantelamiento',
+    diameter: 'Diámetro',
+    altitude: 'Altitud',
+    volume: 'Volumen',
+    mass_resolution: 'Resolución de masa',
+    end_redshift: 'Corrimiento al rojo final',
+    merger_tree_code: 'Código de árbol de fusión',
+    parent_simulation: 'Simulación principal',
+    included_physics: 'Física incluida',
+    method: 'Método',
+    language: 'Lenguaje de programación',
+    parallelisable: 'Paralelizable'
+  },
+  fr: {
+    type: 'Type',
+    wavelengths: 'Longueurs d\'onde',
+    location: 'Emplacement',
+    status: 'Statut',
+    launch_year: 'Année de lancement',
+    decommission_year: 'Année de déclassement',
+    diameter: 'Diamètre',
+    altitude: 'Altitude',
+    volume: 'Volume',
+    mass_resolution: 'Résolution de masse',
+    end_redshift: 'Décalage vers le rouge final',
+    merger_tree_code: 'Code d\'arbre de fusion',
+    parent_simulation: 'Simulation parente',
+    included_physics: 'Physique incluse',
+    method: 'Méthode',
+    language: 'Langage de programmation',
+    parallelisable: 'Parallélisable'
+  },
+  it: {
+    type: 'Tipo',
+    wavelengths: 'Lunghezze d\'onda',
+    location: 'Posizione',
+    status: 'Stato',
+    launch_year: 'Anno di lancio',
+    decommission_year: 'Anno di dismissione',
+    diameter: 'Diametro',
+    altitude: 'Altitudine',
+    volume: 'Volume',
+    mass_resolution: 'Risoluzione di massa',
+    end_redshift: 'Redshift finale',
+    merger_tree_code: 'Codice albero di fusione',
+    parent_simulation: 'Simulazione genitore',
+    included_physics: 'Fisica inclusa',
+    method: 'Metodo',
+    language: 'Linguaggio di programmazione',
+    parallelisable: 'Parallelizzabile'
+  },
+  zh: {
+    type: '类型',
+    wavelengths: '波长',
+    location: '位置',
+    status: '状态',
+    launch_year: '发射年份',
+    decommission_year: '退役年份',
+    diameter: '直径',
+    altitude: '高度',
+    volume: '体积',
+    mass_resolution: '质量分辨率',
+    end_redshift: '最终红移',
+    merger_tree_code: '合并树代码',
+    parent_simulation: '父模拟',
+    included_physics: '包含的物理',
+    method: '方法',
+    language: '编程语言',
+    parallelisable: '可并行化'
+  }
+};
+
+// Detect user language
+function detectLanguage() {
+  const browserLang = navigator.language || navigator.userLanguage;
+  const langCode = browserLang.split('-')[0]; // e.g., 'en-US' → 'en'
+
+  // Check if we have translations for this language
+  if (FIELD_TRANSLATIONS[langCode]) {
+    return langCode;
+  }
+  return 'en'; // Default to English
+}
+
+// Translate field name to user's language
+function translateFieldLabel(fieldName) {
+  const translations = FIELD_TRANSLATIONS[userLanguage];
+  if (translations && translations[fieldName]) {
+    return translations[fieldName];
+  }
+
+  // Fallback: convert field_name to "Field Name"
+  return fieldName.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+}
 
 // Initialize
 async function init() {
   console.log('Hoverscope: Initializing...');
+
+  // Detect language
+  userLanguage = detectLanguage();
+  console.log(`Hoverscope: User language detected as '${userLanguage}'`);
 
   // Get telescope data from background script
   try {
@@ -107,7 +235,7 @@ function processPage() {
     elementIndex++;
   });
 
-  console.log(`Hoverscope: Found and marked ${totalMatches} telescope/survey/simulation/SAM mentions`);
+  console.log(`Hoverscope: Found and marked ${totalMatches} telescope/survey/simulation/SAM/sampler mentions`);
 }
 
 function processElement(element, elementIndex) {
@@ -306,7 +434,7 @@ function handleMouseEnter(event) {
     fieldDiv.className = 'hoverscope-field';
 
     const fieldLabel = document.createElement('strong');
-    const labelText = field.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+    const labelText = translateFieldLabel(field);
     fieldLabel.textContent = `${labelText}: `;
 
     fieldDiv.appendChild(fieldLabel);

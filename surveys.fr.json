@@ -1,0 +1,675 @@
+{
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
+  "sdss": {
+    "name": "SDSS",
+    "aliases": [
+      "Sloan Digital Sky Survey"
+    ],
+    "type": "Relevé depuis le sol",
+    "launch_date": "2000 (began operations)",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": ">1/3 of sky",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Opérationnel",
+    "description": "Majeur relevé spectroscopique créant des cartes 3D détaillées de l'univers"
+  },
+  "lsst": {
+    "name": "LSST",
+    "aliases": [
+      "Legacy Survey of Space and Time"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2025 (planned first light)",
+    "wavelengths": "Visible to near-infrared (320 - 1050 nm)",
+    "survey_area": "18,000 sq deg",
+    "location": "Cerro Pachón, Chile",
+    "status": "En phase de mise en service",
+    "description": "Télescope de relevé grand-champ qui imagera l'ensemble du ciel visible toutes les quelques nuits"
+  },
+  "lamost": {
+    "name": "LAMOST",
+    "aliases": [
+      "Large Sky Area Multi-Object Fiber Spectroscopic Telescope",
+      "Guo Shoujing Telescope"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2008",
+    "wavelengths": "Visible (370 - 900 nm)",
+    "location": "Xinglong Station, China",
+    "status": "Opérationnel",
+    "description": "Télescope de 4 mètres avec spectrographe à 4000 fibres pour de vastes relevés spectroscopiques"
+  },
+  "panstarrs": {
+    "name": "Pan-STARRS",
+    "aliases": [
+      "Panoramic Survey Telescope and Rapid Response System"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2008",
+    "wavelengths": "Visible to near-infrared (400 - 1000 nm)",
+    "survey_area": "30,000 sq deg",
+    "location": "Haleakalā, Hawaii",
+    "status": "Opérationnel",
+    "description": "Télescopes de relevé grand-champ découvrant des astéroïdes, des supernovae et des étoiles variables"
+  },
+  "ztf": {
+    "name": "ZTF",
+    "aliases": [
+      "Zwicky Transient Facility"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2018",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "3750 sq deg per hour",
+    "location": "Palomar Observatory, California",
+    "status": "Opérationnel",
+    "description": "Relevé du ciel entier à haute cadence trouvant des supernovae, des astéroïdes et des événements transitoires"
+  },
+  "ngts": {
+    "name": "NGTS",
+    "aliases": [
+      "Next-Generation Transit Survey"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2015",
+    "wavelengths": "Visible (520 - 890 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Opérationnel",
+    "description": "Réseau de 12 petits télescopes à la recherche d'exoplanètes en transit"
+  },
+  "speculoos": {
+    "name": "SPECULOOS",
+    "aliases": [
+      "Search for habitable Planets EClipsing ULtra-cOOl Stars"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2019",
+    "wavelengths": "Near-infrared",
+    "location": "Paranal, Chile and Tenerife, Spain",
+    "status": "Opérationnel",
+    "description": "Réseau de télescopes robotiques cherchant des exoplanètes autour de naines ultra-froides"
+  },
+  "hat": {
+    "name": "HATNet",
+    "aliases": [
+      "Hungarian Automated Telescope Network"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2003",
+    "wavelengths": "Visible",
+    "location": "Arizona and Hawaii",
+    "status": "Opérationnel",
+    "description": "Réseau de petits télescopes automatisés découvrant des exoplanètes en transit"
+  },
+  "wasp": {
+    "name": "SuperWASP",
+    "aliases": [
+      "Wide Angle Search for Planets"
+    ],
+    "type": "Spectroscopique",
+    "launch_date": "2004",
+    "wavelengths": "Visible (400 - 700 nm)",
+    "location": "La Palma and South Africa",
+    "status": "Opérationnel",
+    "description": "Deux observatoires robotiques découvrant des exoplanètes en transit"
+  },
+  "vst": {
+    "name": "VST",
+    "aliases": [
+      "VLT Survey Telescope"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2011",
+    "wavelengths": "Visible (330 - 1000 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Terminé (2019)",
+    "description": "Télescope de 2,6 mètres conçu pour des relevés Optical grand-champ"
+  },
+  "desi": {
+    "name": "DESI",
+    "aliases": [
+      "Dark Energy Spectroscopic Instrument"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2021 (began operations)",
+    "wavelengths": "Visible to near-infrared (360 - 980 nm)",
+    "survey_area": "14,000 sq deg",
+    "location": "Kitt Peak National Observatory, Arizona",
+    "status": "Opérationnel",
+    "description": "Spectrographe à 5000 fibres créant la plus grande carte 3D de l'univers, mesurant 40 millions de galaxies"
+  },
+  "des": {
+    "name": "DES",
+    "aliases": [
+      "Dark Energy Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2013",
+    "wavelengths": "Visible to near-infrared (400 - 1080 nm)",
+    "survey_area": "5000 sq deg",
+    "location": "Cerro Tololo Inter-American Observatory, Chile",
+    "status": "Terminé (2001)",
+    "description": "Relevé profond multibande du ciel austral étudiant l'énergie sombre par le biais de multiples sondes"
+  },
+  "kids": {
+    "name": "KiDS",
+    "aliases": [
+      "Kilo-Degree Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2011",
+    "wavelengths": "Visible to near-infrared (330 - 1000 nm)",
+    "survey_area": "1350 sq deg",
+    "location": "VLT Survey Telescope, Chile",
+    "status": "Terminé",
+    "description": "Relevé d'imagerie profond multibande pour le faible lentille gravitationnelle et l'évolution des galaxies"
+  },
+  "2mass": {
+    "name": "2MASS",
+    "aliases": [
+      "Two Micron All-Sky Survey"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "1997",
+    "wavelengths": "Near-infrared (1.25, 1.65, 2.17 μm)",
+    "survey_area": "Full sky",
+    "location": "Mount Hopkins, Arizona and Cerro Tololo, Chile",
+    "status": "Terminé (2014)",
+    "description": "Relevé near-infrared de tout le ciel cataloguant plus de 300 millions d'étoiles et plus d'1 million de galaxies"
+  },
+  "allwise": {
+    "name": "AllWISE",
+    "aliases": [
+      "All-Sky WISE"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "2013 (data release)",
+    "wavelengths": "Infrared (3.4, 4.6, 12, 22 μm)",
+    "survey_area": "Full sky",
+    "location": "Space-based (WISE satellite)",
+    "status": "Terminé (2019)",
+    "description": "Données combinées du relevé WISE couvrant l'ensemble du ciel en mid-infrared avec une profondeur améliorée"
+  },
+  "boss": {
+    "name": "BOSS",
+    "aliases": [
+      "Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "2009",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "10,000 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Opérationnel",
+    "description": "Programme SDSS-III mesurant les spectres de 1,5 million de galaxies pour les oscillations acoustiques des baryons"
+  },
+  "eboss": {
+    "name": "eBOSS",
+    "aliases": [
+      "Extended Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "2014",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "7500 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Opérationnel",
+    "description": "Programme SDSS-IV étendant BOSS pour cartographier la structure cosmique de 0.6 < z < 2.2"
+  },
+  "apogee": {
+    "name": "APOGEE",
+    "aliases": [
+      "Apache Point Observatory Galactic Evolution Experiment"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "2011",
+    "wavelengths": "Near-infrared (1.51 - 1.70 μm)",
+    "location": "Apache Point Observatory and Las Campanas Observatory",
+    "status": "Terminé (2013)",
+    "description": "Spectroscopie infrared haute résolution de plus de 100 000 étoiles à travers la Voie lactée"
+  },
+  "galah": {
+    "name": "GALAH",
+    "aliases": [
+      "GALactic Archaeology with HERMES"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2014",
+    "wavelengths": "Visible (471 - 789 nm)",
+    "location": "Anglo-Australian Telescope, Australia",
+    "status": "Terminé (2009)",
+    "description": "Relevé spectroscopique haute résolution mesurant les abondances chimiques d'1 million d'étoiles"
+  },
+  "rave": {
+    "name": "RAVE",
+    "aliases": [
+      "RAdial Velocity Experiment"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2003",
+    "wavelengths": "Near-infrared (8410 - 8795 Å)",
+    "location": "UK Schmidt Telescope, Australia",
+    "status": "En cours",
+    "description": "Relevé spectroscopique moyenne résolution de 500 000 étoiles pour la structure Galactique"
+  },
+  "cfhtls": {
+    "name": "CFHTLS",
+    "aliases": [
+      "Canada-France-Hawaii Telescope Legacy Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2003",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "170 sq deg (multiple fields)",
+    "location": "Canada-France-Hawaii Telescope, Hawaii",
+    "status": "Terminé (2013)",
+    "description": "Relevé d'imagerie profond multibande pour le lentille faible et les galaxies à haut redshift"
+  },
+  "cosmos": {
+    "name": "COSMOS",
+    "aliases": [
+      "Cosmic Evolution Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2003",
+    "wavelengths": "X-ray to radio (multi-wavelength)",
+    "survey_area": "2 sq deg",
+    "location": "Multiple telescopes worldwide",
+    "status": "Terminé",
+    "description": "Relevé profond multi-longueurs d'onde d'un seul champ étudiant l'évolution des galaxies jusqu'à z~6"
+  },
+  "candels": {
+    "name": "CANDELS",
+    "aliases": [
+      "Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2010",
+    "wavelengths": "Near-infrared (0.8 - 1.6 μm)",
+    "survey_area": "~0.25 sq deg (multiple fields)",
+    "location": "Hubble Space Telescope",
+    "status": "Terminé",
+    "description": "Le plus grand relevé du HST étudiant l'évolution des galaxies et la réionisation à z > 1.5"
+  },
+  "goods": {
+    "name": "GOODS",
+    "aliases": [
+      "Great Observatories Origins Deep Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2003",
+    "wavelengths": "Multi-wavelength (X-ray to radio)",
+    "survey_area": "~0.1 sq deg (two fields)",
+    "location": "Multiple space and ground telescopes",
+    "status": "Terminé (2012)",
+    "description": "Relevé ultra-profond multi-longueurs d'onde combinant Hubble, Spitzer, Chandra et d'autres"
+  },
+  "hudf": {
+    "name": "HUDF",
+    "aliases": [
+      "Hubble Ultra Deep Field"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2004 (initial), 2012 (XDF)",
+    "wavelengths": "UV to near-infrared (0.2 - 1.7 μm)",
+    "survey_area": "11 arcmin² (XDF: 4.7 arcmin²)",
+    "location": "Hubble Space Telescope",
+    "status": "Terminé (2013)",
+    "description": "L'image Optical/NIR la plus profonde jamais prise, révélant environ 10 000 galaxies jusqu'à z~10"
+  },
+  "ukidss": {
+    "name": "UKIDSS",
+    "aliases": [
+      "UKIRT Infrared Deep Sky Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2005",
+    "wavelengths": "Near-infrared (0.83 - 2.37 μm)",
+    "survey_area": "7500 sq deg (multiple surveys)",
+    "location": "United Kingdom Infrared Telescope, Hawaii",
+    "status": "Terminé",
+    "description": "Le plus profond et le plus grand relevé near-infrared de son temps avec de multiples composantes"
+  },
+  "viking": {
+    "name": "VIKING",
+    "aliases": [
+      "VISTA Kilo-degree INfrared Galaxy survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.15 μm)",
+    "survey_area": "1500 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "Opérationnel",
+    "description": "Complément near-infrared au relevé Optical KiDS pour les redshifts photométriques"
+  },
+  "video": {
+    "name": "VIDEO",
+    "aliases": [
+      "VISTA Deep Extragalactic Observations"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.88 - 2.15 μm)",
+    "survey_area": "12 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "Terminé (2004)",
+    "description": "Relevé infrared profond atteignant z~4 pour les études d'évolution des galaxies"
+  },
+  "vhs": {
+    "name": "VHS",
+    "aliases": [
+      "VISTA Hemisphere Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (1.02, 1.25, 2.15 μm)",
+    "survey_area": "18,000 sq deg (southern hemisphere)",
+    "location": "VISTA telescope, Chile",
+    "status": "Terminé (1996)",
+    "description": "Le plus grand relevé near-infrared couvrant l'ensemble du ciel austral pour compléter 2MASS"
+  },
+  "first": {
+    "name": "FIRST",
+    "aliases": [
+      "Faint Images of the Radio Sky at Twenty-Centimeters"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "10,575 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "Opérationnel",
+    "description": "Relevé Radio cataloguant environ 1 million de sources, étudiant les AGN et les galaxies Radio"
+  },
+  "nvss": {
+    "name": "NVSS",
+    "aliases": [
+      "NRAO VLA Sky Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "~34,000 sq deg (northern sky)",
+    "location": "Very Large Array, New Mexico",
+    "status": "Terminé (2020)",
+    "description": "Relevé Radio à grande échelle cataloguant environ 2 millions de sources au-dessus de -40° de déclinaison"
+  },
+  "vlass": {
+    "name": "VLASS",
+    "aliases": [
+      "VLA Sky Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2017",
+    "wavelengths": "Radio (2-4 GHz)",
+    "survey_area": "33,000 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "Opérationnel",
+    "description": "Relevé Radio moderne de tout le ciel avec une meilleure résolution et sensibilité que NVSS/FIRST"
+  },
+  "racs": {
+    "name": "RACS",
+    "aliases": [
+      "Rapid ASKAP Continuum Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2019",
+    "wavelengths": "Radio (887.5 MHz)",
+    "survey_area": "34,000 sq deg (full southern sky)",
+    "location": "ASKAP, Australia",
+    "status": "Opérationnel",
+    "description": "Relevé Radio rapide de tout le ciel austral cataloguant environ 3 millions de sources"
+  },
+  "emu": {
+    "name": "EMU",
+    "aliases": [
+      "Evolutionary Map of the Universe"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2021 (early science)",
+    "wavelengths": "Radio (800-1088 MHz)",
+    "survey_area": "Full southern sky + part of north",
+    "location": "ASKAP, Australia",
+    "status": "Terminé (2012)",
+    "description": "Relevé de continuum Radio profond devant détecter environ 70 millions de galaxies"
+  },
+  "lofartier1": {
+    "name": "LoTSS",
+    "aliases": [
+      "LOFAR Two-metre Sky Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2014",
+    "wavelengths": "Radio (120-168 MHz)",
+    "survey_area": "Full northern sky",
+    "location": "LOFAR, Netherlands and Europe",
+    "status": "Terminé (1997)",
+    "description": "Relevé Radio basse fréquence cartographiant l'ensemble du ciel boréal à une sensibilité sans précédent"
+  },
+  "tgss": {
+    "name": "TGSS",
+    "aliases": [
+      "TIFR GMRT Sky Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2010",
+    "wavelengths": "Radio (150 MHz)",
+    "survey_area": "36,900 sq deg",
+    "location": "Giant Metrewave Radio Telescope, India",
+    "status": "Terminé (2016)",
+    "description": "Relevé Radio basse fréquence couvrant le ciel au nord de -53° de déclinaison"
+  },
+  "wenss": {
+    "name": "WENSS",
+    "aliases": [
+      "Westerbork Northern Sky Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "1991",
+    "wavelengths": "Radio (92 cm / 325 MHz)",
+    "survey_area": "~18,000 sq deg",
+    "location": "Westerbork Synthesis Radio Telescope, Netherlands",
+    "status": "Opérationnel",
+    "description": "Relevé Radio basse fréquence du ciel boréal à 325 MHz"
+  },
+  "gleam": {
+    "name": "GLEAM",
+    "aliases": [
+      "GaLactic and Extragalactic All-sky MWA survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2013",
+    "wavelengths": "Radio (72-231 MHz)",
+    "survey_area": "Full sky (declination < +30°)",
+    "location": "Murchison Widefield Array, Australia",
+    "status": "Opérationnel",
+    "description": "Relevé large bande basse fréquence avec la meilleure couverture spectrale aux basses fréquences"
+  },
+  "atlassurvey": {
+    "name": "ATLAS",
+    "aliases": [
+      "Asteroid Terrestrial-impact Last Alert System"
+    ],
+    "type": "Relevé astrométrique",
+    "launch_date": "2015 (first unit), 2017 (second unit)",
+    "wavelengths": "Visible (cyan and orange filters)",
+    "survey_area": "Entire visible sky every 24 hours",
+    "location": "Hawaii (two sites)",
+    "status": "Mission active",
+    "description": "Relevé de tout le ciel cherchant les astéroïdes géocroiseurs et découvrant des supernovae"
+  },
+  "asassn": {
+    "name": "ASAS-SN",
+    "aliases": [
+      "All-Sky Automated Survey for Supernovae"
+    ],
+    "type": "Relevé astrométrique",
+    "launch_date": "2014",
+    "wavelengths": "Visible (V and g bands)",
+    "survey_area": "Full sky every ~2 days",
+    "location": "Multiple sites worldwide (5 locations)",
+    "status": "Terminé",
+    "description": "Réseau mondial de télescopes robotiques découvrant des supernovae et des transitoires"
+  },
+  "gaia_dr3": {
+    "name": "Gaia DR3",
+    "aliases": [
+      "Gaia Data Release 3"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Gaia satellite at L2",
+    "status": "Opérationnel",
+    "description": "Troisième publication de données avec 1,8 milliard d'étoiles, incluant des spectres et des paramètres stellaires"
+  },
+  "hipparcos_catalog": {
+    "name": "Hipparcos Catalogue",
+    "aliases": [
+      "Hipparcos and Tycho Catalogues"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "1997 (catalog release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Hipparcos satellite",
+    "status": "En construction",
+    "description": "Premier catalogue astrométrique de haute précision avec 118 000 étoiles et une précision de la milliarcseconde"
+  },
+  "skymapper": {
+    "name": "SkyMapper",
+    "aliases": [
+      "SkyMapper Southern Survey"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "2014",
+    "wavelengths": "Visible (320 - 1000 nm, 6 filters)",
+    "survey_area": "Full southern sky",
+    "location": "Siding Spring Observatory, Australia",
+    "status": "Opérationnel",
+    "description": "Relevé numérique de tout le ciel de l'hémisphère sud pour les populations stellaires et les transitoires"
+  },
+  "4most": {
+    "name": "4MOST",
+    "aliases": [
+      "4-metre Multi-Object Spectroscopic Telescope"
+    ],
+    "type": "Relevé spectroscopique",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (370 - 950 nm)",
+    "location": "VISTA telescope, Chile",
+    "status": "Mise en service",
+    "description": "Spectrographe multifibre pour VISTA obtenant des millions de spectres pour de multiples relevés"
+  },
+  "weave": {
+    "name": "WEAVE",
+    "aliases": [
+      "WHT Enhanced Area Velocity Explorer"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2023",
+    "wavelengths": "Visible to near-infrared (366 - 959 nm)",
+    "location": "William Herschel Telescope, La Palma",
+    "status": "Opérationnel",
+    "description": "Spectrographe multifibre effectuant de grands relevés spectroscopiques de la Voie lactée et au-delà"
+  },
+  "moons": {
+    "name": "MOONS",
+    "aliases": [
+      "Multi Object Optical and Near-infrared Spectrograph"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (0.64 - 1.8 μm)",
+    "location": "Very Large Telescope, Chile",
+    "status": "Opérationnel",
+    "description": "Spectrographe à 1000 fibres pour le VLT étudiant l'évolution des galaxies et l'archéologie Galactique"
+  },
+  "unions": {
+    "name": "UNIONS",
+    "aliases": [
+      "Ultraviolet Near-Infrared Optical Northern Survey"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2019",
+    "wavelengths": "UV to near-infrared (0.2 - 1 μm)",
+    "survey_area": "4800 sq deg",
+    "location": "CFHT and multiple space telescopes",
+    "status": "Opérationnel",
+    "description": "Relevé profond multibande du ciel boréal combinant observations au sol et spatiales"
+  },
+  "delve": {
+    "name": "DELVE",
+    "aliases": [
+      "DECam Local Volume Exploration"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2019",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "~4000 sq deg (southern sky)",
+    "location": "Blanco Telescope, Chile",
+    "status": "Opérationnel",
+    "description": "Relevé à grande surface ciblant les satellites de la Voie lactée, les courants stellaires et le volume local"
+  },
+  "jwstcosmos": {
+    "name": "COSMOS-Web",
+    "aliases": [
+      "COSMOS-Webb"
+    ],
+    "type": "Relevé du ciel",
+    "launch_date": "2023",
+    "wavelengths": "Near-infrared (0.9 - 5 μm)",
+    "survey_area": "0.54 sq deg",
+    "location": "James Webb Space Telescope",
+    "status": "Opérationnel",
+    "description": "Le plus grand programme de relevé du JWST cartographiant le champ COSMOS pour les galaxies à haut z et les AGN"
+  },
+  "jades": {
+    "name": "JADES",
+    "aliases": [
+      "JWST Advanced Deep Extragalactic Survey"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2022",
+    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
+    "survey_area": "~0.05 sq deg (GOODS fields)",
+    "location": "James Webb Space Telescope",
+    "status": "Operational",
+    "description": "Relevé spectroscopique profond du JWST étudiant les premières galaxies et l'assemblage des galaxies"
+  },
+  "ceers": {
+    "name": "CEERS",
+    "aliases": [
+      "Cosmic Evolution Early Release Science"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2022",
+    "wavelengths": "Near to mid-infrared (0.6 - 28 μm)",
+    "survey_area": "~0.1 sq deg (EGS field)",
+    "location": "James Webb Space Telescope",
+    "status": "Operational",
+    "description": "Programme scientifique de publication anticipée du JWST étudiant l'évolution des galaxies de z~10 à aujourd'hui"
+  },
+  "hsc_ssp": {
+    "name": "HSC-SSP",
+    "aliases": [
+      "Hyper Suprime-Cam Subaru Strategic Program"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "survey_area": "∼1400 sq deg",
+    "location": "Hyper Suprime-Cam, Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "Operational",
+    "description": "Relevé d'imagerie Optical profond et grand-champ avec Hyper Suprime-Cam sur Subaru pour le lentille faible, l'évolution des galaxies et la science des transitoires"
+  }
+}

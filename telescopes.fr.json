@@ -1,0 +1,1494 @@
+{
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
+  "jwst": {
+    "name": "JWST",
+    "aliases": [
+      "James Webb Space Telescope",
+      "Webb"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "0.6 - 28.5 μm (Near/Mid-infrared)",
+    "location": "L2 Lagrange Point",
+    "status": "Opérationnel",
+    "description": "Télescope spatial Infrared le plus puissant, étudiant l'univers primitif, la formation des galaxies et les atmosphères d'exoplanètes"
+  },
+  "hubble": {
+    "name": "Hubble Space Telescope",
+    "aliases": [
+      "HST",
+      "Hubble"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "April 24, 1990",
+    "wavelengths": "UV, Visible, Near-infrared (0.1 - 2.5 μm)",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel",
+    "description": "Télescope spatial révolutionnaire fournissant des images de champ profond et transformant notre compréhension de l'univers"
+  },
+  "chandra": {
+    "name": "Chandra X-ray Observatory",
+    "aliases": [
+      "Chandra",
+      "CXO"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "July 23, 1999",
+    "wavelengths": "X-ray (0.1 - 10 keV)",
+    "location": "Highly elliptical Earth orbit",
+    "status": "Opérationnel",
+    "description": "Premier télescope X-ray étudiant les trous noirs, les supernovae, les amas de galaxies et les phénomènes de haute énergie"
+  },
+  "spitzer": {
+    "name": "Spitzer Space Telescope",
+    "aliases": [
+      "Spitzer",
+      "SST"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "August 25, 2003",
+    "wavelengths": "Infrared (3 - 180 μm)",
+    "location": "Earth-trailing solar orbit",
+    "status": "Désaffecté (30 janvier 2020)",
+    "description": "Télescope Infrared qui a étudié la formation stellaire, les exoplanètes et les galaxies lointaines"
+  },
+  "kepler": {
+    "name": "Kepler Space Telescope",
+    "aliases": [
+      "Kepler"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "March 7, 2009",
+    "wavelengths": "Visible light (430 - 890 nm)",
+    "survey_area": "115 sq deg in Cygnus constellation",
+    "status": "Désaffecté (30 octobre 2018)",
+    "description": "Chasseur d'exoplanètes qui a découvert des milliers de planètes en utilisant la photométrie de transit"
+  },
+  "tess": {
+    "name": "TESS",
+    "aliases": [
+      "Transiting Exoplanet Survey Satellite"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "April 18, 2018",
+    "wavelengths": "Visible to near-infrared (600 - 1000 nm)",
+    "survey_area": "~85% of sky",
+    "status": "Opérationnel",
+    "description": "Mission de relevé d'exoplanètes à l'échelle du ciel entier trouvant des planètes autour d'étoiles brillantes proches"
+  },
+  "gaia": {
+    "name": "Gaia",
+    "aliases": [
+      "Gaia satellite"
+    ],
+    "type": "Satellite d'astrométrie",
+    "launch_date": "December 19, 2013",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "L2 Lagrange Point",
+    "status": "Opérationnel",
+    "description": "Crée une carte 3D de notre galaxie, mesurant les positions, les distances et les mouvements de plus d'un milliard d'étoiles"
+  },
+  "euclid": {
+    "name": "Euclid",
+    "aliases": [
+      "Euclid telescope"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "July 1, 2023",
+    "wavelengths": "Visible to near-infrared (550 - 2000 nm)",
+    "survey_area": "15,000 sq deg",
+    "location": "L2 Lagrange Point",
+    "status": "Opérationnel",
+    "description": "Mission de l'ESA cartographiant la matière noire et l'énergie sombre à travers l'histoire cosmique"
+  },
+  "roman": {
+    "name": "Nancy Grace Roman Space Telescope",
+    "aliases": [
+      "Roman",
+      "Roman Space Telescope",
+      "WFIRST"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "May 2027 (planned)",
+    "wavelengths": "Visible to near-infrared (0.5 - 2.3 μm)",
+    "survey_area": "~2000 sq deg",
+    "location": "L2 Lagrange Point",
+    "status": "En développement",
+    "description": "Télescope de relevé à grand champ pour l'énergie sombre, les exoplanètes et l'astrophysique Infrared"
+  },
+  "csst": {
+    "name": "CSST",
+    "aliases": [
+      "China Space Station Telescope",
+      "Xuntian",
+      "Chinese Survey Space Telescope"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "2025-2026 (planned)",
+    "wavelengths": "UV to near-infrared (255 nm - 1000 nm)",
+    "survey_area": "17,500 sq deg",
+    "location": "Co-orbit with Chinese Space Station",
+    "status": "En développement",
+    "description": "Télescope spatial chinois de 2 mètres avec une résolution de classe Hubble relevant 40 % du ciel pour la cosmologie et l'évolution des galaxies"
+  },
+  "alma": {
+    "name": "ALMA",
+    "aliases": [
+      "Atacama Large Millimeter Array"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "March 13, 2013 (inauguration)",
+    "wavelengths": "Millimetre/submillimetre (0.3 - 9.6 mm)",
+    "location": "Atacama Desert, Chile (5000m altitude)",
+    "status": "Opérationnel",
+    "description": "Observatoire millimétrique/submillimétrique le plus puissant du monde étudiant la formation d'étoiles/planètes et les galaxies lointaines"
+  },
+  "vla": {
+    "name": "VLA",
+    "aliases": [
+      "Very Large Array",
+      "Karl G. Jansky Very Large Array"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "1980",
+    "wavelengths": "Radio (0.7 cm - 4 m)",
+    "location": "New Mexico, USA",
+    "status": "Opérationnel",
+    "description": "Réseau de radiotélescopes de 27 antennes étudiant l'émission Radio d'objets célestes"
+  },
+  "ska": {
+    "name": "SKA",
+    "aliases": [
+      "Square Kilometre Array"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "2027 (planned first light)",
+    "wavelengths": "Radio (50 MHz - 14 GHz)",
+    "location": "Australia and South Africa",
+    "status": "En construction",
+    "description": "Réseau de radiotélescopes de prochaine génération avec une sensibilité et une vitesse de relevé sans précédent"
+  },
+  "jwstmiri": {
+    "name": "MIRI",
+    "aliases": [
+      "Mid-Infrared Instrument"
+    ],
+    "type": "Instrument JWST",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Mid-infrared (5 - 28 μm)",
+    "description": "Caméra et spectrographe mid-Infrared du JWST pour l'étude des objets froids et de la poussière"
+  },
+  "jwstnirspec": {
+    "name": "NIRSpec",
+    "aliases": [
+      "Near Infrared Spectrograph"
+    ],
+    "type": "Instrument JWST",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
+    "description": "Spectrographe multi-objets du JWST pour l'étude des galaxies lointaines et des atmosphères d'exoplanètes"
+  },
+  "jwstnircam": {
+    "name": "NIRCam",
+    "aliases": [
+      "Near Infrared Camera"
+    ],
+    "type": "Instrument JWST",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Near-infrared (0.6 - 5 μm)",
+    "description": "Imageur Infrared principal et capteur de front d'onde du JWST"
+  },
+  "herschel": {
+    "name": "Herschel Space Observatory",
+    "aliases": [
+      "Herschel"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "May 14, 2009",
+    "wavelengths": "Far-infrared to submillimetre (55 - 672 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "Désaffecté (29 avril 2013)",
+    "description": "Plus grand télescope Infrared dans l'espace, a étudié la formation d'étoiles/galaxies et les nuages moléculaires"
+  },
+  "planck": {
+    "name": "Planck",
+    "aliases": [
+      "Planck satellite"
+    ],
+    "type": "Observatoire spatial",
+    "launch_date": "May 14, 2009",
+    "wavelengths": "Microwave to far-infrared (0.3 - 11 mm)",
+    "survey_area": "Full sky",
+    "location": "L2 Lagrange Point",
+    "status": "Désaffecté (23 octobre 2013)",
+    "description": "A cartographié le fond diffus cosmologique avec une précision sans précédent, mesurant l'âge et la composition de l'univers"
+  },
+  "act": {
+    "name": "ACT",
+    "aliases": [
+      "Atacama Cosmology Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2007 (first observations)",
+    "wavelengths": "Millimetre/submillimetre (1-3 mm)",
+    "survey_area": "~50% of sky",
+    "location": "Atacama Desert, Chile (5190m altitude)",
+    "status": "Opérationnel",
+    "description": "Télescope de 6 mètres mesurant le fond diffus cosmologique, l'énergie sombre, les amas de galaxies et les lentilles gravitationnelles"
+  },
+  "spt": {
+    "name": "SPT",
+    "aliases": [
+      "South Pole Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2007 (first light)",
+    "wavelengths": "Millimetre/submillimetre (1-3 mm)",
+    "survey_area": "2500 sq deg",
+    "location": "Amundsen-Scott South Pole Station, Antarctica",
+    "status": "Opérationnel",
+    "description": "Télescope de 10 mètres observant le fond diffus cosmologique, détectant les amas de galaxies via l'effet Sunyaev-Zel'dovich"
+  },
+  "wmap": {
+    "name": "WMAP",
+    "aliases": [
+      "Wilkinson Microwave Anisotropy Probe"
+    ],
+    "type": "Observatoire spatial",
+    "launch_date": "June 30, 2001",
+    "wavelengths": "Microwave (3.2 - 14 mm)",
+    "survey_area": "Full sky",
+    "location": "L2 Lagrange Point",
+    "status": "Désaffecté (2010)",
+    "description": "A mesuré les fluctuations de température dans le rayonnement de fond diffus cosmologique"
+  },
+  "fermi": {
+    "name": "Fermi Gamma-ray Space Telescope",
+    "aliases": [
+      "Fermi",
+      "GLAST"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "June 11, 2008",
+    "wavelengths": "Gamma-ray (20 MeV - 300 GeV)",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel",
+    "description": "Étudie le ciel Gamma-ray, y compris les pulsars, les blazars et les sursauts Gamma-ray"
+  },
+  "xmm": {
+    "name": "XMM-Newton",
+    "aliases": [
+      "XMM",
+      "X-ray Multi-Mirror Mission"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 10, 1999",
+    "wavelengths": "X-ray (0.15 - 12 keV)",
+    "location": "Highly elliptical Earth orbit",
+    "status": "Opérationnel",
+    "description": "Observatoire X-ray de l'ESA étudiant les trous noirs, les étoiles à neutrons et le gaz chaud dans les amas de galaxies"
+  },
+  "nustar": {
+    "name": "NuSTAR",
+    "aliases": [
+      "Nuclear Spectroscopic Telescope Array"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "June 13, 2012",
+    "wavelengths": "Hard X-ray (3 - 79 keV)",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel",
+    "description": "Premier télescope X-ray dur à focalisation en orbite, étudiant les trous noirs et les rémanents de supernovae"
+  },
+  "swift": {
+    "name": "Swift",
+    "aliases": [
+      "Swift Gamma-Ray Burst Mission",
+      "Neil Gehrels Swift Observatory"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "November 20, 2004",
+    "wavelengths": "Gamma-ray, X-ray, UV, Visible",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel",
+    "description": "Détecte et étudie rapidement les sursauts Gamma-ray et d'autres phénomènes transitoires"
+  },
+  "integral": {
+    "name": "INTEGRAL",
+    "aliases": [
+      "International Gamma-Ray Astrophysics Laboratory"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "October 17, 2002",
+    "wavelengths": "Gamma-ray (15 keV - 10 MeV)",
+    "location": "Highly elliptical Earth orbit",
+    "status": "Opérationnel",
+    "description": "Observatoire Gamma-ray de l'ESA étudiant les phénomènes cosmiques violents et le centre galactique"
+  },
+  "ixpe": {
+    "name": "IXPE",
+    "aliases": [
+      "Imaging X-ray Polarimetry Explorer"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 9, 2021",
+    "wavelengths": "X-ray (2 - 8 keV)",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel",
+    "description": "Première mission de polarimétrie X-ray étudiant les champs magnétiques dans des environnements extrêmes"
+  },
+  "xrism": {
+    "name": "XRISM",
+    "aliases": [
+      "X-ray Imaging and Spectroscopy Mission"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "September 7, 2023",
+    "wavelengths": "X-ray (0.3 - 12 keV)",
+    "location": "Low Earth Orbit",
+    "status": "En développement",
+    "description": "Observatoire X-ray JAXA/NASA avec des capacités de spectroscopie à haute résolution"
+  },
+  "athena": {
+    "name": "Athena",
+    "aliases": [
+      "Advanced Telescope for High-Energy Astrophysics"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "2037 (planned)",
+    "wavelengths": "X-ray (0.2 - 12 keV)",
+    "location": "L2 Lagrange Point",
+    "status": "Opérationnel",
+    "description": "Observatoire X-ray de prochaine génération de l'ESA étudiant l'univers chaud et les phénomènes énergétiques"
+  },
+  "nicer": {
+    "name": "NICER",
+    "aliases": [
+      "Neutron star Interior Composition Explorer"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "June 3, 2017",
+    "wavelengths": "X-ray (0.2 - 12 keV)",
+    "location": "International Space Station",
+    "status": "Désaffecté (28 juin 2013)",
+    "description": "Étudie les étoiles à neutrons et teste la navigation basée sur les pulsars pour les engins spatiaux"
+  },
+  "galex": {
+    "name": "GALEX",
+    "aliases": [
+      "Galaxy Evolution Explorer"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "April 28, 2003",
+    "wavelengths": "Ultraviolet (135 - 280 nm)",
+    "location": "Low Earth Orbit",
+    "status": "Désaffecté (18 octobre 2007)",
+    "description": "Télescope de relevé UV qui a cartographié l'évolution des galaxies sur 10 milliards d'années"
+  },
+  "fuse": {
+    "name": "FUSE",
+    "aliases": [
+      "Far Ultraviolet Spectroscopic Explorer"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "June 24, 1999",
+    "wavelengths": "Far-ultraviolet (90.5 - 119.5 nm)",
+    "location": "Low Earth Orbit",
+    "status": "Désaffecté (21 novembre 1983)",
+    "description": "Spectroscopie UV à haute résolution étudiant le milieu interstellaire et les atmosphères stellaires"
+  },
+  "iras": {
+    "name": "IRAS",
+    "aliases": [
+      "Infrared Astronomical Satellite"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "January 25, 1983",
+    "wavelengths": "Infrared (12 - 100 μm)",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel (mission NEOWISE)",
+    "description": "Premier télescope spatial à réaliser un relevé Infrared de tout le ciel, a découvert des galaxies Infrared"
+  },
+  "wise": {
+    "name": "WISE",
+    "aliases": [
+      "Wide-field Infrared Survey Explorer",
+      "NEOWISE"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 14, 2009",
+    "wavelengths": "Infrared (3.4 - 22 μm)",
+    "survey_area": "Full sky",
+    "location": "Low Earth Orbit",
+    "status": "Désaffecté (24 juin 2013)",
+    "description": "Relevé Infrared de tout le ciel découvrant des astéroïdes, des naines brunes et des galaxies lointaines"
+  },
+  "corot": {
+    "name": "CoRoT",
+    "aliases": [
+      "Convection, Rotation and planetary Transits"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 27, 2006",
+    "wavelengths": "Visible light",
+    "location": "Low Earth Orbit",
+    "status": "Opérationnel",
+    "description": "Chasseur d'exoplanètes dirigé par la France et mission d'astérosismologie"
+  },
+  "cheops": {
+    "name": "CHEOPS",
+    "aliases": [
+      "Characterising Exoplanet Satellite"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 18, 2019",
+    "wavelengths": "Visible light (330 - 1100 nm)",
+    "location": "Low Earth Orbit",
+    "status": "En développement",
+    "description": "Mission de l'ESA caractérisant les exoplanètes connues avec une photométrie de haute précision"
+  },
+  "plato": {
+    "name": "PLATO",
+    "aliases": [
+      "PLAnetary Transits and Oscillations of stars"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "2026 (planned)",
+    "wavelengths": "Visible light",
+    "location": "L2 Lagrange Point",
+    "status": "En développement",
+    "description": "Mission de l'ESA trouvant et caractérisant des exoplanètes de type terrestre autour d'étoiles de type solaire"
+  },
+  "ariel": {
+    "name": "Ariel",
+    "aliases": [
+      "Atmospheric Remote-sensing Infrared Exoplanet Large-survey"
+    ],
+    "type": "Satellite d'astrométrie",
+    "launch_date": "2029 (planned)",
+    "wavelengths": "Visible to infrared (0.5 - 7.8 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "Désaffecté (août 1993)",
+    "description": "Mission de l'ESA étudiant les atmosphères de centaines d'exoplanètes"
+  },
+  "hipparcos": {
+    "name": "Hipparcos",
+    "aliases": [
+      "High Precision Parallax Collecting Satellite"
+    ],
+    "type": "Observatoire solaire",
+    "launch_date": "August 8, 1989",
+    "wavelengths": "Visible light",
+    "location": "Highly elliptical Earth orbit",
+    "status": "Opérationnel",
+    "description": "Première mission d'astrométrie spatiale, a créé un catalogue d'étoiles précis avec des parallaxes"
+  },
+  "soho": {
+    "name": "SOHO",
+    "aliases": [
+      "Solar and Heliospheric Observatory"
+    ],
+    "type": "Observatoire solaire",
+    "launch_date": "December 2, 1995",
+    "wavelengths": "UV, Visible, EUV",
+    "location": "L1 Lagrange Point",
+    "status": "Opérationnel",
+    "description": "Surveille continuellement le Soleil, découvrant des milliers de comètes"
+  },
+  "sdo": {
+    "name": "SDO",
+    "aliases": [
+      "Solar Dynamics Observatory"
+    ],
+    "type": "Observatoire solaire",
+    "launch_date": "February 11, 2010",
+    "wavelengths": "UV, EUV, Visible",
+    "location": "Geosynchronous orbit",
+    "status": "Opérationnel (STEREO-A)",
+    "description": "Étudie la variabilité solaire et ses impacts sur la Terre avec une haute résolution spatiale/temporelle"
+  },
+  "stereo": {
+    "name": "STEREO",
+    "aliases": [
+      "Solar Terrestrial Relations Observatory"
+    ],
+    "type": "Sonde solaire",
+    "launch_date": "October 25, 2006",
+    "wavelengths": "UV, EUV, Visible, Radio",
+    "location": "Solar orbit (ahead/behind Earth)",
+    "status": "Opérationnel",
+    "description": "Sonde spatiale jumelle fournissant des vues 3D de la couronne solaire et des éjections de masse coronale"
+  },
+  "parkersolar": {
+    "name": "Parker Solar Probe",
+    "aliases": [
+      "Parker",
+      "PSP"
+    ],
+    "type": "Observatoire solaire",
+    "launch_date": "August 12, 2018",
+    "wavelengths": "Visible, Radio, In-situ particles",
+    "location": "Highly elliptical solar orbit",
+    "status": "Opérationnel",
+    "description": "Première sonde spatiale à voler dans la couronne du Soleil, étudiant le vent solaire et les champs magnétiques"
+  },
+  "solarorbiter": {
+    "name": "Solar Orbiter",
+    "aliases": [
+      "SolO"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "February 9, 2020",
+    "wavelengths": "UV, EUV, Visible, X-ray",
+    "location": "Elliptical solar orbit",
+    "status": "Opérationnel",
+    "description": "Mission ESA/NASA étudiant les pôles du Soleil et le vent solaire à de courtes distances"
+  },
+  "keck": {
+    "name": "Keck Observatory",
+    "aliases": [
+      "Keck",
+      "Keck I and II"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1993 (Keck I), 1996 (Keck II)",
+    "wavelengths": "Visible to mid-infrared (0.3 - 25 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "Opérationnel",
+    "description": "Télescopes jumeaux de 10 mètres avec optique adaptative et de puissantes capacités spectroscopiques"
+  },
+  "vlt": {
+    "name": "VLT",
+    "aliases": [
+      "Very Large Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1998-2001",
+    "wavelengths": "Visible to mid-infrared (0.3 - 20 μm)",
+    "location": "Cerro Paranal, Chile",
+    "status": "Opérationnel",
+    "description": "Installation phare de l'ESO avec quatre télescopes de 8,2 mètres pouvant fonctionner ensemble"
+  },
+  "gemini": {
+    "name": "Gemini Observatory",
+    "aliases": [
+      "Gemini North",
+      "Gemini South"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1999 (North), 2001 (South)",
+    "wavelengths": "Visible to mid-infrared (0.32 - 25 μm)",
+    "location": "Hawaii (North), Chile (South)",
+    "status": "Opérationnel",
+    "description": "Télescopes jumeaux de 8,1 mètres offrant une couverture complète du ciel avec optique adaptative"
+  },
+  "subaru": {
+    "name": "Subaru Telescope",
+    "aliases": [
+      "Subaru"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1999",
+    "wavelengths": "Visible to infrared (0.3 - 30 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "Opérationnel",
+    "description": "Télescope japonais de 8,2 mètres avec des capacités d'imagerie à grand champ"
+  },
+  "magellan": {
+    "name": "Magellan Telescopes",
+    "aliases": [
+      "Magellan",
+      "Clay",
+      "Baade"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2000 (Baade), 2002 (Clay)",
+    "wavelengths": "Visible to infrared",
+    "location": "Las Campanas Observatory, Chile",
+    "status": "Opérationnel",
+    "description": "Télescopes jumeaux de 6,5 mètres exploités par un consortium américain"
+  },
+  "lbt": {
+    "name": "LBT",
+    "aliases": [
+      "Large Binocular Telescope"
+    ],
+    "type": "Radiotélescope",
+    "launch_date": "2004-2008",
+    "wavelengths": "Visible to mid-infrared (0.3 - 25 μm)",
+    "location": "Mount Graham, Arizona",
+    "status": "Opérationnel",
+    "description": "Deux miroirs de 8,4 mètres sur une seule monture avec optique adaptative avancée"
+  },
+  "gbt": {
+    "name": "GBT",
+    "aliases": [
+      "Green Bank Telescope"
+    ],
+    "type": "Radiotélescope",
+    "launch_date": "2000",
+    "wavelengths": "Radio (3 mm - 3 m)",
+    "location": "Green Bank, West Virginia",
+    "status": "Effondré (1er décembre 2020)",
+    "description": "Plus grand radiotélescope entièrement orientable du monde de 100 mètres"
+  },
+  "arecibo": {
+    "name": "Arecibo Observatory",
+    "aliases": [
+      "Arecibo"
+    ],
+    "type": "Radiotélescope",
+    "launch_date": "1963",
+    "wavelengths": "Radio (3 cm - 1 m)",
+    "location": "Arecibo, Puerto Rico",
+    "status": "Opérationnel",
+    "description": "Ancien radiotélescope de 305 mètres, célèbre pour les observations SETI et radar planétaire"
+  },
+  "fast": {
+    "name": "FAST",
+    "aliases": [
+      "Five-hundred-meter Aperture Spherical Telescope",
+      "Tianyan"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "September 25, 2016",
+    "wavelengths": "Radio (10 cm - 4.3 m)",
+    "location": "Guizhou, China",
+    "status": "Opérationnel",
+    "description": "Plus grand radiotélescope à antenne unique du monde de 500 mètres, étudiant les pulsars et le SETI"
+  },
+  "lofar": {
+    "name": "LOFAR",
+    "aliases": [
+      "Low Frequency Array"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "2010",
+    "wavelengths": "Radio (10 - 240 MHz)",
+    "location": "Netherlands and Europe",
+    "status": "Opérationnel",
+    "description": "Réseau de radiotélescopes basse fréquence à grande échelle étudiant les rayons cosmiques et les exoplanètes"
+  },
+  "meerkat": {
+    "name": "MeerKAT",
+    "aliases": [
+      "Karoo Array Telescope"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "July 13, 2018",
+    "wavelengths": "Radio (580 MHz - 14.5 GHz)",
+    "location": "Northern Cape, South Africa",
+    "status": "Opérationnel",
+    "description": "Précurseur de SKA à 64 antennes, étudiant HI, les pulsars et les transitoires"
+  },
+  "noema": {
+    "name": "NOEMA",
+    "aliases": [
+      "Northern Extended Millimeter Array"
+    ],
+    "type": "Interféromètre Radio",
+    "launch_date": "2014 (expansion completed)",
+    "wavelengths": "Millimeter (0.8 - 4 mm)",
+    "location": "Plateau de Bure, French Alps",
+    "status": "Désaffecté (avril 2015)",
+    "description": "Interféromètre millimétrique le plus puissant dans l'hémisphère nord"
+  },
+  "carma": {
+    "name": "CARMA",
+    "aliases": [
+      "Combined Array for Research in Millimeter-wave Astronomy"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2006",
+    "wavelengths": "Millimeter (1 - 3 mm)",
+    "location": "Cedar Flat, California",
+    "status": "En construction",
+    "description": "23 antennes combinées pour l'astronomie millimétrique"
+  },
+  "elt": {
+    "name": "ELT",
+    "aliases": [
+      "Extremely Large Telescope",
+      "European Extremely Large Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2028 (planned first light)",
+    "wavelengths": "Visible to mid-infrared (0.4 - 24 μm)",
+    "location": "Cerro Armazones, Chile",
+    "status": "Planification/construction suspendue",
+    "description": "Télescope de 39 mètres de l'ESO, sera le plus grand télescope Optical/near-IR du monde"
+  },
+  "tmt": {
+    "name": "TMT",
+    "aliases": [
+      "Thirty Meter Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "TBD (construction paused)",
+    "wavelengths": "Visible to mid-infrared (0.31 - 28 μm)",
+    "location": "Mauna Kea, Hawaii (proposed)",
+    "status": "En construction",
+    "description": "Télescope de 30 mètres prévu avec optique adaptative pour l'observation de l'espace lointain"
+  },
+  "gmt": {
+    "name": "GMT",
+    "aliases": [
+      "Giant Magellan Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2029 (planned first light)",
+    "wavelengths": "Visible to mid-infrared (0.32 - 25 μm)",
+    "location": "Las Campanas Observatory, Chile",
+    "status": "Opérationnel",
+    "description": "Sept miroirs de 8,4 mètres se combinant pour une ouverture effective de 24,5 mètres"
+  },
+  "cfht": {
+    "name": "CFHT",
+    "aliases": [
+      "Canada-France-Hawaii Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1979",
+    "wavelengths": "Visible to infrared",
+    "location": "Mauna Kea, Hawaii",
+    "status": "Opérationnel",
+    "description": "Télescope de 3,6 mètres connu pour ses relevés d'imagerie à grand champ"
+  },
+  "palomar": {
+    "name": "Palomar Observatory",
+    "aliases": [
+      "Hale Telescope",
+      "Palomar 200-inch"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1948",
+    "wavelengths": "Visible to infrared",
+    "location": "Palomar Mountain, California",
+    "status": "Opérationnel",
+    "description": "Télescope historique de 5,1 mètres qui a dominé l'astronomie pendant des décennies"
+  },
+  "mmt": {
+    "name": "MMT Observatory",
+    "aliases": [
+      "MMT",
+      "Multiple Mirror Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1979 (converted to single mirror 1999)",
+    "wavelengths": "Visible to infrared",
+    "location": "Mount Hopkins, Arizona",
+    "status": "Opérationnel",
+    "description": "Télescope de 6,5 mètres exploité par l'Université d'Arizona et le Smithsonian"
+  },
+  "salt": {
+    "name": "SALT",
+    "aliases": [
+      "Southern African Large Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2005",
+    "wavelengths": "Visible to near-infrared (320 - 1700 nm)",
+    "location": "Sutherland, South Africa",
+    "status": "Opérationnel",
+    "description": "Plus grand télescope Optical unique dans l'hémisphère sud de 11 mètres"
+  },
+  "het": {
+    "name": "HET",
+    "aliases": [
+      "Hobby-Eberly Telescope"
+    ],
+    "type": "Étude conceptuelle",
+    "launch_date": "1997",
+    "wavelengths": "Visible to near-infrared (400 - 1100 nm)",
+    "location": "McDonald Observatory, Texas",
+    "status": "Instrument JWST",
+    "description": "Télescope de 9,2 mètres optimisé pour la spectroscopie et les études sur l'énergie sombre"
+  },
+  "jwstfgs": {
+    "name": "FGS/NIRISS",
+    "aliases": [
+      "Fine Guidance Sensor",
+      "Near Infrared Imager and Slitless Spectrograph"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "December 25, 2021",
+    "wavelengths": "Near-infrared (0.8 - 5 μm)",
+    "description": "Capteur de contrôle de pointage du JWST et instrument scientifique canadien pour les études d'exoplanètes"
+  },
+  "ixo": {
+    "name": "Lynx",
+    "aliases": [
+      "Lynx X-ray Observatory"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "2030s (proposed)",
+    "wavelengths": "X-ray (0.2 - 10 keV)",
+    "location": "L2 Lagrange Point",
+    "status": "Étude conceptuelle",
+    "description": "Mission X-ray phare proposée par la NASA avec une sensibilité sans précédent"
+  },
+  "habex": {
+    "name": "HabEx",
+    "aliases": [
+      "Habitable Exoplanet Observatory"
+    ],
+    "type": "Télescope spatial",
+    "launch_date": "2030s (proposed)",
+    "wavelengths": "UV to near-infrared (0.1 - 1.8 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "Étude conceptuelle",
+    "description": "Télescope spatial de 4 mètres proposé avec cache-étoiles pour l'imagerie directe d'exoplanètes"
+  },
+  "luvoir": {
+    "name": "LUVOIR",
+    "aliases": [
+      "Large UV/Optical/IR Surveyor"
+    ],
+    "type": "Observatoire aéroporté",
+    "launch_date": "2030s (proposed)",
+    "wavelengths": "UV to near-infrared (0.1 - 2.5 μm)",
+    "location": "L2 Lagrange Point",
+    "status": "Désaffecté (30 septembre 2022)",
+    "description": "Mission phare de 8-15 mètres proposée pour la caractérisation d'exoplanètes et l'astrophysique"
+  },
+  "sofia": {
+    "name": "SOFIA",
+    "aliases": [
+      "Stratospheric Observatory for Infrared Astronomy"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2010",
+    "wavelengths": "Infrared (0.3 - 1600 μm)",
+    "location": "Boeing 747SP aircraft",
+    "status": "Opérationnel",
+    "description": "Télescope Infrared aéroporté de 2,7 mètres volant au-dessus de la vapeur d'eau atmosphérique"
+  },
+  "eso36": {
+    "name": "ESO 3.6m",
+    "aliases": [
+      "ESO 3.6-metre telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1976",
+    "wavelengths": "Visible to infrared",
+    "location": "La Silla Observatory, Chile",
+    "status": "Opérationnel",
+    "description": "Hôte du spectrographe HARPS, installation majeure de découverte d'exoplanètes"
+  },
+  "tng": {
+    "name": "TNG",
+    "aliases": [
+      "Telescopio Nazionale Galileo"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1998",
+    "wavelengths": "Visible to near-infrared",
+    "location": "La Palma, Canary Islands",
+    "status": "Opérationnel",
+    "description": "Télescope italien de 3,6 mètres avec HARPS-N pour les études d'exoplanètes"
+  },
+  "ukirt": {
+    "name": "UKIRT",
+    "aliases": [
+      "United Kingdom Infrared Telescope"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "1979",
+    "wavelengths": "Infrared (1 - 5 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "Opérationnel",
+    "description": "Télescope Infrared dédié de 3,8 mètres effectuant des relevés à grand champ"
+  },
+  "irtf": {
+    "name": "IRTF",
+    "aliases": [
+      "NASA Infrared Telescope Facility"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "1979",
+    "wavelengths": "Infrared (1 - 30 μm)",
+    "location": "Mauna Kea, Hawaii",
+    "status": "Opérationnel",
+    "description": "Installation NASA de 3 mètres optimisée pour les études planétaires et du système solaire Infrared"
+  },
+  "ligo": {
+    "name": "LIGO",
+    "aliases": [
+      "Laser Interferometer Gravitational-Wave Observatory"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "2002 (initial), 2015 (Advanced LIGO)",
+    "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
+    "location": "Hanford, Washington and Livingston, Louisiana",
+    "status": "Opérationnel",
+    "description": "Premier détecteur à observer les ondes gravitationnelles, détectant les fusions de trous noirs et d'étoiles à neutrons"
+  },
+  "virgo": {
+    "name": "Virgo",
+    "aliases": [
+      "Virgo interferometer"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "2007 (initial), 2017 (Advanced Virgo)",
+    "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
+    "location": "Cascina, Italy",
+    "status": "Opérationnel",
+    "description": "Détecteur d'ondes gravitationnelles européen travaillant en conjonction avec LIGO"
+  },
+  "kagra": {
+    "name": "KAGRA",
+    "aliases": [
+      "Kamioka Gravitational Wave Detector"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "2020",
+    "wavelengths": "Gravitational waves (10 Hz - 10 kHz)",
+    "location": "Kamioka Mine, Japan (underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur cryogénique souterrain d'ondes gravitationnelles, faisant partie du réseau GW mondial"
+  },
+  "geo600": {
+    "name": "GEO600",
+    "aliases": [
+      "GEO 600"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "2002",
+    "wavelengths": "Gravitational waves (50 Hz - 1.5 kHz)",
+    "location": "Sarstedt, Germany",
+    "status": "En développement",
+    "description": "Détecteur d'ondes gravitationnelles germano-britannique servant de banc d'essai technologique"
+  },
+  "lisa": {
+    "name": "LISA",
+    "aliases": [
+      "Laser Interferometer Space Antenna"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "2037 (planned)",
+    "wavelengths": "Gravitational waves (0.1 mHz - 1 Hz)",
+    "location": "Heliocentric orbit (trailing Earth)",
+    "status": "En planification",
+    "description": "Détecteur d'ondes gravitationnelles spatial avec des bras de 2,5 millions de km, détectant les fusions de trous noirs supermassifs"
+  },
+  "einsteintelescope": {
+    "name": "Einstein Telescope",
+    "aliases": [
+      "ET"
+    ],
+    "type": "Observatoire d'ondes gravitationnelles",
+    "launch_date": "2030s (planned)",
+    "wavelengths": "Gravitational waves (1 Hz - 10 kHz)",
+    "location": "Europe (site TBD, underground)",
+    "status": "En planification",
+    "description": "Observatoire GW souterrain de troisième génération proposé avec une sensibilité 10 fois supérieure à celle d'Advanced LIGO"
+  },
+  "cosmicexplorer": {
+    "name": "Cosmic Explorer",
+    "aliases": [
+      "CE"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2030s (planned)",
+    "wavelengths": "Gravitational waves (5 Hz - 10 kHz)",
+    "location": "United States (sites TBD)",
+    "status": "Opérationnel",
+    "description": "Détecteur GW de prochaine génération proposé avec des bras de 40 km, 10 fois plus sensible que LIGO"
+  },
+  "icecube": {
+    "name": "IceCube",
+    "aliases": [
+      "IceCube Neutrino Observatory"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2010 (completed)",
+    "wavelengths": "Neutrinos (GeV - PeV energies)",
+    "location": "South Pole, Antarctica (1.5-2.5 km deep ice)",
+    "status": "Opérationnel",
+    "description": "Détecteur de neutrinos d'un kilomètre cube utilisant la glace antarctique, a découvert des neutrinos astrophysiques"
+  },
+  "antares": {
+    "name": "ANTARES",
+    "aliases": [
+      "Astronomy with a Neutrino Telescope and Abyss environmental RESearch"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2008",
+    "wavelengths": "Neutrinos (GeV - PeV energies)",
+    "location": "Mediterranean Sea off France (2.5 km deep)",
+    "status": "En construction",
+    "description": "Télescope à neutrinos sous-marin en mer Méditerranée surveillant l'hémisphère nord"
+  },
+  "kmnet": {
+    "name": "KM3NeT",
+    "aliases": [
+      "Cubic Kilometre Neutrino Telescope"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2016 (first units), ongoing construction",
+    "wavelengths": "Neutrinos (GeV - PeV energies)",
+    "location": "Mediterranean Sea (multiple sites)",
+    "status": "Opérationnel",
+    "description": "Observatoire de neutrinos sous-marin de prochaine génération avec des détecteurs au large de l'Italie, de la France et de la Grèce"
+  },
+  "superkamiokande": {
+    "name": "Super-Kamiokande",
+    "aliases": [
+      "Super-K",
+      "SK"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "1996",
+    "wavelengths": "Neutrinos (MeV - GeV energies)",
+    "location": "Kamioka Mine, Japan (1 km underground)",
+    "status": "En construction",
+    "description": "Détecteur Cherenkov à eau de 50 000 tonnes étudiant les neutrinos solaires, atmosphériques et de supernovae"
+  },
+  "hyperkamiokande": {
+    "name": "Hyper-Kamiokande",
+    "aliases": [
+      "Hyper-K",
+      "HK"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2027 (planned)",
+    "wavelengths": "Neutrinos (MeV - GeV energies)",
+    "location": "Kamioka Mine, Japan (underground)",
+    "status": "En construction",
+    "description": "Détecteur à eau de 260 000 tonnes de prochaine génération, successeur de Super-Kamiokande"
+  },
+  "dune": {
+    "name": "DUNE",
+    "aliases": [
+      "Deep Underground Neutrino Experiment"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2028 (planned)",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Sanford Lab, South Dakota (1.5 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur massif d'argon liquide étudiant les oscillations de neutrinos avec un faisceau de Fermilab"
+  },
+  "nova": {
+    "name": "NOvA",
+    "aliases": [
+      "NuMI Off-Axis νe Appearance"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2014",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Ash River, Minnesota",
+    "status": "Désaffecté (octobre 2021)",
+    "description": "Expérience de neutrinos à longue ligne de base étudiant les oscillations avec un faisceau de Fermilab"
+  },
+  "borexino": {
+    "name": "Borexino",
+    "aliases": [],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2007",
+    "wavelengths": "Neutrinos (sub-MeV to MeV energies)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "Désaffecté (2006)",
+    "description": "Détecteur à scintillateur liquide ultra-pur, a effectué des mesures de précision des neutrinos solaires"
+  },
+  "sno": {
+    "name": "SNO",
+    "aliases": [
+      "Sudbury Neutrino Observatory"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "1999",
+    "wavelengths": "Neutrinos (MeV energies)",
+    "location": "Sudbury, Ontario (2 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur à eau lourde qui a confirmé les oscillations de neutrinos, Prix Nobel 2015"
+  },
+  "snoplus": {
+    "name": "SNO+",
+    "aliases": [
+      "SNO Plus"
+    ],
+    "type": "Expérience de neutrinos",
+    "launch_date": "2017",
+    "wavelengths": "Neutrinos (MeV energies)",
+    "location": "Sudbury, Ontario (2 km underground)",
+    "status": "Opérationnel",
+    "description": "Successeur de SNO utilisant un scintillateur liquide, étudiant les neutrinos solaires et la double désintégration bêta sans neutrino"
+  },
+  "t2k": {
+    "name": "T2K",
+    "aliases": [
+      "Tokai to Kamioka"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2010",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Tokai to Kamioka, Japan (295 km baseline)",
+    "status": "Désaffecté (2019)",
+    "description": "Expérience d'oscillation de neutrinos à longue ligne de base utilisant Super-Kamiokande comme détecteur éloigné"
+  },
+  "miniboone": {
+    "name": "MiniBooNE",
+    "aliases": [
+      "Mini Booster Neutrino Experiment"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2002",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Fermilab, Illinois",
+    "status": "Opérationnel",
+    "description": "Détecteur Cherenkov à huile qui a étudié les oscillations et les anomalies des neutrinos"
+  },
+  "microboone": {
+    "name": "MicroBooNE",
+    "aliases": [
+      "Micro Booster Neutrino Experiment"
+    ],
+    "type": "Détecteur de neutrinos",
+    "launch_date": "2015",
+    "wavelengths": "Neutrinos (GeV energies)",
+    "location": "Fermilab, Illinois",
+    "status": "En construction",
+    "description": "Chambre à projection temporelle à argon liquide étudiant les interactions et les anomalies des neutrinos"
+  },
+  "baikal": {
+    "name": "Baikal-GVD",
+    "aliases": [
+      "Gigaton Volume Detector"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2016 (first cluster), ongoing construction",
+    "wavelengths": "Neutrinos (TeV - PeV energies)",
+    "location": "Lake Baikal, Russia (1 km deep)",
+    "status": "Désaffecté (2018, mis à niveau vers XENONnT)",
+    "description": "Télescope à neutrinos sous-marin dans le lac le plus profond du monde détectant les neutrinos cosmiques de haute énergie"
+  },
+  "xenon1t": {
+    "name": "XENON1T",
+    "aliases": [
+      "XENON1T"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2016",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur au xénon liquide recherchant la matière noire WIMP avec un bruit de fond ultra-faible"
+  },
+  "xenonnt": {
+    "name": "XENONnT",
+    "aliases": [
+      "XENON nT"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2020",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "Désaffecté (2016)",
+    "description": "Détecteur au xénon liquide amélioré de 8,3 tonnes, expérience de matière noire WIMP la plus sensible"
+  },
+  "lux": {
+    "name": "LUX",
+    "aliases": [
+      "Large Underground Xenon"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2013",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Sanford Lab, South Dakota (1.5 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur au xénon liquide de 370 kg qui a établi des limites d'exclusion WIMP de pointe mondiale"
+  },
+  "luxzeplin": {
+    "name": "LUX-ZEPLIN",
+    "aliases": [
+      "LZ"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2022",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Sanford Lab, South Dakota (1.5 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur au xénon liquide de 10 tonnes combinant les technologies LUX et ZEPLIN pour la recherche de WIMP"
+  },
+  "pandax": {
+    "name": "PandaX",
+    "aliases": [
+      "Particle and Astrophysical Xenon"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2014 (PandaX-II), 2020 (PandaX-4T)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "China Jinping Underground Laboratory (2.4 km underground)",
+    "status": "A évolué en SuperCDMS",
+    "description": "Série de détecteurs au xénon liquide dans le laboratoire souterrain le plus profond du monde recherchant la matière noire"
+  },
+  "cdms": {
+    "name": "CDMS",
+    "aliases": [
+      "Cryogenic Dark Matter Search"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2003 (CDMS II)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Soudan Mine, Minnesota (initially), later Sudbury",
+    "status": "Opérationnel",
+    "description": "Détecteur cryogénique pionnier germanium/silicium recherchant la matière noire WIMP"
+  },
+  "supercdms": {
+    "name": "SuperCDMS",
+    "aliases": [
+      "Super Cryogenic Dark Matter Search"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2022 (SNOLAB)",
+    "wavelengths": "Dark matter particles (WIMPs, low-mass)",
+    "location": "SNOLAB, Sudbury, Ontario (2 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur cryogénique avancé sensible aux particules de matière noire de faible masse"
+  },
+  "darkside": {
+    "name": "DarkSide",
+    "aliases": [
+      "DarkSide-50"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2015",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "En construction",
+    "description": "Détecteur à argon liquide utilisant de l'argon souterrain du Colorado pour réduire les bruits de fond"
+  },
+  "darkside20k": {
+    "name": "DarkSide-20k",
+    "aliases": [
+      "DS-20k"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2027 (planned)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur à argon liquide de 20 tonnes de prochaine génération pour la recherche de matière noire WIMP"
+  },
+  "deap": {
+    "name": "DEAP-3600",
+    "aliases": [
+      "Dark matter Experiment using Argon Pulse-shape discrimination"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2016",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "SNOLAB, Sudbury, Ontario (2 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur à argon liquide monophase de 3,6 tonnes recherchant la matière noire WIMP"
+  },
+  "cresst": {
+    "name": "CRESST",
+    "aliases": [
+      "Cryogenic Rare Event Search with Superconducting Thermometers"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2016 (CRESST-III)",
+    "wavelengths": "Dark matter particles (WIMPs, low-mass)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur cryogénique utilisant des cristaux de tungstate de calcium, sensible à la matière noire de faible masse"
+  },
+  "edelweiss": {
+    "name": "EDELWEISS",
+    "aliases": [
+      "Expérience pour DEtecter Les Wimps En Site Souterrain"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2000 (initial), ongoing upgrades",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Modane Underground Laboratory, France (1.7 km underground)",
+    "status": "Opérationnel",
+    "description": "Bolomètres au germanium cryogénique recherchant les interactions WIMP-noyau"
+  },
+  "admx": {
+    "name": "ADMX",
+    "aliases": [
+      "Axion Dark Matter Experiment"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2018 (Gen 2)",
+    "wavelengths": "Dark matter particles (Axions)",
+    "location": "University of Washington, Seattle",
+    "status": "A évolué en PICO",
+    "description": "Haloscope utilisant une cavité hyperfréquence pour la recherche de particules d'axions de matière noire"
+  },
+  "dama": {
+    "name": "DAMA/LIBRA",
+    "aliases": [
+      "DArk MAtter/Large sodium Iodide Bulk for RAre processes"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2003 (DAMA/LIBRA), 1996 (original DAMA)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Gran Sasso, Italy (1.4 km underground)",
+    "status": "Opérationnel",
+    "description": "Scintillateur à iodure de sodium détectant un signal de modulation annuelle revendiqué comme matière noire"
+  },
+  "coupp": {
+    "name": "COUPP",
+    "aliases": [
+      "Chicagoland Observatory for Underground Particle Physics"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2005",
+    "wavelengths": "Dark matter particles (WIMPs, spin-dependent)",
+    "location": "SNOLAB, Sudbury, Ontario",
+    "status": "En planification",
+    "description": "Technologie de chambre à bulles utilisant des liquides surchauffés pour la détection de WIMP"
+  },
+  "pico": {
+    "name": "PICO",
+    "aliases": [
+      "PICO-60",
+      "PICASSO + COUPP"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "2013 (PICO-60)",
+    "wavelengths": "Dark matter particles (WIMPs, spin-dependent)",
+    "location": "SNOLAB, Sudbury, Ontario (2 km underground)",
+    "status": "Opérationnel",
+    "description": "Chambre à bulles utilisant du C3F8 surchauffé, sensible aux interactions WIMP dépendantes du spin"
+  },
+  "darwin": {
+    "name": "DARWIN",
+    "aliases": [
+      "DARk matter WImp search with liquid xenoN"
+    ],
+    "type": "Détecteur de matière noire",
+    "launch_date": "Late 2020s (planned)",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Europe (site TBD, underground)",
+    "status": "Opérationnel",
+    "description": "Détecteur au xénon liquide de 50 tonnes proposé, sensibilité ultime à la matière noire WIMP"
+  },
+  "cosine": {
+    "name": "COSINE-100",
+    "aliases": [
+      "COSINE"
+    ],
+    "type": "Échantillon de supernovae",
+    "launch_date": "2016",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Yangyang Underground Laboratory, South Korea",
+    "status": "Terminé",
+    "description": "Détecteur à iodure de sodium testant l'affirmation de modulation annuelle de DAMA/LIBRA"
+  },
+  "anais": {
+    "name": "ANAIS",
+    "aliases": [
+      "Annual modulation with NaI Scintillators"
+    ],
+    "type": "Échantillon de supernovae",
+    "launch_date": "2017",
+    "wavelengths": "Dark matter particles (WIMPs)",
+    "location": "Canfranc Underground Laboratory, Spain",
+    "status": "Terminé",
+    "description": "Détecteur à iodure de sodium testant indépendamment le signal de modulation annuelle de DAMA"
+  },
+  "pantheon": {
+    "name": "Pantheon",
+    "aliases": [
+      "Pantheon Sample"
+    ],
+    "type": "Échantillon de supernovae",
+    "launch_date": "2018 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "Terminé",
+    "description": "Compilation de 1048 supernovae de Type Ia (0,01 < z < 2,3) fournissant des contraintes cosmologiques sur l'énergie sombre"
+  },
+  "pantheonplus": {
+    "name": "Pantheon+",
+    "aliases": [
+      "Pantheon Plus",
+      "PantheonPlus"
+    ],
+    "type": "Échantillon de supernovae",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "Terminé",
+    "description": "Échantillon étendu de 1701 supernovae de Type Ia combinant les données Pantheon avec Pan-STARRS1 pour la cosmologie de précision"
+  },
+  "union3": {
+    "name": "Union3",
+    "aliases": [
+      "Union 3",
+      "SCPUnion3"
+    ],
+    "type": "Télescope de relevé terrestre",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "Multiple telescopes and surveys",
+    "status": "Opérationnel",
+    "description": "Compilation de 2087 supernovae de Type Ia issues de plusieurs relevés pour l'analyse cosmologique"
+  },
+  "jla": {
+    "name": "JLA",
+    "aliases": [
+      "Joint Light-curve Analysis"
+    ],
+    "type": "Télescope de relevé Optical terrestre",
+    "launch_date": "2014 (data release)",
+    "wavelengths": "Visible (optical photometry)",
+    "location": "SNLS and SDSS surveys",
+    "status": "Mise en service",
+    "description": "Analyse conjointe de 740 supernovae de Type Ia de SNLS et SDSS pour les mesures d'énergie sombre"
+  },
+  "vista": {
+    "name": "VISTA",
+    "aliases": [
+      "Visible and Infrared Survey Telescope for Astronomy"
+    ],
+    "type": "Imageur Optical à grand champ",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.4 μm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Opérationnel",
+    "description": "Télescope de relevé Infrared de 4,1 mètres de l'ESO avec un large champ de vision"
+  },
+  "vera_rubin": {
+    "name": "Vera C. Rubin Observatory",
+    "aliases": [
+      "Vera Rubin",
+      "Vera C. Rubin Observatory",
+      "Rubin Observatory",
+      "LSST",
+      "Large Synoptic Survey Telescope"
+    ],
+    "type": "Ground-based Optical Survey Telescope",
+    "launch_date": "N/A (Ground-based Observatory)",
+    "wavelengths": "Optical, Near-infrared (u, g, r, i, z, y filters; 0.32 - 1.08 μm)",
+    "location": "Cerro Pachón, Coquimbo Region, Northern Chile",
+    "status": "Commissioning",
+    "description": "Télescope de relevé à grand champ de prochaine génération menant le Relevé Héritage de l'Espace et du Temps, cartographiant le ciel austral pour étudier la matière noire, l'énergie sombre et l'univers dynamique"
+  },
+  "hsc": {
+    "name": "Hyper Suprime-Cam",
+    "aliases": [
+      "HSC",
+      "Subaru HSC"
+    ],
+    "type": "Wide-Field Optical Imager",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "location": "Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "Operational",
+    "description": "Caméra à foyer primaire à grand champ sur le télescope Subaru permettant une imagerie Optical profonde à haute résolution pour la cosmologie et les études d'évolution des galaxies"
+  }
+}

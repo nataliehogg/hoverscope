@@ -1,0 +1,675 @@
+{
+  "display_order": [
+    "type",
+    "launch_date",
+    "wavelengths",
+    "survey_area",
+    "location",
+    "status"
+  ],
+  "sdss": {
+    "name": "SDSS",
+    "aliases": [
+      "Sloan Digital Sky Survey"
+    ],
+    "type": "Sondeo terrestre",
+    "launch_date": "2000 (began operations)",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": ">1/3 of sky",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Operacional",
+    "description": "Gran sondeo espectroscópico creando mapas 3D detallados del universo"
+  },
+  "lsst": {
+    "name": "LSST",
+    "aliases": [
+      "Legacy Survey of Space and Time"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2025 (planned first light)",
+    "wavelengths": "Visible to near-infrared (320 - 1050 nm)",
+    "survey_area": "18,000 sq deg",
+    "location": "Cerro Pachón, Chile",
+    "status": "En comisión",
+    "description": "Telescopio de sondeo de campo amplio que capturará imágenes de todo el cielo visible cada pocas noches"
+  },
+  "lamost": {
+    "name": "LAMOST",
+    "aliases": [
+      "Large Sky Area Multi-Object Fiber Spectroscopic Telescope",
+      "Guo Shoujing Telescope"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2008",
+    "wavelengths": "Visible (370 - 900 nm)",
+    "location": "Xinglong Station, China",
+    "status": "Operacional",
+    "description": "Telescopio de 4 metros con espectrógrafo de 4000 fibras para sondeos espectroscópicos masivos"
+  },
+  "panstarrs": {
+    "name": "Pan-STARRS",
+    "aliases": [
+      "Panoramic Survey Telescope and Rapid Response System"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2008",
+    "wavelengths": "Visible to near-infrared (400 - 1000 nm)",
+    "survey_area": "30,000 sq deg",
+    "location": "Haleakalā, Hawaii",
+    "status": "Operacional",
+    "description": "Telescopios de sondeo de campo amplio descubriendo asteroides, supernovas y estrellas variables"
+  },
+  "ztf": {
+    "name": "ZTF",
+    "aliases": [
+      "Zwicky Transient Facility"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2018",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "3750 sq deg per hour",
+    "location": "Palomar Observatory, California",
+    "status": "Operacional",
+    "description": "Sondeo de todo el cielo de alta cadencia encontrando supernovas, asteroides y eventos transitorios"
+  },
+  "ngts": {
+    "name": "NGTS",
+    "aliases": [
+      "Next-Generation Transit Survey"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2015",
+    "wavelengths": "Visible (520 - 890 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Operacional",
+    "description": "Conjunto de 12 telescopios pequeños buscando exoplanetas en tránsito"
+  },
+  "speculoos": {
+    "name": "SPECULOOS",
+    "aliases": [
+      "Search for habitable Planets EClipsing ULtra-cOOl Stars"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2019",
+    "wavelengths": "Near-infrared",
+    "location": "Paranal, Chile and Tenerife, Spain",
+    "status": "Operacional",
+    "description": "Red de telescopios robóticos buscando exoplanetas alrededor de enanas ultrafrías"
+  },
+  "hat": {
+    "name": "HATNet",
+    "aliases": [
+      "Hungarian Automated Telescope Network"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2003",
+    "wavelengths": "Visible",
+    "location": "Arizona and Hawaii",
+    "status": "Operacional",
+    "description": "Red de pequeños telescopios automatizados descubriendo exoplanetas en tránsito"
+  },
+  "wasp": {
+    "name": "SuperWASP",
+    "aliases": [
+      "Wide Angle Search for Planets"
+    ],
+    "type": "Telescopio de sondeo terrestre",
+    "launch_date": "2004",
+    "wavelengths": "Visible (400 - 700 nm)",
+    "location": "La Palma and South Africa",
+    "status": "Operacional",
+    "description": "Dos observatorios robóticos descubriendo exoplanetas en tránsito"
+  },
+  "vst": {
+    "name": "VST",
+    "aliases": [
+      "VLT Survey Telescope"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2011",
+    "wavelengths": "Visible (330 - 1000 nm)",
+    "location": "Paranal Observatory, Chile",
+    "status": "Operacional",
+    "description": "Telescopio de 2.6 metros diseñado para sondeos Optical de campo amplio"
+  },
+  "desi": {
+    "name": "DESI",
+    "aliases": [
+      "Dark Energy Spectroscopic Instrument"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2021 (began operations)",
+    "wavelengths": "Visible to near-infrared (360 - 980 nm)",
+    "survey_area": "14,000 sq deg",
+    "location": "Kitt Peak National Observatory, Arizona",
+    "status": "Completado (2019)",
+    "description": "Espectrógrafo de 5000 fibras creando el mapa 3D más grande del universo, midiendo 40 millones de galaxias"
+  },
+  "des": {
+    "name": "DES",
+    "aliases": [
+      "Dark Energy Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2013",
+    "wavelengths": "Visible to near-infrared (400 - 1080 nm)",
+    "survey_area": "5000 sq deg",
+    "location": "Cerro Tololo Inter-American Observatory, Chile",
+    "status": "Operacional",
+    "description": "Sondeo multi-banda profundo del cielo austral estudiando la energía oscura a través de múltiples sondas"
+  },
+  "kids": {
+    "name": "KiDS",
+    "aliases": [
+      "Kilo-Degree Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2011",
+    "wavelengths": "Visible to near-infrared (330 - 1000 nm)",
+    "survey_area": "1350 sq deg",
+    "location": "VLT Survey Telescope, Chile",
+    "status": "Completado (2001)",
+    "description": "Sondeo de imágenes multi-banda profundo para lente gravitacional débil y evolución de galaxias"
+  },
+  "2mass": {
+    "name": "2MASS",
+    "aliases": [
+      "Two Micron All-Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "1997",
+    "wavelengths": "Near-infrared (1.25, 1.65, 2.17 μm)",
+    "survey_area": "Full sky",
+    "location": "Mount Hopkins, Arizona and Cerro Tololo, Chile",
+    "status": "Completado",
+    "description": "Sondeo near-infrared de todo el cielo catalogando más de 300 millones de estrellas y más de 1 millón de galaxias"
+  },
+  "allwise": {
+    "name": "AllWISE",
+    "aliases": [
+      "All-Sky WISE"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2013 (data release)",
+    "wavelengths": "Infrared (3.4, 4.6, 12, 22 μm)",
+    "survey_area": "Full sky",
+    "location": "Space-based (WISE satellite)",
+    "status": "Completado (2014)",
+    "description": "Datos combinados del sondeo WISE cubriendo todo el cielo en mid-infrared con profundidad mejorada"
+  },
+  "boss": {
+    "name": "BOSS",
+    "aliases": [
+      "Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2009",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "10,000 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Completado (2019)",
+    "description": "Programa SDSS-III midiendo espectros de 1.5 millones de galaxias para oscilaciones acústicas de bariones"
+  },
+  "eboss": {
+    "name": "eBOSS",
+    "aliases": [
+      "Extended Baryon Oscillation Spectroscopic Survey"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2014",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "7500 sq deg",
+    "location": "Apache Point Observatory, New Mexico",
+    "status": "Operacional",
+    "description": "Programa SDSS-IV extendiendo BOSS para mapear la estructura cósmica de 0.6 < z < 2.2"
+  },
+  "apogee": {
+    "name": "APOGEE",
+    "aliases": [
+      "Apache Point Observatory Galactic Evolution Experiment"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2011",
+    "wavelengths": "Near-infrared (1.51 - 1.70 μm)",
+    "location": "Apache Point Observatory and Las Campanas Observatory",
+    "status": "Operacional",
+    "description": "Espectroscopía infrared de alta resolución de más de 100,000 estrellas a través de la Vía Láctea"
+  },
+  "galah": {
+    "name": "GALAH",
+    "aliases": [
+      "GALactic Archaeology with HERMES"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2014",
+    "wavelengths": "Visible (471 - 789 nm)",
+    "location": "Anglo-Australian Telescope, Australia",
+    "status": "Completado (2013)",
+    "description": "Sondeo espectroscópico de alta resolución midiendo abundancias químicas de 1 millón de estrellas"
+  },
+  "rave": {
+    "name": "RAVE",
+    "aliases": [
+      "RAdial Velocity Experiment"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2003",
+    "wavelengths": "Near-infrared (8410 - 8795 Å)",
+    "location": "UK Schmidt Telescope, Australia",
+    "status": "Completado (2009)",
+    "description": "Sondeo espectroscópico de resolución media de 500,000 estrellas para estructura Galáctica"
+  },
+  "cfhtls": {
+    "name": "CFHTLS",
+    "aliases": [
+      "Canada-France-Hawaii Telescope Legacy Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2003",
+    "wavelengths": "Visible to near-infrared",
+    "survey_area": "170 sq deg (multiple fields)",
+    "location": "Canada-France-Hawaii Telescope, Hawaii",
+    "status": "En curso",
+    "description": "Sondeo de imágenes multi-banda profundo para lente débil y galaxias de alto redshift"
+  },
+  "cosmos": {
+    "name": "COSMOS",
+    "aliases": [
+      "Cosmic Evolution Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2003",
+    "wavelengths": "X-ray to radio (multi-wavelength)",
+    "survey_area": "2 sq deg",
+    "location": "Multiple telescopes worldwide",
+    "status": "Completado (2013)",
+    "description": "Sondeo multi-longitud de onda profundo de un solo campo estudiando la evolución de galaxias hasta z~6"
+  },
+  "candels": {
+    "name": "CANDELS",
+    "aliases": [
+      "Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2010",
+    "wavelengths": "Near-infrared (0.8 - 1.6 μm)",
+    "survey_area": "~0.25 sq deg (multiple fields)",
+    "location": "Hubble Space Telescope",
+    "status": "Completado",
+    "description": "El sondeo HST más grande estudiando la evolución de galaxias y la reionización a z > 1.5"
+  },
+  "goods": {
+    "name": "GOODS",
+    "aliases": [
+      "Great Observatories Origins Deep Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2003",
+    "wavelengths": "Multi-wavelength (X-ray to radio)",
+    "survey_area": "~0.1 sq deg (two fields)",
+    "location": "Multiple space and ground telescopes",
+    "status": "Completado",
+    "description": "Sondeo multi-longitud de onda ultra-profundo combinando Hubble, Spitzer, Chandra y otros"
+  },
+  "hudf": {
+    "name": "HUDF",
+    "aliases": [
+      "Hubble Ultra Deep Field"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2004 (initial), 2012 (XDF)",
+    "wavelengths": "UV to near-infrared (0.2 - 1.7 μm)",
+    "survey_area": "11 arcmin² (XDF: 4.7 arcmin²)",
+    "location": "Hubble Space Telescope",
+    "status": "Completado (2012)",
+    "description": "La imagen Optical/NIR más profunda jamás tomada, revelando ~10,000 galaxias hasta z~10"
+  },
+  "ukidss": {
+    "name": "UKIDSS",
+    "aliases": [
+      "UKIRT Infrared Deep Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2005",
+    "wavelengths": "Near-infrared (0.83 - 2.37 μm)",
+    "survey_area": "7500 sq deg (multiple surveys)",
+    "location": "United Kingdom Infrared Telescope, Hawaii",
+    "status": "Completado (2013)",
+    "description": "El sondeo near-infrared más profundo y grande de su tiempo con múltiples componentes"
+  },
+  "viking": {
+    "name": "VIKING",
+    "aliases": [
+      "VISTA Kilo-degree INfrared Galaxy survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.85 - 2.15 μm)",
+    "survey_area": "1500 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "Completado",
+    "description": "Complemento near-infrared al sondeo Optical KiDS para redshifts fotométricos"
+  },
+  "video": {
+    "name": "VIDEO",
+    "aliases": [
+      "VISTA Deep Extragalactic Observations"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (0.88 - 2.15 μm)",
+    "survey_area": "12 sq deg",
+    "location": "VISTA telescope, Chile",
+    "status": "Operacional",
+    "description": "Sondeo infrared profundo alcanzando z~4 para estudios de evolución de galaxias"
+  },
+  "vhs": {
+    "name": "VHS",
+    "aliases": [
+      "VISTA Hemisphere Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2009",
+    "wavelengths": "Near-infrared (1.02, 1.25, 2.15 μm)",
+    "survey_area": "18,000 sq deg (southern hemisphere)",
+    "location": "VISTA telescope, Chile",
+    "status": "Completado (2004)",
+    "description": "El sondeo near-infrared más grande cubriendo todo el cielo austral para complementar 2MASS"
+  },
+  "first": {
+    "name": "FIRST",
+    "aliases": [
+      "Faint Images of the Radio Sky at Twenty-Centimeters"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "10,575 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "Completado (1996)",
+    "description": "Sondeo Radio catalogando ~1 millón de fuentes, estudiando AGN y galaxias Radio"
+  },
+  "nvss": {
+    "name": "NVSS",
+    "aliases": [
+      "NRAO VLA Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "1993",
+    "wavelengths": "Radio (21 cm / 1.4 GHz)",
+    "survey_area": "~34,000 sq deg (northern sky)",
+    "location": "Very Large Array, New Mexico",
+    "status": "Operacional",
+    "description": "Sondeo Radio de gran área catalogando ~2 millones de fuentes por encima de -40° de declinación"
+  },
+  "vlass": {
+    "name": "VLASS",
+    "aliases": [
+      "VLA Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2017",
+    "wavelengths": "Radio (2-4 GHz)",
+    "survey_area": "33,000 sq deg",
+    "location": "Very Large Array, New Mexico",
+    "status": "Completado (2020)",
+    "description": "Sondeo Radio moderno de todo el cielo con mejor resolución y sensibilidad que NVSS/FIRST"
+  },
+  "racs": {
+    "name": "RACS",
+    "aliases": [
+      "Rapid ASKAP Continuum Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2019",
+    "wavelengths": "Radio (887.5 MHz)",
+    "survey_area": "34,000 sq deg (full southern sky)",
+    "location": "ASKAP, Australia",
+    "status": "Operacional",
+    "description": "Sondeo Radio rápido de todo el cielo austral catalogando ~3 millones de fuentes"
+  },
+  "emu": {
+    "name": "EMU",
+    "aliases": [
+      "Evolutionary Map of the Universe"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2021 (early science)",
+    "wavelengths": "Radio (800-1088 MHz)",
+    "survey_area": "Full southern sky + part of north",
+    "location": "ASKAP, Australia",
+    "status": "Operacional",
+    "description": "Sondeo Radio continuum profundo esperado que detecte ~70 millones de galaxias"
+  },
+  "lofartier1": {
+    "name": "LoTSS",
+    "aliases": [
+      "LOFAR Two-metre Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2014",
+    "wavelengths": "Radio (120-168 MHz)",
+    "survey_area": "Full northern sky",
+    "location": "LOFAR, Netherlands and Europe",
+    "status": "Completado (2012)",
+    "description": "Sondeo Radio de baja frecuencia mapeando todo el cielo boreal con sensibilidad sin precedentes"
+  },
+  "tgss": {
+    "name": "TGSS",
+    "aliases": [
+      "TIFR GMRT Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2010",
+    "wavelengths": "Radio (150 MHz)",
+    "survey_area": "36,900 sq deg",
+    "location": "Giant Metrewave Radio Telescope, India",
+    "status": "Completado (1997)",
+    "description": "Sondeo Radio de baja frecuencia cubriendo el cielo al norte de -53° de declinación"
+  },
+  "wenss": {
+    "name": "WENSS",
+    "aliases": [
+      "Westerbork Northern Sky Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "1991",
+    "wavelengths": "Radio (92 cm / 325 MHz)",
+    "survey_area": "~18,000 sq deg",
+    "location": "Westerbork Synthesis Radio Telescope, Netherlands",
+    "status": "Completado (2016)",
+    "description": "Sondeo Radio de baja frecuencia del cielo boreal a 325 MHz"
+  },
+  "gleam": {
+    "name": "GLEAM",
+    "aliases": [
+      "GaLactic and Extragalactic All-sky MWA survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2013",
+    "wavelengths": "Radio (72-231 MHz)",
+    "survey_area": "Full sky (declination < +30°)",
+    "location": "Murchison Widefield Array, Australia",
+    "status": "Operacional",
+    "description": "Sondeo de banda ancha de baja frecuencia con la mejor cobertura espectral a bajas frecuencias"
+  },
+  "atlassurvey": {
+    "name": "ATLAS",
+    "aliases": [
+      "Asteroid Terrestrial-impact Last Alert System"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2015 (first unit), 2017 (second unit)",
+    "wavelengths": "Visible (cyan and orange filters)",
+    "survey_area": "Entire visible sky every 24 hours",
+    "location": "Hawaii (two sites)",
+    "status": "Operacional",
+    "description": "Sondeo de todo el cielo buscando asteroides cercanos a la Tierra y descubriendo supernovas"
+  },
+  "asassn": {
+    "name": "ASAS-SN",
+    "aliases": [
+      "All-Sky Automated Survey for Supernovae"
+    ],
+    "type": "Sondeo astrométrico",
+    "launch_date": "2014",
+    "wavelengths": "Visible (V and g bands)",
+    "survey_area": "Full sky every ~2 days",
+    "location": "Multiple sites worldwide (5 locations)",
+    "status": "Misión activa",
+    "description": "Red global de telescopios robóticos descubriendo supernovas y transitorios"
+  },
+  "gaia_dr3": {
+    "name": "Gaia DR3",
+    "aliases": [
+      "Gaia Data Release 3"
+    ],
+    "type": "Sondeo astrométrico",
+    "launch_date": "2022 (data release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Gaia satellite at L2",
+    "status": "Completado",
+    "description": "Tercera publicación de datos con 1.8 mil millones de estrellas, incluyendo espectros y parámetros estelares"
+  },
+  "hipparcos_catalog": {
+    "name": "Hipparcos Catalogue",
+    "aliases": [
+      "Hipparcos and Tycho Catalogues"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "1997 (catalog release)",
+    "wavelengths": "Visible light",
+    "survey_area": "Full sky",
+    "location": "Hipparcos satellite",
+    "status": "Operacional",
+    "description": "Primer catálogo astrométrico de alta precisión con 118,000 estrellas y precisión de miliarcosegundos"
+  },
+  "skymapper": {
+    "name": "SkyMapper",
+    "aliases": [
+      "SkyMapper Southern Survey"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2014",
+    "wavelengths": "Visible (320 - 1000 nm, 6 filters)",
+    "survey_area": "Full southern sky",
+    "location": "Siding Spring Observatory, Australia",
+    "status": "En construcción",
+    "description": "Sondeo digital de todo el cielo del hemisferio austral para poblaciones estelares y transitorios"
+  },
+  "4most": {
+    "name": "4MOST",
+    "aliases": [
+      "4-metre Multi-Object Spectroscopic Telescope"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (370 - 950 nm)",
+    "location": "VISTA telescope, Chile",
+    "status": "Operacional",
+    "description": "Espectrógrafo multi-fibra para VISTA obteniendo millones de espectros para múltiples sondeos"
+  },
+  "weave": {
+    "name": "WEAVE",
+    "aliases": [
+      "WHT Enhanced Area Velocity Explorer"
+    ],
+    "type": "Sondeo espectroscópico",
+    "launch_date": "2023",
+    "wavelengths": "Visible to near-infrared (366 - 959 nm)",
+    "location": "William Herschel Telescope, La Palma",
+    "status": "En puesta en marcha",
+    "description": "Espectrógrafo multi-fibra realizando grandes sondeos espectroscópicos de la Vía Láctea y más allá"
+  },
+  "moons": {
+    "name": "MOONS",
+    "aliases": [
+      "Multi Object Optical and Near-infrared Spectrograph"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2024 (planned)",
+    "wavelengths": "Visible to near-infrared (0.64 - 1.8 μm)",
+    "location": "Very Large Telescope, Chile",
+    "status": "Operacional",
+    "description": "Espectrógrafo de 1000 fibras para VLT estudiando la evolución de galaxias y la arqueología Galáctica"
+  },
+  "unions": {
+    "name": "UNIONS",
+    "aliases": [
+      "Ultraviolet Near-Infrared Optical Northern Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2019",
+    "wavelengths": "UV to near-infrared (0.2 - 1 μm)",
+    "survey_area": "4800 sq deg",
+    "location": "CFHT and multiple space telescopes",
+    "status": "Operacional",
+    "description": "Sondeo multi-banda profundo del cielo boreal combinando observaciones terrestres y espaciales"
+  },
+  "delve": {
+    "name": "DELVE",
+    "aliases": [
+      "DECam Local Volume Exploration"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2019",
+    "wavelengths": "Visible (400 - 1000 nm)",
+    "survey_area": "~4000 sq deg (southern sky)",
+    "location": "Blanco Telescope, Chile",
+    "status": "Operacional",
+    "description": "Sondeo de área amplia dirigido a satélites de la Vía Láctea, corrientes estelares y volumen local"
+  },
+  "jwstcosmos": {
+    "name": "COSMOS-Web",
+    "aliases": [
+      "COSMOS-Webb"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2023",
+    "wavelengths": "Near-infrared (0.9 - 5 μm)",
+    "survey_area": "0.54 sq deg",
+    "location": "James Webb Space Telescope",
+    "status": "Operacional",
+    "description": "El programa de sondeo JWST más grande mapeando el campo COSMOS para galaxias de alto z y AGN"
+  },
+  "jades": {
+    "name": "JADES",
+    "aliases": [
+      "JWST Advanced Deep Extragalactic Survey"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2022",
+    "wavelengths": "Near-infrared (0.6 - 5.3 μm)",
+    "survey_area": "~0.05 sq deg (GOODS fields)",
+    "location": "James Webb Space Telescope",
+    "status": "Operacional",
+    "description": "Sondeo espectroscópico JWST profundo estudiando las primeras galaxias y el ensamblaje de galaxias"
+  },
+  "ceers": {
+    "name": "CEERS",
+    "aliases": [
+      "Cosmic Evolution Early Release Science"
+    ],
+    "type": "Sondeo del cielo",
+    "launch_date": "2022",
+    "wavelengths": "Near to mid-infrared (0.6 - 28 μm)",
+    "survey_area": "~0.1 sq deg (EGS field)",
+    "location": "James Webb Space Telescope",
+    "status": "Operacional",
+    "description": "Programa de ciencia de lanzamiento temprano de JWST estudiando la evolución de galaxias desde z~10 hasta el presente"
+  },
+  "hsc_ssp": {
+    "name": "HSC-SSP",
+    "aliases": [
+      "Hyper Suprime-Cam Subaru Strategic Program"
+    ],
+    "type": "Sky Survey",
+    "launch_date": "2014",
+    "wavelengths": "Visible to Near-infrared (320 - 1100 nm)",
+    "survey_area": "∼1400 sq deg",
+    "location": "Hyper Suprime-Cam, Subaru Telescope, Mauna Kea, Hawaii",
+    "status": "Operational",
+    "description": "Sondeo de imágenes Optical profundo de campo amplio con Hyper Suprime-Cam en Subaru para lente débil, evolución de galaxias y ciencia de transitorios"
+  }
+}

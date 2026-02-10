@@ -42,7 +42,14 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["telescopes.json", "surveys.json", "simulations.json", "sams.json"],
+      "resources": [
+        "telescopes.json", "surveys.json", "simulations.json", "sams.json", "samplers.json",
+        "telescopes.de.json", "surveys.de.json", "simulations.de.json", "sams.de.json", "samplers.de.json",
+        "telescopes.es.json", "surveys.es.json", "simulations.es.json", "sams.es.json", "samplers.es.json",
+        "telescopes.fr.json", "surveys.fr.json", "simulations.fr.json", "sams.fr.json", "samplers.fr.json",
+        "telescopes.it.json", "surveys.it.json", "simulations.it.json", "sams.it.json", "samplers.it.json",
+        "telescopes.zh.json", "surveys.zh.json", "simulations.zh.json", "sams.zh.json", "samplers.zh.json"
+      ],
       "matches": ["<all_urls>"]
     }
   ]
