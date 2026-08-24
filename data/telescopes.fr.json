@@ -257,6 +257,23 @@
     "status": "Opérationnel",
     "description": "Télescope de 10 mètres observant le fond diffus cosmologique, détectant les amas de galaxies via l'effet Sunyaev-Zel'dovich"
   },
+  "bicepkeck": {
+    "name": "BICEP/Keck",
+    "aliases": [
+      "BICEP",
+      "BICEP2",
+      "BICEP3",
+      "BICEP Array",
+      "Keck Array"
+    ],
+    "type": "Télescope terrestre",
+    "launch_date": "2006 (BICEP1 first light)",
+    "wavelengths": "Millimetre (30 - 270 GHz)",
+    "survey_area": "~400 sq deg",
+    "location": "Amundsen-Scott South Pole Station, Antarctica",
+    "status": "Opérationnel",
+    "description": "Série de télescopes réfracteurs à petite ouverture mesurant la polarisation du fond diffus cosmologique afin de rechercher des ondes gravitationnelles primordiales ; le Keck Array est un instrument BICEP au pôle Sud, sans lien avec l'observatoire Keck à Hawaï"
+  },
   "wmap": {
     "name": "WMAP",
     "aliases": [

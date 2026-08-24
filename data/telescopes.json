@@ -257,6 +257,23 @@
     "status": "Operational",
     "description": "10-metre telescope observing cosmic microwave background, detecting galaxy clusters via Sunyaev-Zel'dovich effect"
   },
+  "bicepkeck": {
+    "name": "BICEP/Keck",
+    "aliases": [
+      "BICEP",
+      "BICEP2",
+      "BICEP3",
+      "BICEP Array",
+      "Keck Array"
+    ],
+    "type": "Ground-based Telescope",
+    "launch_date": "2006 (BICEP1 first light)",
+    "wavelengths": "Millimetre (30 - 270 GHz)",
+    "survey_area": "~400 sq deg",
+    "location": "Amundsen-Scott South Pole Station, Antarctica",
+    "status": "Operational",
+    "description": "Series of small-aperture refracting telescopes measuring cosmic microwave background polarisation to search for primordial gravitational waves; the Keck Array is a BICEP instrument at the South Pole, unrelated to the Keck Observatory in Hawaii"
+  },
   "wmap": {
     "name": "WMAP",
     "aliases": [

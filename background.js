@@ -221,9 +221,24 @@ async function tryUpdateFromGitHub() {
 // Handle messages from content script
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "getTelescopeData") {
-    chrome.storage.local.get("telescopeData", (result) => {
-      sendResponse(result.telescopeData || {});
-    });
+    (async () => {
+      const result = await chrome.storage.local.get("telescopeData");
+      const data = result.telescopeData;
+
+      // Anything beyond the _display_orders key means we have real entries
+      if (data && Object.keys(data).length > 1) {
+        sendResponse(data);
+        return;
+      }
+
+      // Storage is empty: onInstalled only fires on install/update, so if the
+      // data was never written (or has since been cleared) rebuild it now
+      // rather than leaving the content script with nothing to match against.
+      console.log("Hoverscope: No data in storage, reloading bundled databases");
+      await loadBundledData();
+      const reloaded = await chrome.storage.local.get("telescopeData");
+      sendResponse(reloaded.telescopeData || {});
+    })();
     return true; // Keep channel open for async response
   }
 

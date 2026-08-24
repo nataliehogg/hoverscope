@@ -2,6 +2,7 @@
 // Detects telescope/satellite names and displays hover tooltips
 
 let telescopeData = {};
+let dataReady = false;
 let tooltip = null;
 let userLanguage = 'en';
 
@@ -159,6 +160,9 @@ async function init() {
 
   console.log(`Hoverscope: Loaded ${Object.keys(telescopeData).length} telescopes/satellites`);
 
+  // Only now is it safe to mark elements as processed
+  dataReady = true;
+
   // Create tooltip element
   createTooltip();
 
@@ -176,6 +180,15 @@ function createTooltip() {
 }
 
 function processPage() {
+  // The window 'load' handler and the MutationObserver can both fire before the
+  // database has come back from the background script (this is the common case
+  // in Chrome, where the MV3 service worker has to spin up first). Scanning now
+  // would find nothing and, worse, permanently mark every element as processed,
+  // so that later scans skip them and no term is ever matched.
+  if (!dataReady) {
+    return;
+  }
+
   // Target areas: titles, abstracts, and main content on arXiv and other sites
   const selectors = [
     'td.arxiv_item', // For astrochristian.github.io - contains full paper entry
@@ -238,6 +251,51 @@ function processPage() {
   console.log(`Hoverscope: Found and marked ${totalMatches} telescope/survey/simulation/SAM/sampler mentions`);
 }
 
+// Build the regex used to find one name (or alias) in page text, applying the
+// special cases needed to keep common words and unrelated terms from matching
+function buildTermRegex(name) {
+  // For certain telescopes, use case-sensitive matching to avoid false positives
+  // ET: avoid "et al."
+  // FIRST/FAST: avoid common words "first" and "fast"
+  // INTEGRAL: avoid lowercase "integral" (as in "integral part")
+  const caseSensitiveNames = ['ET', 'FIRST', 'FAST', 'INTEGRAL'];
+  const flags = caseSensitiveNames.includes(name) ? 'g' : 'gi';
+
+  let pattern;
+
+  // Hubble: avoid "Hubble constant", "Hubble parameter", "Hubble tension", "Hubble expansion", "Hubble flow", "Hubble residuals", "Hubble Frontier Fields", "Hubble-Lemaître", "Hubble diagram"
+  if (name === 'Hubble' || name === 'Hubble Space Telescope' || name === 'HST') {
+    // Negative lookahead to exclude matches followed by these terms (case-insensitive)
+    // Also exclude hyphenated forms like "Hubble-Lemaître"
+    pattern = `\\b${escapeRegex(name)}\\b(?![-–](?:Lem[aî]tre)|\\s+(?:constant|parameter|tension|expansion|flow|residuals|diagram|Frontier\\s+Fields))`;
+  }
+  // Planck: avoid hyphenated cases like "Fokker-Planck" or "Fokker--Planck"
+  else if (name === 'Planck' || name === 'Planck satellite') {
+    // Negative lookbehind to exclude matches preceded by one or two hyphens
+    pattern = `(?<!-{1,2})\\b${escapeRegex(name)}\\b`;
+  }
+  // Fermi: avoid hyphenated cases like "Fermi-Hubbard" or "Fermi--Hubbard"
+  else if (name === 'Fermi' || name === 'Fermi Gamma-ray Space Telescope') {
+    // Negative lookahead to exclude matches followed by hyphen(s) and "Hubbard"
+    pattern = `\\b${escapeRegex(name)}\\b(?![-–]{1,2}Hubbard)`;
+  }
+  // Keck: the Keck in "BICEP/Keck" and "Keck Array" is the CMB experiment at the
+  // South Pole, not the Keck Observatory in Hawaii (those have their own entry)
+  else if (name === 'Keck' || name === 'Keck Observatory' || name === 'Keck I and II') {
+    pattern = `(?<!BICEP\\s?[0-9]?\\s?[/-]\\s?)\\b${escapeRegex(name)}\\b(?!\\s+Array)`;
+  }
+  // COSMOS: avoid "COSMOS-Web"
+  else if (name === 'COSMOS') {
+    // Negative lookahead to exclude matches followed by "-Web"
+    pattern = `\\b${escapeRegex(name)}\\b(?!-Web)`;
+  }
+  else {
+    pattern = `\\b${escapeRegex(name)}\\b`;
+  }
+
+  return new RegExp(pattern, flags);
+}
+
 function processElement(element, elementIndex) {
   // Get all text nodes
   const textNodes = getTextNodes(element);
@@ -253,45 +311,14 @@ function processElement(element, elementIndex) {
     // Find all matches first - telescopes
     Object.keys(telescopeData).forEach(key => {
       const telescope = telescopeData[key];
-      const names = [telescope.name, ...(telescope.aliases || [])];
+      // Longest first, so that when several names of the same entry match at the
+      // same position (e.g. "BICEP" and "BICEP Array") the fuller one is kept
+      const names = [telescope.name, ...(telescope.aliases || [])]
+        .filter(name => name)
+        .sort((a, b) => b.length - a.length);
 
-      names.filter(name => name).forEach(name => {
-        // For certain telescopes, use case-sensitive matching to avoid false positives
-        // ET: avoid "et al."
-        // FIRST/FAST: avoid common words "first" and "fast"
-        // INTEGRAL: avoid lowercase "integral" (as in "integral part")
-        const caseSensitiveNames = ['ET', 'FIRST', 'FAST', 'INTEGRAL'];
-        const flags = caseSensitiveNames.includes(name) ? 'g' : 'gi';
-
-        // Build regex pattern with special cases
-        let pattern;
-
-        // Hubble: avoid "Hubble constant", "Hubble parameter", "Hubble tension", "Hubble expansion", "Hubble flow", "Hubble residuals", "Hubble Frontier Fields", "Hubble-Lemaître", "Hubble diagram"
-        if (name === 'Hubble' || name === 'Hubble Space Telescope' || name === 'HST') {
-          // Negative lookahead to exclude matches followed by these terms (case-insensitive)
-          // Also exclude hyphenated forms like "Hubble-Lemaître"
-          pattern = `\\b${escapeRegex(name)}\\b(?![-–](?:Lem[aî]tre)|\\s+(?:constant|parameter|tension|expansion|flow|residuals|diagram|Frontier\\s+Fields))`;
-        }
-        // Planck: avoid hyphenated cases like "Fokker-Planck" or "Fokker--Planck"
-        else if (name === 'Planck' || name === 'Planck satellite') {
-          // Negative lookbehind to exclude matches preceded by one or two hyphens
-          pattern = `(?<!-{1,2})\\b${escapeRegex(name)}\\b`;
-        }
-        // Fermi: avoid hyphenated cases like "Fermi-Hubbard" or "Fermi--Hubbard"
-        else if (name === 'Fermi' || name === 'Fermi Gamma-ray Space Telescope') {
-          // Negative lookahead to exclude matches followed by hyphen(s) and "Hubbard"
-          pattern = `\\b${escapeRegex(name)}\\b(?![-–]{1,2}Hubbard)`;
-        }
-        // COSMOS: avoid "COSMOS-Web"
-        else if (name === 'COSMOS') {
-          // Negative lookahead to exclude matches followed by "-Web"
-          pattern = `\\b${escapeRegex(name)}\\b(?!-Web)`;
-        }
-        else {
-          pattern = `\\b${escapeRegex(name)}\\b`;
-        }
-
-        const regex = new RegExp(pattern, flags);
+      names.forEach(name => {
+        const regex = buildTermRegex(name);
         let match;
 
         // Reset regex

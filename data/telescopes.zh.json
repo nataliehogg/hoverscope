@@ -257,6 +257,23 @@
     "status": "运行中",
     "description": "10米望远镜，观测cosmic microwave background，通过 Sunyaev-Zel'dovich effect 探测星系团"
   },
+  "bicepkeck": {
+    "name": "BICEP/Keck",
+    "aliases": [
+      "BICEP",
+      "BICEP2",
+      "BICEP3",
+      "BICEP Array",
+      "Keck Array"
+    ],
+    "type": "地基望远镜",
+    "launch_date": "2006 (BICEP1 first light)",
+    "wavelengths": "Millimetre (30 - 270 GHz)",
+    "survey_area": "~400 sq deg",
+    "location": "Amundsen-Scott South Pole Station, Antarctica",
+    "status": "运行中",
+    "description": "一系列小口径折射望远镜，测量cosmic microwave background偏振以搜寻原初引力波；Keck Array 是位于南极的 BICEP 仪器，与夏威夷的凯克天文台无关"
+  },
   "wmap": {
     "name": "WMAP",
     "aliases": [
